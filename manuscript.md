@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/afe81a18eacb83e25e2df0f1ce54c40e9388f741/" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ed9712b260c531f8280ec5e435470b85781b423f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/afe81a18eacb83e25e2df0f1ce54c40e9388f741/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ed9712b260c531f8280ec5e435470b85781b423f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/afe81a18eacb83e25e2df0f1ce54c40e9388f741/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ed9712b260c531f8280ec5e435470b85781b423f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/afe81a18eacb83e25e2df0f1ce54c40e9388f741/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/ed9712b260c531f8280ec5e435470b85781b423f/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@afe81a1](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/afe81a18eacb83e25e2df0f1ce54c40e9388f741)
+from [vanheeringen-lab/genomepy_manuscript@ed9712b](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/ed9712b260c531f8280ec5e435470b85781b423f)
 on November 17, 2020.
 </em></small>
 
