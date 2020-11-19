@@ -1,18 +1,17 @@
-# Automated scholarly manuscripts on GitHub
+# Jumpstart your genomics pipelines with genomepy
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://vanheeringen-lab.github.io/genomepy_manuscript/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/vanheeringen-lab/genomepy_manuscript/workflows/Manubot/badge.svg)](https://github.com/vanheeringen-lab/genomepy_manuscript/actions)
-[![Travis Build Status](https://travis-ci.com/vanheeringen-lab/genomepy_manuscript.svg?branch=master)](https://travis-ci.com/vanheeringen-lab/genomepy_manuscript)
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
 ## Manuscript description
 
 <!-- usage note: edit this section. -->
 
-With this commit, I summon thee: github-pages!
+This is the manuscript repository for [genomepy](https://github.com/vanheeringen-lab/genomepy)! Click one of the shield above to see the latest version of the rendered document.
 
 ## Manubot
 
