@@ -1,26 +1,33 @@
 ---
-title: "Manuscript Title"
+title: "Jumpstart your genomics pipelines with genomepy"
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - bioinformatics
+  - reproducible-research
+  - genomics
+  - tools
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+  - github: siebrenf
+    name: Siebren Frolich
+    initials: SF
+    orcid: 0000-0001-6925-8446
+    email: siebrenf@science.ru.nl
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+      - Department of Molecular Developmental Biology, Radboud University
+  - github: Maarten-vd-Sande
+    name: Maarten van der Sande
+    initials: MS
+    orcid: 0000-0001-7803-1526
+    twitter: MaartenvdSande
+    email: m.vandersande@science.ru.nl
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of Molecular Developmental Biology, Radboud University
+  - github: simonvh
+    name: Simon van Heeringen
+    initials: SJH
+    orcid: 0000-0002-0411-3219
+    twitter: svheeringen
+    email: s.vanheeringen@science.ru.nl
+    affiliations:
+      - Department of Molecular Developmental Biology, Radboud University
+thumbnail: content/images/thumbnail-505x640.png
