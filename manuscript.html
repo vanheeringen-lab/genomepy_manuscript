@@ -55,13 +55,13 @@
   <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
   <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e269dc1b642fa4f5130550e60d6416a276817a13/" />
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e269dc1b642fa4f5130550e60d6416a276817a13/" />
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e269dc1b642fa4f5130550e60d6416a276817a13/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/e269dc1b642fa4f5130550e60d6416a276817a13/content/images/thumbnail-505x640.png" />
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/e269dc1b642fa4f5130550e60d6416a276817a13/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/content/images/thumbnail-505x640.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -73,9 +73,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e269dc1b642fa4f5130550e60d6416a276817a13/">permalink</a>)
+(<a href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/vanheeringen-lab/genomepy_manuscript/tree/e269dc1b642fa4f5130550e60d6416a276817a13">vanheeringen-lab/genomepy_manuscript@e269dc1</a>
+from <a href="https://github.com/vanheeringen-lab/genomepy_manuscript/tree/ad1f0783bd6e20049aac381b211bbbe4b15ee34f">vanheeringen-lab/genomepy_manuscript@ad1f078</a>
 on November 20, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -168,6 +168,67 @@ Reference usage in seq2science.</p>
 <p>same steps, but in API.</p>
 <h3 id="acknowledgements">Acknowledgements</h3>
 <p>This manuscript was writtin with Manubot <span class="citation" data-cites="YuJbg3zO"><a href="#ref-YuJbg3zO" role="doc-biblioref">1</a></span>.</p>
+<h2 id="introduction">Introduction</h2>
+<p>Its big, its vague, and you just want to run your pipeline yesterday, right?</p>
+<div id="tbl:providers-id" class="tablenos">
+<table>
+<caption><span>Table 2:</span> Genome providers. </caption>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Database</th>
+<th style="text-align: left;">Fun aspect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Ensembl</td>
+<td style="text-align: left;">Generally seen as standard, updates infrequently, incompatible chromosome names</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">UCSC</td>
+<td style="text-align: left;">multiple GTF formats, GTFs labelled incorrectly</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">NCBI</td>
+<td style="text-align: left;">Different pipelines, looks like Ensembl, updates frequently</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="related-work">Related Work</h2>
+<ul>
+<li>its not like refgenie, but they could work nicely with eachother!</li>
+<li>its missing in most workflows</li>
+</ul>
+<p>there’s a need for something that does the first step. genomepy fill that need.</p>
+<h2 id="genomepy">genomepy</h2>
+<p>search, download, sensible defaults, reproducible, automatable.
+about those defaults…</p>
+<p>Install via conda, pip or git.</p>
+<p>basic steps in CLI</p>
+<p>Repeat steps in API
+Extended steps, link to seq2science implementation?</p>
+<h2 id="conclusions">Conclusions</h2>
+<ul>
+<li>need for reproducibility</li>
+<li>standadization as the key to collaborations</li>
+<li>role for genomepy in this</li>
+<li>application in automated workflows
+<ul>
+<li>seq2science <span class="citation" data-cites="v55wxvUz"><a href="#ref-v55wxvUz" role="doc-biblioref">2</a></span></li>
+</ul></li>
+</ul>
+<h2 id="acknowledgements-1">Acknowledgements</h2>
+<p>We thank the Department of Molecular (Developmental) Biology, out github <a href="https://github.com/vanheeringen-lab/genomepy/graphs/contributors">contributors</a>, and issue posters for their patience, feedback and insight.
+We thank black, pytest, CodeCoverage and TravisCI for enduring our abuse and teaching us patience.
+And finally, we thank Manubot <span class="citation" data-cites="YuJbg3zO"><a href="#ref-YuJbg3zO" role="doc-biblioref">1</a></span> for assisting with this manuscript.</p>
+<h2 id="code-availability">Code availability</h2>
+<p>Genomepy can be installed using <a href="https://anaconda.org/bioconda/genomepy">Bioconda</a> and <a href="https://pypi.org/project/genomepy/">Pip</a>.
+The code is available at <a href="https://github.com/vanheeringen-lab/genomepy">https://github.com/vanheeringen-lab/genomepy</a>.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
@@ -176,6 +237,12 @@ Reference usage in seq2science.</p>
 Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat S. Malladi, Casey S. Greene, Anthony Gitter<br />
 <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <br />
 DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></p>
+</div>
+<div id="ref-v55wxvUz">
+<p>2. <strong>seq2science</strong> <br />
+Maarten Van Der Sande, Siebren Frölich, Jos Smits, Simon Van Heeringen<br />
+<em>Zenodo</em> (2020-11-05) <a href="https://doi.org/ghktg7">https://doi.org/ghktg7</a> <br />
+DOI: <a href="https://doi.org/10.5281/zenodo.3921913">10.5281/zenodo.3921913</a></p>
 </div>
 </div>
 <!-- default theme -->

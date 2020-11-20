@@ -4,6 +4,7 @@ automatable
 Bioconda
 bioinformatic
 CLI
+CodeCoverage
 conda
 dataset
 datasets
@@ -12,12 +13,14 @@ eachother
 Ensembl
 Frolich
 genomepy
+GTF
 GTFs
 Heeringen
 labelled
 Maarten
 MaartenvdSande
 NCBI
+pytest
 Radboud
 refgenie
 reproducibility
@@ -25,6 +28,8 @@ Sande
 Siebren
 siebrenf
 simonvh
+standadization
 svheeringen
+TravisCI
 UCSC
 writtin

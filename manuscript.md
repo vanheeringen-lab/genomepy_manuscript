@@ -74,19 +74,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e269dc1b642fa4f5130550e60d6416a276817a13/" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e269dc1b642fa4f5130550e60d6416a276817a13/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e269dc1b642fa4f5130550e60d6416a276817a13/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/e269dc1b642fa4f5130550e60d6416a276817a13/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/content/images/thumbnail-505x640.png" />
 
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/e269dc1b642fa4f5130550e60d6416a276817a13/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/content/images/thumbnail-505x640.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -115,9 +115,9 @@ title: Jumpstart your genomics pipelines with genomepy
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/e269dc1b642fa4f5130550e60d6416a276817a13/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@e269dc1](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/e269dc1b642fa4f5130550e60d6416a276817a13)
+from [vanheeringen-lab/genomepy_manuscript@ad1f078](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/ad1f0783bd6e20049aac381b211bbbe4b15ee34f)
 on November 20, 2020.
 </em></small>
 
@@ -211,6 +211,53 @@ same steps, but in API.
 
 ### Acknowledgements
 This manuscript was writtin with Manubot @doi:10.1371/journal.pcbi.1007128.
+
+
+## Introduction
+Its big, its vague, and you just want to run your pipeline yesterday, right?
+
+| Database | Fun aspect |
+|:--|:--|
+| Ensembl | Generally seen as standard, updates infrequently, incompatible chromosome names |
+| UCSC    | multiple GTF formats, GTFs labelled incorrectly |
+| NCBI    | Different pipelines, looks like Ensembl, updates frequently |
+
+Table: Genome providers. {#tbl:providers-id}
+
+## Related Work
+- its not like refgenie, but they could work nicely with eachother!
+- its missing in most workflows
+
+there's a need for something that does the first step. genomepy fill that need.
+
+
+## genomepy
+search, download, sensible defaults, reproducible, automatable.
+about those defaults...
+
+Install via conda, pip or git.
+
+basic steps in CLI
+
+Repeat steps in API
+Extended steps, link to seq2science implementation?
+
+
+## Conclusions
+- need for reproducibility
+- standadization as the key to collaborations
+- role for genomepy in this
+- application in automated workflows
+    - seq2science @doi:10.5281/zenodo.3921913
+
+## Acknowledgements
+We thank the Department of Molecular (Developmental) Biology, out github [contributors](https://github.com/vanheeringen-lab/genomepy/graphs/contributors), and issue posters for their patience, feedback and insight.
+We thank black, pytest, CodeCoverage and TravisCI for enduring our abuse and teaching us patience.
+And finally, we thank Manubot @doi:10.1371/journal.pcbi.1007128 for assisting with this manuscript.
+
+## Code availability
+Genomepy can be installed using [Bioconda](https://anaconda.org/bioconda/genomepy) and [Pip](https://pypi.org/project/genomepy/).
+The code is available at [https://github.com/vanheeringen-lab/genomepy](https://github.com/vanheeringen-lab/genomepy).
 
 
 ## References {.page_break_before}
