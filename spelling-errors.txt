@@ -12,7 +12,7 @@ der
 eachother
 Ensembl
 Frolich
-genomepy
+Genomepy
 GTF
 GTFs
 Heeringen
@@ -32,4 +32,3 @@ standadization
 svheeringen
 TravisCI
 UCSC
-writtin

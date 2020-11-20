@@ -74,19 +74,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/40f8e0e342428ebf5d35cdea2698119308aa950d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/40f8e0e342428ebf5d35cdea2698119308aa950d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/40f8e0e342428ebf5d35cdea2698119308aa950d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/40f8e0e342428ebf5d35cdea2698119308aa950d/content/images/thumbnail-505x640.png" />
 
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/40f8e0e342428ebf5d35cdea2698119308aa950d/content/images/thumbnail-505x640.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -115,9 +115,9 @@ title: Jumpstart your genomics pipelines with genomepy
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad1f0783bd6e20049aac381b211bbbe4b15ee34f/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/40f8e0e342428ebf5d35cdea2698119308aa950d/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@ad1f078](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/ad1f0783bd6e20049aac381b211bbbe4b15ee34f)
+from [vanheeringen-lab/genomepy_manuscript@40f8e0e](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/40f8e0e342428ebf5d35cdea2698119308aa950d)
 on November 20, 2020.
 </em></small>
 
@@ -175,42 +175,6 @@ Finally, genomepy can automatically create indexes for commonly used aligners.
 To summarize, genomepy is a straightforward tool to find, download and index genomes.
 It can be used to obtain genomes, gene annotations and additional support files in a consistent and automatic fashion.
 Genomepy is freely available at https://github.com/vanheeringen-lab/genomepy and can be installed using Bioconda and Pip.
-
-
-## The maze of genomes
-Its big, its vague, and you just want to run your pipeline yesterday, right?
-
-| Database | Fun aspect |
-|:--|:--|
-| Ensembl | Updates infrequently, chromosome names don't play nice |
-| UCSC    | GTFs labelled incorrectly                              |
-| NCBI    | Different pipelines, looks like Ensembl                |
-
-Table: Caption for this example table. {#tbl:example-id}
-
-## What is genomepy
-search, download, sensible defaults, reproducible, automatable.
-about those defaults...
-
-## How does genomepy fit in the ecosystem
-### Similar tools
-its not like refgenie, but they could work nicely with eachother!
-
-### Within workflows
-automatically download genomes, gene annotations, generate genome metadata and (splice-aware) genome indexes.
-Reference usage in seq2science.
-
-## How genomepy works
-Install via conda, pip or git. Run via CLI or API.
-
-### CLI
-basic steps.
-
-### API
-same steps, but in API.
-
-### Acknowledgements
-This manuscript was writtin with Manubot @doi:10.1371/journal.pcbi.1007128.
 
 
 ## Introduction
