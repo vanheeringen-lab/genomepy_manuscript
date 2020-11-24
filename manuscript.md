@@ -74,19 +74,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad8fcac576bac102406f3c78fecc9c81e02b578e/" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/49d939f797cbe97de97376f92ad0445afde94915/" />
 
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad8fcac576bac102406f3c78fecc9c81e02b578e/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/49d939f797cbe97de97376f92ad0445afde94915/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad8fcac576bac102406f3c78fecc9c81e02b578e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/49d939f797cbe97de97376f92ad0445afde94915/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/ad8fcac576bac102406f3c78fecc9c81e02b578e/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/49d939f797cbe97de97376f92ad0445afde94915/content/images/thumbnail-505x640.png" />
 
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/ad8fcac576bac102406f3c78fecc9c81e02b578e/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/49d939f797cbe97de97376f92ad0445afde94915/content/images/thumbnail-505x640.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -115,9 +115,9 @@ title: Jumpstart your genomics pipelines with genomepy
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad8fcac576bac102406f3c78fecc9c81e02b578e/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/49d939f797cbe97de97376f92ad0445afde94915/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@ad8fcac](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/ad8fcac576bac102406f3c78fecc9c81e02b578e)
+from [vanheeringen-lab/genomepy_manuscript@49d939f](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/49d939f797cbe97de97376f92ad0445afde94915)
 on November 24, 2020.
 </em></small>
 
@@ -182,24 +182,81 @@ Genomepy can be installed using [Bioconda](https://anaconda.org/bioconda/genomep
 
 
 ## Introduction
-Its big, its vague, and you just want to run your pipeline yesterday, right?
+High-throughput sequencing is common practice (since/data volumes)
+automation required to process the large volumes consistently
+This is possible because of similarities in the sequencing methods and standardized formats
+Aligners map the read data to a reference genome or transcriptome.
+Both aligners and other steps in the various sequencing data analyses require as input a reference genome and gene annotation
+three major genome providers: Ensembl, UCSC and NCBI
+Ensembl:
+UCSC:
+NCBI:
+In addition, there are many species specific providers, such as flybase, wormbase, xenbase.
 
-| Database | Fun aspect |
-|:--|:--|
-| Ensembl | Generally seen as standard, updates infrequently, incompatible chromosome names |
-| UCSC    | multiple GTF formats, GTFs labelled incorrectly |
-| NCBI    | Different pipelines, looks like Ensembl, updates frequently |
+Each provider has a separate method of generating their reference genomes and gene annotations, which can affect data format, naming and density, as well as database versioning and update frequency.
+These differences impact the compatibility of the reference data with research tools @https://doi.org/10.1186/s12864-015-1308-8, other reference databases and other research.
+Therefore, the choice of reference data is significant importance.
+To make this decision on an informed bases, you need an overview of the options.
+To get this overview, one could check each website, download the desired data, process and log these steps manually.
+For the sake of sanity and reproducibility, it would be better if that could be done in a standardized system.
 
-Table: Genome providers. {#tbl:providers-id}
+Here we present genomepy, which can do that.
+Search one or all 3 providers
+Install genome and gene annotations
+Automatic preparation for aligners (genome indexing with pyfaidx @todo, generating support files (chromosome sizes and gaps), matching chromosome names between genome and gene annotation and optional aligner index generation)
+Automatic logging for reproducibility
+CLI and Python API can be used to automate this step in workflows.
 
 ## Related Work
-- its not like refgenie, but they could work nicely with eachother!
-- its missing in most workflows
+Ensembl, UCSC and NCBI support downloading from their databases via accessible FTP archives, web portals, and REST APIs.
+External tools have been developed to programmatically download from one or several databases, such as the ncbi-genome-download tool @https://github.com/kblin/ncbi-genome-download, and packages such as ucsc-genomes-downloader @https://pypi.org/project/ucsc-genomes-downloader/ (Python) and metaseqR @https://doi.org/10.1093/nar/gku1273 (R).
+However, to our knowledge no tool exists that can search or download from all three major genome providers.
 
-there's a need for something that does the first step. genomepy fill that need.
+The reference data may not be ready for direct downstream use.
+For instance, many assemblies do not contain gene annotations in the correct format for splice-aware aligners.
+Furthermore, many gene annotations have contig (chromosomes/scaffolds) names that do not match the names in the reference genome.
+Additional processing steps are required to correct these issues.
+Tools exist to address some of these issues, but would be more effective when used in conjunction.
+
+We conclude that there is a need for a tool that can provide an overview of the choices of reference data available, can obtain the specified data, and perform the processing required to utilize the data downstream.
+Genomepy was created to fit this need, and does so for both automated and human-supervised workflows.
 
 
 ## genomepy
+The core functionalities of genomepy are `search` and `install`.
+
+### search
+Search will query a provider (or all three if none is specified) for the given search term.
+The search term normalized for case and whitspace, and input types is identified.
+For taxonomy identifiers, all assemblies with matching IDs are returned.
+For accession identifiers and text terms, all assemblies containing the term in their respective field are returned.
+Additionally text terms found in any other descriptive fields are also returned.
+
+### install
+When an assembly has been selected, the name can be passed to the install function.
+This function downloads the genome assembly with soft masking, unless different masking is specified.
+The assembly is then filtered to exclude alternative regions (unless specified otherwise) and the presence or absence of any specified (regex search) term.
+The genome is then indexed using pyfaidx @https://doi.org/10.7287/peerj.preprints.970v1, and contig sizes and gaps are stored in separate files.
+
+If specified, genomepy will attempt to download a gene annotation:
+genomepy will search the database for a GFF, GTF, BED or (for UCSC only) text format gene annotation.
+The annotation is then processed to output a consistent GTF and BED format gene annotation using the UCSC conversion tools @http://hgdownload.cse.ucsc.edu/admin/exe/.
+If the genome was downloaded previously, the contig names are checked for compatibility, and matched to those in the genome if required and possible.
+
+### external providers
+External provider often contain novel or more recent assemblies of organisms in their specialized field.
+These assemblies may be processed similarly by providing the direct link to the genome and/or gene annotation in the genomepy install command and specifying 'url' as provider.
+
+### plugins
+Using the `plugin` function, the generation of aligner indexes can be toggled.
+The indexes will automatically generate upon the completion of the install function.
+
+### logging
+Download sources, data and time, processing steps and requested filters are all logged in a README file which is stored in the same directory, and updated when further processing is performed with genomepy.
+
+
+
+### old
 search, download, sensible defaults, reproducible, automatable.
 about those defaults...
 
