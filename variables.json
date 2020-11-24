@@ -8,13 +8,13 @@
       "tools"
     ],
     "lang": "en-US",
-    "date-meta": "2020-11-20",
+    "date-meta": "2020-11-24",
     "author-meta": [
       "Siebren Frolich",
       "Maarten van der Sande",
       "Simon van Heeringen"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Jumpstart your genomics pipelines with genomepy\" />\n<meta name=\"citation_title\" content=\"Jumpstart your genomics pipelines with genomepy\" />\n<meta property=\"og:title\" content=\"Jumpstart your genomics pipelines with genomepy\" />\n<meta property=\"twitter:title\" content=\"Jumpstart your genomics pipelines with genomepy\" />\n<meta name=\"dc.date\" content=\"2020-11-20\" />\n<meta name=\"citation_publication_date\" content=\"2020-11-20\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Siebren Frolich\" />\n<meta name=\"citation_author_institution\" content=\"Department of Molecular Developmental Biology, Radboud University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6925-8446\" />\n<meta name=\"citation_author\" content=\"Maarten van der Sande\" />\n<meta name=\"citation_author_institution\" content=\"Department of Molecular Developmental Biology, Radboud University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7803-1526\" />\n<meta name=\"twitter:creator\" content=\"@MaartenvdSande\" />\n<meta name=\"citation_author\" content=\"Simon van Heeringen\" />\n<meta name=\"citation_author_institution\" content=\"Department of Molecular Developmental Biology, Radboud University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0411-3219\" />\n<meta name=\"twitter:creator\" content=\"@svheeringen\" />\n<link rel=\"canonical\" href=\"https://vanheeringen-lab.github.io/genomepy_manuscript/\" />\n<meta property=\"og:url\" content=\"https://vanheeringen-lab.github.io/genomepy_manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://vanheeringen-lab.github.io/genomepy_manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://vanheeringen-lab.github.io/genomepy_manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://vanheeringen-lab.github.io/genomepy_manuscript/v/40f8e0e342428ebf5d35cdea2698119308aa950d/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://vanheeringen-lab.github.io/genomepy_manuscript/v/40f8e0e342428ebf5d35cdea2698119308aa950d/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://vanheeringen-lab.github.io/genomepy_manuscript/v/40f8e0e342428ebf5d35cdea2698119308aa950d/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/vanheeringen-lab/genomepy_manuscript/raw/40f8e0e342428ebf5d35cdea2698119308aa950d/content/images/thumbnail-505x640.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/vanheeringen-lab/genomepy_manuscript/raw/40f8e0e342428ebf5d35cdea2698119308aa950d/content/images/thumbnail-505x640.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Jumpstart your genomics pipelines with genomepy\" />\n<meta name=\"citation_title\" content=\"Jumpstart your genomics pipelines with genomepy\" />\n<meta property=\"og:title\" content=\"Jumpstart your genomics pipelines with genomepy\" />\n<meta property=\"twitter:title\" content=\"Jumpstart your genomics pipelines with genomepy\" />\n<meta name=\"dc.date\" content=\"2020-11-24\" />\n<meta name=\"citation_publication_date\" content=\"2020-11-24\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Siebren Frolich\" />\n<meta name=\"citation_author_institution\" content=\"Department of Molecular Developmental Biology, Radboud University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6925-8446\" />\n<meta name=\"citation_author\" content=\"Maarten van der Sande\" />\n<meta name=\"citation_author_institution\" content=\"Department of Molecular Developmental Biology, Radboud University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7803-1526\" />\n<meta name=\"twitter:creator\" content=\"@MaartenvdSande\" />\n<meta name=\"citation_author\" content=\"Simon van Heeringen\" />\n<meta name=\"citation_author_institution\" content=\"Department of Molecular Developmental Biology, Radboud University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0411-3219\" />\n<meta name=\"twitter:creator\" content=\"@svheeringen\" />\n<link rel=\"canonical\" href=\"https://vanheeringen-lab.github.io/genomepy_manuscript/\" />\n<meta property=\"og:url\" content=\"https://vanheeringen-lab.github.io/genomepy_manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://vanheeringen-lab.github.io/genomepy_manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://vanheeringen-lab.github.io/genomepy_manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://vanheeringen-lab.github.io/genomepy_manuscript/v/59f1013c8cd221f57c8d93adc8a77e707f0d43bf/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://vanheeringen-lab.github.io/genomepy_manuscript/v/59f1013c8cd221f57c8d93adc8a77e707f0d43bf/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://vanheeringen-lab.github.io/genomepy_manuscript/v/59f1013c8cd221f57c8d93adc8a77e707f0d43bf/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/vanheeringen-lab/genomepy_manuscript/raw/59f1013c8cd221f57c8d93adc8a77e707f0d43bf/content/images/thumbnail-505x640.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/vanheeringen-lab/genomepy_manuscript/raw/59f1013c8cd221f57c8d93adc8a77e707f0d43bf/content/images/thumbnail-505x640.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -24,7 +24,7 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "November 20, 2020",
+    "date": "November 24, 2020",
     "authors": [
       {
         "github": "siebrenf",
@@ -79,20 +79,20 @@
       "repo_slug": "vanheeringen-lab/genomepy_manuscript",
       "repo_owner": "vanheeringen-lab",
       "repo_name": "genomepy_manuscript",
-      "commit": "40f8e0e342428ebf5d35cdea2698119308aa950d",
-      "triggering_commit": "40f8e0e342428ebf5d35cdea2698119308aa950d",
-      "build_url": "https://github.com/vanheeringen-lab/genomepy_manuscript/commit/40f8e0e342428ebf5d35cdea2698119308aa950d/checks",
+      "commit": "59f1013c8cd221f57c8d93adc8a77e707f0d43bf",
+      "triggering_commit": "59f1013c8cd221f57c8d93adc8a77e707f0d43bf",
+      "build_url": "https://github.com/vanheeringen-lab/genomepy_manuscript/commit/59f1013c8cd221f57c8d93adc8a77e707f0d43bf/checks",
       "job_url": "https://github.com/vanheeringen-lab/genomepy_manuscript/runs/run3"
     },
     "html_url": "https://vanheeringen-lab.github.io/genomepy_manuscript/",
     "pdf_url": "https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf",
-    "html_url_versioned": "https://vanheeringen-lab.github.io/genomepy_manuscript/v/40f8e0e342428ebf5d35cdea2698119308aa950d/",
-    "pdf_url_versioned": "https://vanheeringen-lab.github.io/genomepy_manuscript/v/40f8e0e342428ebf5d35cdea2698119308aa950d/manuscript.pdf",
+    "html_url_versioned": "https://vanheeringen-lab.github.io/genomepy_manuscript/v/59f1013c8cd221f57c8d93adc8a77e707f0d43bf/",
+    "pdf_url_versioned": "https://vanheeringen-lab.github.io/genomepy_manuscript/v/59f1013c8cd221f57c8d93adc8a77e707f0d43bf/manuscript.pdf",
     "manubot_version": "0.4.1",
     "rootstock_commit": "97b294802ffcd39071b6e5b8ab59f60faf4be118",
-    "thumbnail_url": "https://github.com/vanheeringen-lab/genomepy_manuscript/raw/40f8e0e342428ebf5d35cdea2698119308aa950d/content/images/thumbnail-505x640.png",
+    "thumbnail_url": "https://github.com/vanheeringen-lab/genomepy_manuscript/raw/59f1013c8cd221f57c8d93adc8a77e707f0d43bf/content/images/thumbnail-505x640.png",
     "manuscript_stats": {
-      "word_count": 734
+      "word_count": 761
     }
   }
 }

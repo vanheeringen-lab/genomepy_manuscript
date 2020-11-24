@@ -6,13 +6,11 @@ bioinformatic
 CLI
 CodeCoverage
 conda
-dataset
-datasets
 der
 eachother
 Ensembl
 Frolich
-Genomepy
+genomepy
 GTF
 GTFs
 Heeringen
