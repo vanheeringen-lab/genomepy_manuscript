@@ -30,9 +30,12 @@ content/03.results.md:1:genomepy
 content/03.results.md:2:automatable
 content/03.results.md:5:conda
 content/03.results.md:7:CLI
-content/04.conclusions.md:2:reproducibility
-content/04.conclusions.md:3:standadization
-content/04.conclusions.md:4:genomepy
+content/04.conclusions.md:4:Genomepy
+content/04.conclusions.md:7:Genomepy
+content/04.conclusions.md:8:genomepy
+content/04.conclusions.md:10:CLI
+content/04.conclusions.md:10:genomepy
+content/04.conclusions.md:12:genomepy
 content/05.other.md:1:Acknowledgements
 content/05.other.md:2:genomepy
 content/05.other.md:3:CodeCoverage

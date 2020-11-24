@@ -74,19 +74,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/59f1013c8cd221f57c8d93adc8a77e707f0d43bf/" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad8fcac576bac102406f3c78fecc9c81e02b578e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/59f1013c8cd221f57c8d93adc8a77e707f0d43bf/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad8fcac576bac102406f3c78fecc9c81e02b578e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/59f1013c8cd221f57c8d93adc8a77e707f0d43bf/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad8fcac576bac102406f3c78fecc9c81e02b578e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/59f1013c8cd221f57c8d93adc8a77e707f0d43bf/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/ad8fcac576bac102406f3c78fecc9c81e02b578e/content/images/thumbnail-505x640.png" />
 
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/59f1013c8cd221f57c8d93adc8a77e707f0d43bf/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/ad8fcac576bac102406f3c78fecc9c81e02b578e/content/images/thumbnail-505x640.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -115,9 +115,9 @@ title: Jumpstart your genomics pipelines with genomepy
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/59f1013c8cd221f57c8d93adc8a77e707f0d43bf/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/ad8fcac576bac102406f3c78fecc9c81e02b578e/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@59f1013](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/59f1013c8cd221f57c8d93adc8a77e707f0d43bf)
+from [vanheeringen-lab/genomepy_manuscript@ad8fcac](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/ad8fcac576bac102406f3c78fecc9c81e02b578e)
 on November 24, 2020.
 </em></small>
 
@@ -212,11 +212,18 @@ Extended steps, link to seq2science implementation?
 
 
 ## Conclusions
-- need for reproducibility
-- standadization as the key to collaborations
-- role for genomepy in this
-- application in automated workflows
-    - seq2science @doi:10.5281/zenodo.3921913
+Research is about making informed decisions.
+Choosing a reference assembly is no different.
+Genomepy offers an overview of the three largest genome providers, making this choice easier.
+
+After choosing an assembly, data must be downloaded and processed for compatibility with downstream tools.
+Genomepy provides this functionality, while providing logging.
+Even if the required reference data is not available on the three largest genome providers, genomepy can process external data to provide a consistent output.
+
+While genomepy makes choices during the processing, each of these can be tuned to the specific needs of a project using the CLI.
+More control can be achieved via the Python API.
+Combined, these features make genomepy ideal for integration in automated sequencing workflows, as demonstrated in seq2science @doi:10.5281/zenodo.3921913.
+
 
 ## Acknowledgements
 We thank the Department of Molecular (Developmental) Biology, out github [contributors](https://github.com/vanheeringen-lab/genomepy/graphs/contributors), and issue posters for their patience, feedback and insight.

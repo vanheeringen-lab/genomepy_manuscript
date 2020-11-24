@@ -26,7 +26,6 @@ Sande
 Siebren
 siebrenf
 simonvh
-standadization
 svheeringen
 TravisCI
 UCSC
