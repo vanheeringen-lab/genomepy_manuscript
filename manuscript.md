@@ -5,7 +5,7 @@ author-meta:
 - Simon van Heeringen
 bibliography:
 - content/manual-references.json
-date-meta: '2020-11-24'
+date-meta: '2020-11-25'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -24,9 +24,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Jumpstart your genomics pipelines with genomepy" />
 
-  <meta name="dc.date" content="2020-11-24" />
+  <meta name="dc.date" content="2020-11-25" />
 
-  <meta name="citation_publication_date" content="2020-11-24" />
+  <meta name="citation_publication_date" content="2020-11-25" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -74,19 +74,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/49d939f797cbe97de97376f92ad0445afde94915/" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/" />
 
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/49d939f797cbe97de97376f92ad0445afde94915/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/49d939f797cbe97de97376f92ad0445afde94915/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/49d939f797cbe97de97376f92ad0445afde94915/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/content/images/thumbnail-505x640.png" />
 
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/49d939f797cbe97de97376f92ad0445afde94915/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/content/images/thumbnail-505x640.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -115,10 +115,10 @@ title: Jumpstart your genomics pipelines with genomepy
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/49d939f797cbe97de97376f92ad0445afde94915/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@49d939f](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/49d939f797cbe97de97376f92ad0445afde94915)
-on November 24, 2020.
+from [vanheeringen-lab/genomepy_manuscript@07ed204](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2)
+on November 25, 2020.
 </em></small>
 
 ## Authors
@@ -178,45 +178,85 @@ Genomes and gene annotations not available on supported databases can be process
 Genomepy provides this functionality and more via command line interface and Python application programming interface, aimed at easy of use and integration in automated pipelines.
 
 ### Availability and implementation
-Genomepy can be installed using [Bioconda](https://anaconda.org/bioconda/genomepy) and [Pip](https://pypi.org/project/genomepy/), and is available at [https://github.com/vanheeringen-lab/genomepy](https://github.com/vanheeringen-lab/genomepy).
+Genomepy can be installed using [Bioconda](https://anaconda.org/bioconda/genomepy) and [Pip](https://pypi.org/project/genomepy/), and the code is available at [https://github.com/vanheeringen-lab/genomepy](https://github.com/vanheeringen-lab/genomepy).
 
 
 ## Introduction
-High-throughput sequencing is common practice (since/data volumes)
-automation required to process the large volumes consistently
-This is possible because of similarities in the sequencing methods and standardized formats
-Aligners map the read data to a reference genome or transcriptome.
-Both aligners and other steps in the various sequencing data analyses require as input a reference genome and gene annotation
-three major genome providers: Ensembl, UCSC and NCBI
-Ensembl:
-UCSC:
-NCBI:
-In addition, there are many species specific providers, such as flybase, wormbase, xenbase.
+As high-throughput sequencing matured over the past decade and a half, the size and amount of genomic data hes exploded.
+Over the past five years, the number of datasets published on the NCBI GEO database increased by an average of 2000 per year, while the number of samples increased by 100.000 per year @pmc:PMC3531084.
+This explosion of data highlights the need for scalable, robust and automatable methods for data processing.
 
-Each provider has a separate method of generating their reference genomes and gene annotations, which can affect data format, naming and density, as well as database versioning and update frequency.
+Much of the genomics analysis preprocessing has already been made automatable, with multiple tools providing standardized output formats.
+One such step is the alignment of sequence read data to a genome, such as Bowtie2 @https://doi.org/10.1038/nmeth.1923, BWA @https://doi.org/10.1093/bioinformatics/btp324, GMAP @https://doi.org/10.1093/bioinformatics/bti310 or Minimap2 @https://doi.org/10.1093/bioinformatics/bty191, and splice-aware aligners such as STAR @https://doi.org/10.1093/bioinformatics/bts635 and HISAT2 @https://doi.org/10.1038/nmeth.3317.
+Several steps, mainly including alignment, require additional input to the sequence read data in the form of a reference genome, and in the case of splice-aware aligners, gene annotations.
+These data can be obtained from a variety of different sources.
+There are the three major genome providers, which act as a general hub for reference data: Ensembl @https://doi.org/10.1093/nar/gkz966, UCSC @doi:10.1101/gr.229102 and NCBI @pmc:PMC308837.
+
+Ensembl uses their in-house workflow to add or update genomes and gene annotations in a three-month production cycle @https://ensembl.org/info/about/release_cycle.html.
+As a results, Ensembl provides detailed gene annotations on mature genome assemblies that update infrequently.
+One downside to Ensembl data is their chromsome naming scheme (e.g. "1" for chromosome 1) which clashes with several common bioinformatical tools.
+
+UCSC hosts and maintains a modest set of reference genomes.
+Gene annotations for these genomes are generated through a variety of methods, including the Ensembl and NCBI workflow, as well as their own.
+However, not every version of these gene annotations conforms to the output format.
+
+The NCBI database accepts submissions from the Genome Reference Consortium as well as individuals.
+In addition to reference assemblies by the reference consortium, uploads by individual groups often provide a trove of different strains per species.
+For instance, 946 different strains of Homo sapiens and 848 strains of Saccharomyces cerevisiae are available from NCBI.
+As a result of the open submission system, NCBI updates frequently, and often provides the latest version of an assembly before the other providers do.
+However, as an upload may contain either genome assembly, gene annotation, or both, the assembly data can be incomplete, and of varying levels of maturity.
+
+In addition to the three major providers, there are many species specific providers, such as flybase @https://doi.org/10.1093/nar/gky1003, wormbase @https://doi.org/10.1093/nar/gkz920 or xenbase @doi:10.1093/nar/gkx936.
+
+<!--| Provider | Assemblies |-->
+<!--|----------|------------|-->
+<!--| Ensembl bacteria (excluded in the other number) | 43778 |-->
+<!--| NCBI bacteria    (included in the other number) | 28631 |-->
+
+| Provider | Assemblies |
+|----------|------------|
+| UCSC |  213 |
+| Ensembl |  1741 |
+| NCBI | 878821 |
+
+Table: Available genome assemblies per provider.
+Estimated by querying the provider REST API (assembly summaries for NCBI) for all unique assembly names.
+Ensembl genomes are excluding 43778 bacteria genomes not available programmatically.
+{#tbl:providers}
+
+Each provider has a different method of generating genome assemblies and gene annotations, which can affect available output (formats), naming schema, information density, as well as availability (see table @tbl:providers), accessibility (archive and retrieval methods) and relevance (update frequency).
 These differences impact the compatibility of the reference data with research tools @https://doi.org/10.1186/s12864-015-1308-8, other reference databases and other research.
-Therefore, the choice of reference data is significant importance.
-To make this decision on an informed bases, you need an overview of the options.
-To get this overview, one could check each website, download the desired data, process and log these steps manually.
+Therefore, the choice of provider and reference data is significant importance.
+To make an informed decision requires an overview of available options.
+To get this overview, one could check each website separately, then download and process the data manually.
+Such a method creates room for human error in the finding, processing and remembering these steps as well as the reasoning behind them.
 For the sake of sanity and reproducibility, it would be better if that could be done in a standardized system.
 
-Here we present genomepy, which can do that.
-Search one or all 3 providers
-Install genome and gene annotations
-Automatic preparation for aligners (genome indexing with pyfaidx @todo, generating support files (chromosome sizes and gaps), matching chromosome names between genome and gene annotation and optional aligner index generation)
-Automatic logging for reproducibility
-CLI and Python API can be used to automate this step in workflows.
+To this end we developed genomepy.
+Genopmepy is a tool with both command line interface and Python application programming interface, which can be called to search one or all three providers at once.
+Using the search function one can get an overview of all genomes containing the search term in their name, description or accession identifier, as well as all genomes matching a taxonomy identifier.
+Once a selection is made the genome and gene annotations can be downloaded and prepared for use with the install function.
+This includes automatic preparation for aligners (genome indexing with pyfaidx @https://doi.org/10.7287/peerj.preprints.970v1, generating support files (chromosome sizes and gaps), matching chromosome names between genome and gene annotation and optional aligner index generation).
+Which of these features is used is automatic logged for reproducibility.
+Because of the multiple interfaces, genomepy can be used in workflows to automate these steps.
 
 ## Related Work
-Ensembl, UCSC and NCBI support downloading from their databases via accessible FTP archives, web portals, and REST APIs.
-External tools have been developed to programmatically download from one or several databases, such as the ncbi-genome-download tool @https://github.com/kblin/ncbi-genome-download, and packages such as ucsc-genomes-downloader @https://pypi.org/project/ucsc-genomes-downloader/ (Python) and metaseqR @https://doi.org/10.1093/nar/gku1273 (R).
+Ensembl, UCSC and NCBI all support downloading from their individual databases via accessible FTP archives, web portals, and REST APIs.
+To access these databases programmatically, there exists several external tools, such as the ncbi-genome-download tool @https://github.com/kblin/ncbi-genome-download and ucsc-genomes-downloader @https://pypi.org/project/ucsc-genomes-downloader.
 However, to our knowledge no tool exists that can search or download from all three major genome providers.
 
-The reference data may not be ready for direct downstream use.
+There are several existing tools for reproducibly sharing reference data between projects.
+These data management tools accept reference data and derived assest such as aligner indexes from any source, such as iGenomes @https://support.illumina.com/sequencing/sequencing_software/igenome.html, refGenie @https://doi.org/10.1093/gigascience/giz149 and Go Get Data @https://doi.org/10.1101/2020.09.10.291377.
+These tools excel in their ability to reproducibly share data, a feature which is not present in genomepy, may therefore be used to obtain previously generated data with ease.
+However, these tools require the user to supply the reference data to any new assembly (such as non-model organisms), new assembly version (such as the latest path to the human genome) or asset (such as an aligner index not present in the hosted data).
+For these situations, data management tools would be an excellent extension to genomepy.
+
+In several cases the reference data may not be ready for direct downstream use.
 For instance, many assemblies do not contain gene annotations in the correct format for splice-aware aligners.
-Furthermore, many gene annotations have contig (chromosomes/scaffolds) names that do not match the names in the reference genome.
-Additional processing steps are required to correct these issues.
-Tools exist to address some of these issues, but would be more effective when used in conjunction.
+Furthermore, many gene annotations have contig (chromosomes and scaffolds) names that do not match the names in the reference genome.
+Additional steps, including compatibility checks and potentially processing, are required.
+Many tools exist to perform these actions, most noteably the UCSC gene annotation conversion tools.
+However, it should not bear mentioning that and automated checklist but would be more efficient that a manual one.
 
 We conclude that there is a need for a tool that can provide an overview of the choices of reference data available, can obtain the specified data, and perform the processing required to utilize the data downstream.
 Genomepy was created to fit this need, and does so for both automated and human-supervised workflows.
@@ -290,6 +330,9 @@ And finally, we thank Manubot @doi:10.1371/journal.pcbi.1007128 for assisting wi
 ## Code availability
 Genomepy can be installed using [Bioconda](https://anaconda.org/bioconda/genomepy) and [Pip](https://pypi.org/project/genomepy/).
 The code is available at [https://github.com/vanheeringen-lab/genomepy](https://github.com/vanheeringen-lab/genomepy).
+
+## Supplementary Information
+The full genomepy documentation including examples can be viewed [here](https://github.com/vanheeringen-lab/genomepy/blob/master/README.md)
 
 
 ## References {.page_break_before}
