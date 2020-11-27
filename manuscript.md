@@ -5,7 +5,7 @@ author-meta:
 - Simon van Heeringen
 bibliography:
 - content/manual-references.json
-date-meta: '2020-11-25'
+date-meta: '2020-11-27'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -24,9 +24,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Jumpstart your genomics pipelines with genomepy" />
 
-  <meta name="dc.date" content="2020-11-25" />
+  <meta name="dc.date" content="2020-11-27" />
 
-  <meta name="citation_publication_date" content="2020-11-25" />
+  <meta name="citation_publication_date" content="2020-11-27" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -74,19 +74,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/b4c6062d018057e65609c2fe99b946f1fc0f36eb/" />
 
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/b4c6062d018057e65609c2fe99b946f1fc0f36eb/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/b4c6062d018057e65609c2fe99b946f1fc0f36eb/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/b4c6062d018057e65609c2fe99b946f1fc0f36eb/content/images/thumbnail-505x640.png" />
 
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/b4c6062d018057e65609c2fe99b946f1fc0f36eb/content/images/thumbnail-505x640.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -115,10 +115,10 @@ title: Jumpstart your genomics pipelines with genomepy
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/b4c6062d018057e65609c2fe99b946f1fc0f36eb/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@07ed204](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2)
-on November 25, 2020.
+from [vanheeringen-lab/genomepy_manuscript@b4c6062](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/b4c6062d018057e65609c2fe99b946f1fc0f36eb)
+on November 27, 2020.
 </em></small>
 
 ## Authors
@@ -230,7 +230,7 @@ Therefore, the choice of provider and reference data is significant importance.
 To make an informed decision requires an overview of available options.
 To get this overview, one could check each website separately, then download and process the data manually.
 Such a method creates room for human error in the finding, processing and remembering these steps as well as the reasoning behind them.
-For the sake of sanity and reproducibility, it would be better if that could be done in a standardized system.
+For the sake of sanity and reproducibility, it would be better if that could be done in a standardized system (see figure @fig:workflow_w_genomepy).
 
 To this end we developed genomepy.
 Genopmepy is a tool with both command line interface and Python application programming interface, which can be called to search one or all three providers at once.
@@ -239,6 +239,8 @@ Once a selection is made the genome and gene annotations can be downloaded and p
 This includes automatic preparation for aligners (genome indexing with pyfaidx @https://doi.org/10.7287/peerj.preprints.970v1, generating support files (chromosome sizes and gaps), matching chromosome names between genome and gene annotation and optional aligner index generation).
 Which of these features is used is automatic logged for reproducibility.
 Because of the multiple interfaces, genomepy can be used in workflows to automate these steps.
+
+![Overview of a sequence alignment workflow reviewing the steps automatable by genomepy](images/workflow_w_genomepy.png){#fig:workflow_w_genomepy height="500px" width="500"px}
 
 ## Related Work
 Ensembl, UCSC and NCBI all support downloading from their individual databases via accessible FTP archives, web portals, and REST APIs.
@@ -263,63 +265,193 @@ Genomepy was created to fit this need, and does so for both automated and human-
 
 
 ## genomepy
-The core functionalities of genomepy are `search` and `install`.
+The core functionality of genomepy is to search, download and prepare genomes and gene annotations.
+These functions are split over two CLI functions: `genomepy search` and `genomepy install`.
 
-### search
-Search will query a provider (or all three if none is specified) for the given search term.
-The search term normalized for case and whitspace, and input types is identified.
+### Search
+Search will query all providers for a given search term.
+If desired only one provider can be searched at a time.
+Once entered, the search term is normalized for case and whitespace for ease of use.
+Genomepy can search for text terms, taxonomy identifiers and accession numbers, and will automatically detect which is used in the search term.
 For taxonomy identifiers, all assemblies with matching IDs are returned.
-For accession identifiers and text terms, all assemblies containing the term in their respective field are returned.
+For accession numbers and text terms, all assemblies containing the term in their respective field are returned.
 Additionally text terms found in any other descriptive fields are also returned.
 
-### install
+### Install
 When an assembly has been selected, the name can be passed to the install function.
-This function downloads the genome assembly with soft masking, unless different masking is specified.
-The assembly is then filtered to exclude alternative regions (unless specified otherwise) and the presence or absence of any specified (regex search) term.
-The genome is then indexed using pyfaidx @https://doi.org/10.7287/peerj.preprints.970v1, and contig sizes and gaps are stored in separate files.
+If the assembly is available from multiple providers, then specific provider can be passed as well.
+If an assembly from an unsupported provider is preferred, direct download links may be supplied in order to receive the same processing.
+This may be useful if the external provider contains a novel or more recent assembly of organisms in their specialized field.
+This results in a consistent output from any desired provider.
+
+The function first downloads the genome assembly with soft masking (repetitive sequences written in lower case).
+Sequence masking can be turned off, or set to hard (repetitive sequences written as Ns).
+
+Reference assemblies often contain alternate sequences to reflect biological diversity.
+For the purpose of sequence alignment however, the best results are obtained if there is one reference per nucleotide.
+Therefore genomepy filters out alternative regions, unless specified otherwise.
+Additional regex filters may be passed to either include or exclude sequences by name.
+For instance to filter for chromosomes, or filter out unplaced contigs or the mitochondrial sequence.
+
+Once processing is performed, genomepy generates several commonly used support files.
+The genome is indexed using pyfaidx @https://doi.org/10.7287/peerj.preprints.970v1, and contig sizes and contig gap sizes are stored in separate files.
 
 If specified, genomepy will attempt to download a gene annotation:
 genomepy will search the database for a GFF, GTF, BED or (for UCSC only) text format gene annotation.
-The annotation is then processed to output a consistent GTF and BED format gene annotation using the UCSC conversion tools @http://hgdownload.cse.ucsc.edu/admin/exe/.
-If the genome was downloaded previously, the contig names are checked for compatibility, and matched to those in the genome if required and possible.
+The annotation is then processed to the commonly used GTF and BED output formats using the UCSC conversion tools @http://hgdownload.cse.ucsc.edu/admin/exe/.
+If the genome is present after downloading the annotation, the contig names between the genome and gene annotation are checked for compatibility.
+Should the contig names mismatch, genomepy will attempt to match the names in the annotations to those in the genome.
 
-### external providers
-External provider often contain novel or more recent assemblies of organisms in their specialized field.
-These assemblies may be processed similarly by providing the direct link to the genome and/or gene annotation in the genomepy install command and specifying 'url' as provider.
+During the installation process, a README file is created which logs the URLs to the source files, the steps performed, and contigs filtered out.
+The file is updated should the process is expanded later, such as by downloading other assets or running a plugin.
 
-### plugins
-Using the `plugin` function, the generation of aligner indexes can be toggled.
-The indexes will automatically generate upon the completion of the install function.
+### Plugins
+Genomepy facilitates several optional processing steps via plugins.
+These include downloading of blacklists (by the Kundaje lab @https://doi.org/10.1038/s41598-019-45839-z) for the genomes that have them, and the generation of aligner indexes.
+These options can be toggled using the `genomepy plugin` function, which also includes and overview of available plugins.
+Enabled plugins will run upon (re)running the install function.
 
-### logging
-Download sources, data and time, processing steps and requested filters are all logged in a README file which is stored in the same directory, and updated when further processing is performed with genomepy.
+Blacklists are available for several UCSC genomes, and GRCh38.
+If no blacklist is available the program will proceed after giving a warning.
+
+Genomepy support generation of several popular genome aligners: Bowtie2, BWA, GMAP or Minimap2, and splice-aware aligners such as STAR and HISAT2.
+The splice-aware aligners function both with and without gene annotations.
+Should no gene annotation be downloaded, the program will issue a warning and proceed to generate a splice-unaware aligner.
+By default genomepy supports multithreading aligner indexing.
+Unless specified, up to eight cores are used depending on the number available.
+
+### Provider indexing
+In order to search, genomepy acquires an overview of available assemblies from each supported providers when first required.
+For Ensembl and UCSC, this is possible via their REST API.
+NCBI does not provide a REST API for their genome database, but their FTP archives contain several assembly overviews.
+Each of these databases is converted to a dictionary with the assembly name as key.
+The databases are supplied as dictionaries as well, resulting in a nested dictionary.
+Each provider uses a different filing system, which genomepy parses to group together similar features.
+For instance, NCBI uses two fields for taxonomy identifiers ("species_taxid" and "taxid"), which are both used by genomepy when searching by taxonomy identifier.
+
+The parsed databases are stored in a local cache for seven days in order to balance quick lookups, while staying up to date.
+
+```python
+>>> import genomepy
+>>> p = genomepy.ProviderBase.create("ucsc")
+Downloading assembly summaries from UCSC
+>>> g = p.genomes
+>>> next(iter(g))
+'ailMel1'
+>>> g['ailMel1']
+{'description': 'Dec. 2009 (BGI-Shenzhen 1.0/ailMel1)', 'nibPath': '/gbdb/ailMel1', 'organism': 'Panda', 'defaultPos': 'GL192818.1:558576-566855', 'active': 1, 'orderKey': 16070, 'genome': 'Panda', 'scientificName': 'Ailuropoda melanoleuca', 'htmlPath': '/gbdb/ailMel1/html/description.html', 'hgNearOk': 0, 'hgPbOk': 0, 'sourceName': 'BGI-Shenzhen AilMel 1.0 Dec. 2009', 'taxId': 9646}
+```
+
+### Command line example
+Here we demonstrate a typical example using genomepy.
+Commands are indicated by a dollar sign, and standard output was trimmed for brevity.
+
+```bash
+$ genomepy search "drosophila mel" --provider ucsc
+name    provider    accession          species                    tax_id    other_info                                  
+dm1     UCSC        na                 Drosophila melanogaster    7227      Jan. 2003 (BDGP R3/dm1)                     
+dm2     UCSC        na                 Drosophila melanogaster    7227      Apr. 2004 (BDGP R4/dm2)                     
+dm3     UCSC        GCA_000001215.2    Drosophila melanogaster    7227      Apr. 2006 (BDGP R5/dm3)                     
+dm6     UCSC        GCA_000001215.4    Drosophila melanogaster    7227      Aug. 2014 (BDGP Release 6 + ISO1 MT/dm6)    
+ ^
+ Use name for genomepy install
+
+$ genomepy plugin enable blacklist star
+Enabled plugins: blacklist, star
+
+$ genomepy install dm3 --annotation
+Downloading genome from UCSC.
+Target URL: http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/chromFa.tar.gz...
+Genome download successful, starting post processing...
+
+name: dm3
+local name: dm3
+fasta: /home/siebrenf/.local/share/genomes/dm3/dm3.fa
+Downloading annotation from UCSC.
+Target URL: http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/genes/dm3.ensGene.gtf.gz...
+
+Annotation download successful
+Creating star index... 
+Downloading blacklist http://mitra.stanford.edu/kundaje/akundaje/release/blacklists/dm3-D.melanogaster/dm3-blacklist.bed.gz
+
+$ ls ~/.local/share/genomes/dm3
+dm3.annotation.bed.gz  dm3.annotation.gtf.gz  dm3.blacklist.bed  dm3.fa  dm3.fa.fai  dm3.fa.sizes  dm3.gaps.bed  index  README.txt
+
+$ ls ~/.local/share/genomes/dm3/index
+star
+
+$ head ~/.local/share/genomes/dm3/README.txt 
+name: dm3
+provider: UCSC
+original name: dm3
+original filename: chromFa.tar.gz
+assembly_accession: GCA_000001215.2
+tax_id: 7227
+mask: soft
+genome url: http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/chromFa.tar.gz
+annotation url: http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/genes/dm3.ensGene.gtf.gz
+sanitized annotation: not required
+```
+## Python example
+The core genomepy functions, such as `search` and `install` are exposed on import.
+In order to visualize the install function the individual steps are executed in this example, rather than calling the `genomepy.install()` function directly.
+Commands are indicated by `>>>`, and prints were trimmed for brevity.
+
+```python
+>>> import os
+>>> import genomepy
+
+>>> for row in genomepy.search("melanogaster", "ucsc"):
+>>>     print("\t".join([x.decode('utf-8') for x in row]))
+    
+dm1	UCSC	na	Drosophila melanogaster	7227	Jan. 2003 (BDGP R3/dm1)
+dm2	UCSC	na	Drosophila melanogaster	7227	Apr. 2004 (BDGP R4/dm2)
+dm3	UCSC	GCA_000001215.2	Drosophila melanogaster	7227	Apr. 2006 (BDGP R5/dm3)
+dm6	UCSC	GCA_000001215.4	Drosophila melanogaster	7227	Aug. 2014 (BDGP Release 6 + ISO1 MT/dm6)
+
+>>> p = genomepy.ProviderBase.create("ucsc")
+>>> p.download_genome("dm3", annotation=True)
+Genome download successful, starting post processing...
+name: dm3
+local name: dm3
+fasta: /home/siebrenf/.local/share/genomes/dm3/dm3.fa
+
+>>> genome = genomepy.Genome("dm3")
+>>> plugins = genomepy.plugin.init_plugins()
+>>> plugins["star"].after_genome_download(genome)
+Creating star index... 
+
+>>> plugins["blacklist"].after_genome_download(genome)
+Downloading blacklist http://mitra.stanford.edu/kundaje/akundaje/release/blacklists/dm3-D.melanogaster/dm3-blacklist.bed.gz
+
+>>> p.download_annotation("dm3")
+Downloading annotation from UCSC.
+Target URL: http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/genes/dm3.ensGene.gtf.gz...
+Annotation download successful
+
+>>> genomepy.utils.sanitize_annotation(genome)
+
+>>> path = os.path.expanduser("~/.local/share/genomes/dm3")
+>>> os.listdir(path)
+['dm3.annotation.gtf.gz', 'dm3.blacklist.bed', 'dm3.gaps.bed', 'dm3.fa', 'index', 'dm3.annotation.bed.gz', 'README.txt', 'dm3.fa.sizes', 'dm3.fa.fai']
+```
 
 
-
-### old
-search, download, sensible defaults, reproducible, automatable.
-about those defaults...
-
-Install via conda, pip or git.
-
-basic steps in CLI
-
-Repeat steps in API
-Extended steps, link to seq2science implementation?
-
-
-## Conclusions
-Research is about making informed decisions.
-Choosing a reference assembly is no different.
-Genomepy offers an overview of the three largest genome providers, making this choice easier.
+## Conclusion
+A principal step in all science is making informed decisions.
+For genomics projects, choosing a genome to serve as reference assembly is no different.
+Genomepy offers an overview of the three largest genome providers, serving as a catalyst for this step.
 
 After choosing an assembly, data must be downloaded and processed for compatibility with downstream tools.
-Genomepy provides this functionality, while providing logging.
+Genomepy provides this functionality, which includes downloading, zipping and unzipping, converting, filtering and altering of the data, while providing logging of the steps undertaken.
 Even if the required reference data is not available on the three largest genome providers, genomepy can process external data to provide a consistent output.
 
-While genomepy makes choices during the processing, each of these can be tuned to the specific needs of a project using the CLI.
-More control can be achieved via the Python API.
+While genomepy makes choices during the processing, each of these can be tuned to the specific needs of a project using the CLI or Python API.
 Combined, these features make genomepy ideal for integration in automated sequencing workflows, as demonstrated in seq2science @doi:10.5281/zenodo.3921913.
+
+### Future prospects
+As science strives to become more open, genomepy assists by making the discussed steps easier, and make the output more FAIR @doi:10.1038/sdata.2016.18.
+One method by which this can be further improved is coupling genomepy with a data management tool, such as one discussed in the related works.
 
 
 ## Acknowledgements
