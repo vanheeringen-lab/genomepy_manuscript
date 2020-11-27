@@ -7,7 +7,7 @@
   <meta name="author" content="Siebren Frolich" />
   <meta name="author" content="Maarten van der Sande" />
   <meta name="author" content="Simon van Heeringen" />
-  <meta name="dcterms.date" content="2020-11-25" />
+  <meta name="dcterms.date" content="2020-11-27" />
   <meta name="keywords" content="bioinformatics, reproducible-research, genomics, tools" />
   <title>Jumpstart your genomics pipelines with genomepy</title>
   <style>
@@ -17,6 +17,68 @@
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -30,8 +92,8 @@
   <meta name="citation_title" content="Jumpstart your genomics pipelines with genomepy" />
   <meta property="og:title" content="Jumpstart your genomics pipelines with genomepy" />
   <meta property="twitter:title" content="Jumpstart your genomics pipelines with genomepy" />
-  <meta name="dc.date" content="2020-11-25" />
-  <meta name="citation_publication_date" content="2020-11-25" />
+  <meta name="dc.date" content="2020-11-27" />
+  <meta name="citation_publication_date" content="2020-11-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,13 +117,13 @@
   <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
   <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/" />
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/b4c6062d018057e65609c2fe99b946f1fc0f36eb/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/b4c6062d018057e65609c2fe99b946f1fc0f36eb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/b4c6062d018057e65609c2fe99b946f1fc0f36eb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/content/images/thumbnail-505x640.png" />
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/b4c6062d018057e65609c2fe99b946f1fc0f36eb/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/b4c6062d018057e65609c2fe99b946f1fc0f36eb/content/images/thumbnail-505x640.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -73,10 +135,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2/">permalink</a>)
+(<a href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/b4c6062d018057e65609c2fe99b946f1fc0f36eb/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/vanheeringen-lab/genomepy_manuscript/tree/07ed2045f861b92d3eeff4a0d616d15ca1bca5c2">vanheeringen-lab/genomepy_manuscript@07ed204</a>
-on November 25, 2020.
+from <a href="https://github.com/vanheeringen-lab/genomepy_manuscript/tree/b4c6062d018057e65609c2fe99b946f1fc0f36eb">vanheeringen-lab/genomepy_manuscript@b4c6062</a>
+on November 27, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -185,7 +247,7 @@ Therefore, the choice of provider and reference data is significant importance.
 To make an informed decision requires an overview of available options.
 To get this overview, one could check each website separately, then download and process the data manually.
 Such a method creates room for human error in the finding, processing and remembering these steps as well as the reasoning behind them.
-For the sake of sanity and reproducibility, it would be better if that could be done in a standardized system.</p>
+For the sake of sanity and reproducibility, it would be better if that could be done in a standardized system (see figure <a href="#fig:workflow_w_genomepy">1</a>).</p>
 <p>To this end we developed genomepy.
 Genopmepy is a tool with both command line interface and Python application programming interface, which can be called to search one or all three providers at once.
 Using the search function one can get an overview of all genomes containing the search term in their name, description or accession identifier, as well as all genomes matching a taxonomy identifier.
@@ -193,6 +255,11 @@ Once a selection is made the genome and gene annotations can be downloaded and p
 This includes automatic preparation for aligners (genome indexing with pyfaidx <span class="citation" data-cites="uwGw0Z6K"><a href="#ref-uwGw0Z6K" role="doc-biblioref">16</a></span>, generating support files (chromosome sizes and gaps), matching chromosome names between genome and gene annotation and optional aligner index generation).
 Which of these features is used is automatic logged for reproducibility.
 Because of the multiple interfaces, genomepy can be used in workflows to automate these steps.</p>
+<div id="fig:workflow_w_genomepy" class="fignos">
+<figure>
+<img src="images/workflow_w_genomepy.png" height="500" alt="" /><figcaption><span>Figure 1:</span> Overview of a sequence alignment workflow reviewing the steps automatable by genomepy</figcaption>
+</figure>
+</div>
 <h2 id="related-work">Related Work</h2>
 <p>Ensembl, UCSC and NCBI all support downloading from their individual databases via accessible FTP archives, web portals, and REST APIs.
 To access these databases programmatically, there exists several external tools, such as the ncbi-genome-download tool <span class="citation" data-cites="Tz7ID5CR"><a href="#ref-Tz7ID5CR" role="doc-biblioref">17</a></span> and ucsc-genomes-downloader <span class="citation" data-cites="18vgH2GMw"><a href="#ref-18vgH2GMw" role="doc-biblioref">18</a></span>.
@@ -211,51 +278,170 @@ However, it should not bear mentioning that and automated checklist but would be
 <p>We conclude that there is a need for a tool that can provide an overview of the choices of reference data available, can obtain the specified data, and perform the processing required to utilize the data downstream.
 Genomepy was created to fit this need, and does so for both automated and human-supervised workflows.</p>
 <h2 id="genomepy">genomepy</h2>
-<p>The core functionalities of genomepy are <code>search</code> and <code>install</code>.</p>
-<h3 id="search">search</h3>
-<p>Search will query a provider (or all three if none is specified) for the given search term.
-The search term normalized for case and whitspace, and input types is identified.
+<p>The core functionality of genomepy is to search, download and prepare genomes and gene annotations.
+These functions are split over two CLI functions: <code>genomepy search</code> and <code>genomepy install</code>.</p>
+<h3 id="search">Search</h3>
+<p>Search will query all providers for a given search term.
+If desired only one provider can be searched at a time.
+Once entered, the search term is normalized for case and whitespace for ease of use.
+Genomepy can search for text terms, taxonomy identifiers and accession numbers, and will automatically detect which is used in the search term.
 For taxonomy identifiers, all assemblies with matching IDs are returned.
-For accession identifiers and text terms, all assemblies containing the term in their respective field are returned.
+For accession numbers and text terms, all assemblies containing the term in their respective field are returned.
 Additionally text terms found in any other descriptive fields are also returned.</p>
-<h3 id="install">install</h3>
+<h3 id="install">Install</h3>
 <p>When an assembly has been selected, the name can be passed to the install function.
-This function downloads the genome assembly with soft masking, unless different masking is specified.
-The assembly is then filtered to exclude alternative regions (unless specified otherwise) and the presence or absence of any specified (regex search) term.
-The genome is then indexed using pyfaidx <span class="citation" data-cites="uwGw0Z6K"><a href="#ref-uwGw0Z6K" role="doc-biblioref">16</a></span>, and contig sizes and gaps are stored in separate files.</p>
+If the assembly is available from multiple providers, then specific provider can be passed as well.
+If an assembly from an unsupported provider is preferred, direct download links may be supplied in order to receive the same processing.
+This may be useful if the external provider contains a novel or more recent assembly of organisms in their specialized field.
+This results in a consistent output from any desired provider.</p>
+<p>The function first downloads the genome assembly with soft masking (repetitive sequences written in lower case).
+Sequence masking can be turned off, or set to hard (repetitive sequences written as Ns).</p>
+<p>Reference assemblies often contain alternate sequences to reflect biological diversity.
+For the purpose of sequence alignment however, the best results are obtained if there is one reference per nucleotide.
+Therefore genomepy filters out alternative regions, unless specified otherwise.
+Additional regex filters may be passed to either include or exclude sequences by name.
+For instance to filter for chromosomes, or filter out unplaced contigs or the mitochondrial sequence.</p>
+<p>Once processing is performed, genomepy generates several commonly used support files.
+The genome is indexed using pyfaidx <span class="citation" data-cites="uwGw0Z6K"><a href="#ref-uwGw0Z6K" role="doc-biblioref">16</a></span>, and contig sizes and contig gap sizes are stored in separate files.</p>
 <p>If specified, genomepy will attempt to download a gene annotation:
 genomepy will search the database for a GFF, GTF, BED or (for UCSC only) text format gene annotation.
-The annotation is then processed to output a consistent GTF and BED format gene annotation using the UCSC conversion tools <span class="citation" data-cites="d363liX4"><a href="#ref-d363liX4" role="doc-biblioref">22</a></span>/.
-If the genome was downloaded previously, the contig names are checked for compatibility, and matched to those in the genome if required and possible.</p>
-<h3 id="external-providers">external providers</h3>
-<p>External provider often contain novel or more recent assemblies of organisms in their specialized field.
-These assemblies may be processed similarly by providing the direct link to the genome and/or gene annotation in the genomepy install command and specifying ‘url’ as provider.</p>
-<h3 id="plugins">plugins</h3>
-<p>Using the <code>plugin</code> function, the generation of aligner indexes can be toggled.
-The indexes will automatically generate upon the completion of the install function.</p>
-<h3 id="logging">logging</h3>
-<p>Download sources, data and time, processing steps and requested filters are all logged in a README file which is stored in the same directory, and updated when further processing is performed with genomepy.</p>
-<h3 id="old">old</h3>
-<p>search, download, sensible defaults, reproducible, automatable.
-about those defaults…</p>
-<p>Install via conda, pip or git.</p>
-<p>basic steps in CLI</p>
-<p>Repeat steps in API
-Extended steps, link to seq2science implementation?</p>
-<h2 id="conclusions">Conclusions</h2>
-<p>Research is about making informed decisions.
-Choosing a reference assembly is no different.
-Genomepy offers an overview of the three largest genome providers, making this choice easier.</p>
+The annotation is then processed to the commonly used GTF and BED output formats using the UCSC conversion tools <span class="citation" data-cites="d363liX4"><a href="#ref-d363liX4" role="doc-biblioref">22</a></span>/.
+If the genome is present after downloading the annotation, the contig names between the genome and gene annotation are checked for compatibility.
+Should the contig names mismatch, genomepy will attempt to match the names in the annotations to those in the genome.</p>
+<p>During the installation process, a README file is created which logs the URLs to the source files, the steps performed, and contigs filtered out.
+The file is updated should the process is expanded later, such as by downloading other assets or running a plugin.</p>
+<h3 id="plugins">Plugins</h3>
+<p>Genomepy facilitates several optional processing steps via plugins.
+These include downloading of blacklists (by the Kundaje lab <span class="citation" data-cites="aLw6PKkV"><a href="#ref-aLw6PKkV" role="doc-biblioref">23</a></span>) for the genomes that have them, and the generation of aligner indexes.
+These options can be toggled using the <code>genomepy plugin</code> function, which also includes and overview of available plugins.
+Enabled plugins will run upon (re)running the install function.</p>
+<p>Blacklists are available for several UCSC genomes, and GRCh38.
+If no blacklist is available the program will proceed after giving a warning.</p>
+<p>Genomepy support generation of several popular genome aligners: Bowtie2, BWA, GMAP or Minimap2, and splice-aware aligners such as STAR and HISAT2.
+The splice-aware aligners function both with and without gene annotations.
+Should no gene annotation be downloaded, the program will issue a warning and proceed to generate a splice-unaware aligner.
+By default genomepy supports multithreading aligner indexing.
+Unless specified, up to eight cores are used depending on the number available.</p>
+<h3 id="provider-indexing">Provider indexing</h3>
+<p>In order to search, genomepy acquires an overview of available assemblies from each supported providers when first required.
+For Ensembl and UCSC, this is possible via their REST API.
+NCBI does not provide a REST API for their genome database, but their FTP archives contain several assembly overviews.
+Each of these databases is converted to a dictionary with the assembly name as key.
+The databases are supplied as dictionaries as well, resulting in a nested dictionary.
+Each provider uses a different filing system, which genomepy parses to group together similar features.
+For instance, NCBI uses two fields for taxonomy identifiers (“species_taxid” and “taxid”), which are both used by genomepy when searching by taxonomy identifier.</p>
+<p>The parsed databases are stored in a local cache for seven days in order to balance quick lookups, while staying up to date.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="op">&gt;&gt;&gt;</span> <span class="im">import</span> genomepy</span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="op">&gt;&gt;&gt;</span> p <span class="op">=</span> genomepy.ProviderBase.create(<span class="st">&quot;ucsc&quot;</span>)</span>
+<span id="cb1-3"><a href="#cb1-3"></a>Downloading assembly summaries <span class="im">from</span> UCSC</span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="op">&gt;&gt;&gt;</span> g <span class="op">=</span> p.genomes</span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="op">&gt;&gt;&gt;</span> <span class="bu">next</span>(<span class="bu">iter</span>(g))</span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="co">&#39;ailMel1&#39;</span></span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="op">&gt;&gt;&gt;</span> g[<span class="st">&#39;ailMel1&#39;</span>]</span>
+<span id="cb1-8"><a href="#cb1-8"></a>{<span class="st">&#39;description&#39;</span>: <span class="st">&#39;Dec. 2009 (BGI-Shenzhen 1.0/ailMel1)&#39;</span>, <span class="st">&#39;nibPath&#39;</span>: <span class="st">&#39;/gbdb/ailMel1&#39;</span>, <span class="st">&#39;organism&#39;</span>: <span class="st">&#39;Panda&#39;</span>, <span class="st">&#39;defaultPos&#39;</span>: <span class="st">&#39;GL192818.1:558576-566855&#39;</span>, <span class="st">&#39;active&#39;</span>: <span class="dv">1</span>, <span class="st">&#39;orderKey&#39;</span>: <span class="dv">16070</span>, <span class="st">&#39;genome&#39;</span>: <span class="st">&#39;Panda&#39;</span>, <span class="st">&#39;scientificName&#39;</span>: <span class="st">&#39;Ailuropoda melanoleuca&#39;</span>, <span class="st">&#39;htmlPath&#39;</span>: <span class="st">&#39;/gbdb/ailMel1/html/description.html&#39;</span>, <span class="st">&#39;hgNearOk&#39;</span>: <span class="dv">0</span>, <span class="st">&#39;hgPbOk&#39;</span>: <span class="dv">0</span>, <span class="st">&#39;sourceName&#39;</span>: <span class="st">&#39;BGI-Shenzhen AilMel 1.0 Dec. 2009&#39;</span>, <span class="st">&#39;taxId&#39;</span>: <span class="dv">9646</span>}</span></code></pre></div>
+<h3 id="command-line-example">Command line example</h3>
+<p>Here we demonstrate a typical example using genomepy.
+Commands are indicated by a dollar sign, and standard output was trimmed for brevity.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a>$ <span class="ex">genomepy</span> search <span class="st">&quot;drosophila mel&quot;</span> --provider ucsc</span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="ex">name</span>    provider    accession          species                    tax_id    other_info                                  </span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="ex">dm1</span>     UCSC        na                 Drosophila melanogaster    7227      Jan. 2003 (BDGP R3/dm1)                     </span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="ex">dm2</span>     UCSC        na                 Drosophila melanogaster    7227      Apr. 2004 (BDGP R4/dm2)                     </span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="ex">dm3</span>     UCSC        GCA_000001215.2    Drosophila melanogaster    7227      Apr. 2006 (BDGP R5/dm3)                     </span>
+<span id="cb2-6"><a href="#cb2-6"></a><span class="ex">dm6</span>     UCSC        GCA_000001215.4    Drosophila melanogaster    7227      Aug. 2014 (BDGP Release 6 + ISO1 MT/dm6)    </span>
+<span id="cb2-7"><a href="#cb2-7"></a> ^</span>
+<span id="cb2-8"><a href="#cb2-8"></a> <span class="ex">Use</span> name for genomepy install</span>
+<span id="cb2-9"><a href="#cb2-9"></a></span>
+<span id="cb2-10"><a href="#cb2-10"></a>$ <span class="ex">genomepy</span> plugin enable blacklist star</span>
+<span id="cb2-11"><a href="#cb2-11"></a><span class="ex">Enabled</span> plugins: blacklist, star</span>
+<span id="cb2-12"><a href="#cb2-12"></a></span>
+<span id="cb2-13"><a href="#cb2-13"></a>$ <span class="ex">genomepy</span> install dm3 --annotation</span>
+<span id="cb2-14"><a href="#cb2-14"></a><span class="ex">Downloading</span> genome from UCSC.</span>
+<span id="cb2-15"><a href="#cb2-15"></a><span class="ex">Target</span> URL: http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/chromFa.tar.gz...</span>
+<span id="cb2-16"><a href="#cb2-16"></a><span class="ex">Genome</span> download successful, starting post processing...</span>
+<span id="cb2-17"><a href="#cb2-17"></a></span>
+<span id="cb2-18"><a href="#cb2-18"></a><span class="ex">name</span>: dm3</span>
+<span id="cb2-19"><a href="#cb2-19"></a><span class="bu">local</span> <span class="va">name</span>: <span class="va">dm3</span></span>
+<span id="cb2-20"><a href="#cb2-20"></a><span class="ex">fasta</span>: /home/siebrenf/.local/share/genomes/dm3/dm3.fa</span>
+<span id="cb2-21"><a href="#cb2-21"></a><span class="ex">Downloading</span> annotation from UCSC.</span>
+<span id="cb2-22"><a href="#cb2-22"></a><span class="ex">Target</span> URL: http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/genes/dm3.ensGene.gtf.gz...</span>
+<span id="cb2-23"><a href="#cb2-23"></a></span>
+<span id="cb2-24"><a href="#cb2-24"></a><span class="ex">Annotation</span> download successful</span>
+<span id="cb2-25"><a href="#cb2-25"></a><span class="ex">Creating</span> star index... </span>
+<span id="cb2-26"><a href="#cb2-26"></a><span class="ex">Downloading</span> blacklist http://mitra.stanford.edu/kundaje/akundaje/release/blacklists/dm3-D.melanogaster/dm3-blacklist.bed.gz</span>
+<span id="cb2-27"><a href="#cb2-27"></a></span>
+<span id="cb2-28"><a href="#cb2-28"></a>$ <span class="fu">ls</span> ~/.local/share/genomes/dm3</span>
+<span id="cb2-29"><a href="#cb2-29"></a><span class="ex">dm3.annotation.bed.gz</span>  dm3.annotation.gtf.gz  dm3.blacklist.bed  dm3.fa  dm3.fa.fai  dm3.fa.sizes  dm3.gaps.bed  index  README.txt</span>
+<span id="cb2-30"><a href="#cb2-30"></a></span>
+<span id="cb2-31"><a href="#cb2-31"></a>$ <span class="fu">ls</span> ~/.local/share/genomes/dm3/index</span>
+<span id="cb2-32"><a href="#cb2-32"></a><span class="ex">star</span></span>
+<span id="cb2-33"><a href="#cb2-33"></a></span>
+<span id="cb2-34"><a href="#cb2-34"></a>$ <span class="fu">head</span> ~/.local/share/genomes/dm3/README.txt </span>
+<span id="cb2-35"><a href="#cb2-35"></a><span class="ex">name</span>: dm3</span>
+<span id="cb2-36"><a href="#cb2-36"></a><span class="ex">provider</span>: UCSC</span>
+<span id="cb2-37"><a href="#cb2-37"></a><span class="ex">original</span> name: dm3</span>
+<span id="cb2-38"><a href="#cb2-38"></a><span class="ex">original</span> filename: chromFa.tar.gz</span>
+<span id="cb2-39"><a href="#cb2-39"></a><span class="ex">assembly_accession</span>: GCA_000001215.2</span>
+<span id="cb2-40"><a href="#cb2-40"></a><span class="ex">tax_id</span>: 7227</span>
+<span id="cb2-41"><a href="#cb2-41"></a><span class="ex">mask</span>: soft</span>
+<span id="cb2-42"><a href="#cb2-42"></a><span class="ex">genome</span> url: http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/chromFa.tar.gz</span>
+<span id="cb2-43"><a href="#cb2-43"></a><span class="ex">annotation</span> url: http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/genes/dm3.ensGene.gtf.gz</span>
+<span id="cb2-44"><a href="#cb2-44"></a><span class="ex">sanitized</span> annotation: not required</span></code></pre></div>
+<h2 id="python-example">Python example</h2>
+<p>The core genomepy functions, such as <code>search</code> and <code>install</code> are exposed on import.
+In order to visualize the install function the individual steps are executed in this example, rather than calling the <code>genomepy.install()</code> function directly.
+Commands are indicated by <code>&gt;&gt;&gt;</code>, and prints were trimmed for brevity.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="op">&gt;&gt;&gt;</span> <span class="im">import</span> os</span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="op">&gt;&gt;&gt;</span> <span class="im">import</span> genomepy</span>
+<span id="cb3-3"><a href="#cb3-3"></a></span>
+<span id="cb3-4"><a href="#cb3-4"></a><span class="op">&gt;&gt;&gt;</span> <span class="cf">for</span> row <span class="kw">in</span> genomepy.search(<span class="st">&quot;melanogaster&quot;</span>, <span class="st">&quot;ucsc&quot;</span>):</span>
+<span id="cb3-5"><a href="#cb3-5"></a><span class="op">&gt;&gt;&gt;</span>     <span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\t</span><span class="st">&quot;</span>.join([x.decode(<span class="st">&#39;utf-8&#39;</span>) <span class="cf">for</span> x <span class="kw">in</span> row]))</span>
+<span id="cb3-6"><a href="#cb3-6"></a>    </span>
+<span id="cb3-7"><a href="#cb3-7"></a>dm1 UCSC    na  Drosophila melanogaster <span class="dv">7227</span>    Jan. <span class="dv">2003</span> (BDGP R3<span class="op">/</span>dm1)</span>
+<span id="cb3-8"><a href="#cb3-8"></a>dm2 UCSC    na  Drosophila melanogaster <span class="dv">7227</span>    Apr. <span class="dv">2004</span> (BDGP R4<span class="op">/</span>dm2)</span>
+<span id="cb3-9"><a href="#cb3-9"></a>dm3 UCSC    GCA_000001215<span class="fl">.2</span> Drosophila melanogaster <span class="dv">7227</span>    Apr. <span class="dv">2006</span> (BDGP R5<span class="op">/</span>dm3)</span>
+<span id="cb3-10"><a href="#cb3-10"></a>dm6 UCSC    GCA_000001215<span class="fl">.4</span> Drosophila melanogaster <span class="dv">7227</span>    Aug. <span class="dv">2014</span> (BDGP Release <span class="dv">6</span> <span class="op">+</span> ISO1 MT<span class="op">/</span>dm6)</span>
+<span id="cb3-11"><a href="#cb3-11"></a></span>
+<span id="cb3-12"><a href="#cb3-12"></a><span class="op">&gt;&gt;&gt;</span> p <span class="op">=</span> genomepy.ProviderBase.create(<span class="st">&quot;ucsc&quot;</span>)</span>
+<span id="cb3-13"><a href="#cb3-13"></a><span class="op">&gt;&gt;&gt;</span> p.download_genome(<span class="st">&quot;dm3&quot;</span>, annotation<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-14"><a href="#cb3-14"></a>Genome download successful, starting post processing...</span>
+<span id="cb3-15"><a href="#cb3-15"></a>name: dm3</span>
+<span id="cb3-16"><a href="#cb3-16"></a>local name: dm3</span>
+<span id="cb3-17"><a href="#cb3-17"></a>fasta: <span class="op">/</span>home<span class="op">/</span>siebrenf<span class="op">/</span>.local<span class="op">/</span>share<span class="op">/</span>genomes<span class="op">/</span>dm3<span class="op">/</span>dm3.fa</span>
+<span id="cb3-18"><a href="#cb3-18"></a></span>
+<span id="cb3-19"><a href="#cb3-19"></a><span class="op">&gt;&gt;&gt;</span> genome <span class="op">=</span> genomepy.Genome(<span class="st">&quot;dm3&quot;</span>)</span>
+<span id="cb3-20"><a href="#cb3-20"></a><span class="op">&gt;&gt;&gt;</span> plugins <span class="op">=</span> genomepy.plugin.init_plugins()</span>
+<span id="cb3-21"><a href="#cb3-21"></a><span class="op">&gt;&gt;&gt;</span> plugins[<span class="st">&quot;star&quot;</span>].after_genome_download(genome)</span>
+<span id="cb3-22"><a href="#cb3-22"></a>Creating star index... </span>
+<span id="cb3-23"><a href="#cb3-23"></a></span>
+<span id="cb3-24"><a href="#cb3-24"></a><span class="op">&gt;&gt;&gt;</span> plugins[<span class="st">&quot;blacklist&quot;</span>].after_genome_download(genome)</span>
+<span id="cb3-25"><a href="#cb3-25"></a>Downloading blacklist http:<span class="op">//</span>mitra.stanford.edu<span class="op">/</span>kundaje<span class="op">/</span>akundaje<span class="op">/</span>release<span class="op">/</span>blacklists<span class="op">/</span>dm3<span class="op">-</span>D.melanogaster<span class="op">/</span>dm3<span class="op">-</span>blacklist.bed.gz</span>
+<span id="cb3-26"><a href="#cb3-26"></a></span>
+<span id="cb3-27"><a href="#cb3-27"></a><span class="op">&gt;&gt;&gt;</span> p.download_annotation(<span class="st">&quot;dm3&quot;</span>)</span>
+<span id="cb3-28"><a href="#cb3-28"></a>Downloading annotation <span class="im">from</span> UCSC.</span>
+<span id="cb3-29"><a href="#cb3-29"></a>Target URL: http:<span class="op">//</span>hgdownload.soe.ucsc.edu<span class="op">/</span>goldenPath<span class="op">/</span>dm3<span class="op">/</span>bigZips<span class="op">/</span>genes<span class="op">/</span>dm3.ensGene.gtf.gz...</span>
+<span id="cb3-30"><a href="#cb3-30"></a>Annotation download successful</span>
+<span id="cb3-31"><a href="#cb3-31"></a></span>
+<span id="cb3-32"><a href="#cb3-32"></a><span class="op">&gt;&gt;&gt;</span> genomepy.utils.sanitize_annotation(genome)</span>
+<span id="cb3-33"><a href="#cb3-33"></a></span>
+<span id="cb3-34"><a href="#cb3-34"></a><span class="op">&gt;&gt;&gt;</span> path <span class="op">=</span> os.path.expanduser(<span class="st">&quot;~/.local/share/genomes/dm3&quot;</span>)</span>
+<span id="cb3-35"><a href="#cb3-35"></a><span class="op">&gt;&gt;&gt;</span> os.listdir(path)</span>
+<span id="cb3-36"><a href="#cb3-36"></a>[<span class="st">&#39;dm3.annotation.gtf.gz&#39;</span>, <span class="st">&#39;dm3.blacklist.bed&#39;</span>, <span class="st">&#39;dm3.gaps.bed&#39;</span>, <span class="st">&#39;dm3.fa&#39;</span>, <span class="st">&#39;index&#39;</span>, <span class="st">&#39;dm3.annotation.bed.gz&#39;</span>, <span class="st">&#39;README.txt&#39;</span>, <span class="st">&#39;dm3.fa.sizes&#39;</span>, <span class="st">&#39;dm3.fa.fai&#39;</span>]</span></code></pre></div>
+<h2 id="conclusion">Conclusion</h2>
+<p>A principal step in all science is making informed decisions.
+For genomics projects, choosing a genome to serve as reference assembly is no different.
+Genomepy offers an overview of the three largest genome providers, serving as a catalyst for this step.</p>
 <p>After choosing an assembly, data must be downloaded and processed for compatibility with downstream tools.
-Genomepy provides this functionality, while providing logging.
+Genomepy provides this functionality, which includes downloading, zipping and unzipping, converting, filtering and altering of the data, while providing logging of the steps undertaken.
 Even if the required reference data is not available on the three largest genome providers, genomepy can process external data to provide a consistent output.</p>
-<p>While genomepy makes choices during the processing, each of these can be tuned to the specific needs of a project using the CLI.
-More control can be achieved via the Python API.
-Combined, these features make genomepy ideal for integration in automated sequencing workflows, as demonstrated in seq2science <span class="citation" data-cites="v55wxvUz"><a href="#ref-v55wxvUz" role="doc-biblioref">23</a></span>.</p>
+<p>While genomepy makes choices during the processing, each of these can be tuned to the specific needs of a project using the CLI or Python API.
+Combined, these features make genomepy ideal for integration in automated sequencing workflows, as demonstrated in seq2science <span class="citation" data-cites="v55wxvUz"><a href="#ref-v55wxvUz" role="doc-biblioref">24</a></span>.</p>
+<h3 id="future-prospects">Future prospects</h3>
+<p>As science strives to become more open, genomepy assists by making the discussed steps easier, and make the output more FAIR <span class="citation" data-cites="6DjakjNS"><a href="#ref-6DjakjNS" role="doc-biblioref">25</a></span>.
+One method by which this can be further improved is coupling genomepy with a data management tool, such as one discussed in the related works.</p>
 <h2 id="acknowledgements">Acknowledgements</h2>
 <p>We thank the Department of Molecular (Developmental) Biology, out github <a href="https://github.com/vanheeringen-lab/genomepy/graphs/contributors">contributors</a>, and issue posters for their patience, feedback and insight.
 We thank black, pytest, CodeCoverage and TravisCI for enduring our abuse and teaching us patience.
-And finally, we thank Manubot <span class="citation" data-cites="YuJbg3zO"><a href="#ref-YuJbg3zO" role="doc-biblioref">24</a></span> for assisting with this manuscript.</p>
+And finally, we thank Manubot <span class="citation" data-cites="YuJbg3zO"><a href="#ref-YuJbg3zO" role="doc-biblioref">26</a></span> for assisting with this manuscript.</p>
 <h2 id="code-availability">Code availability</h2>
 <p>Genomepy can be installed using <a href="https://anaconda.org/bioconda/genomepy">Bioconda</a> and <a href="https://pypi.org/project/genomepy/">Pip</a>.
 The code is available at <a href="https://github.com/vanheeringen-lab/genomepy">https://github.com/vanheeringen-lab/genomepy</a>.</p>
@@ -338,7 +524,7 @@ Matthew D. Shirley, Zhaorong Ma, Brent S. Pedersen, Sarah J. Wheelan<br />
 <div id="ref-Tz7ID5CR">
 <p>17. <strong>kblin/ncbi-genome-download</strong> <br />
 Kai Blin<br />
-(2020-11-19) <a href="https://github.com/kblin/ncbi-genome-download">https://github.com/kblin/ncbi-genome-download</a></p>
+(2020-11-25) <a href="https://github.com/kblin/ncbi-genome-download">https://github.com/kblin/ncbi-genome-download</a></p>
 </div>
 <div id="ref-18vgH2GMw">
 <p>18. <strong>ucsc-genomes-downloader: Python package to quickly download genomes from the UCSC.</strong> <br />
@@ -360,14 +546,26 @@ DOI: <a href="https://doi.org/10.1101/2020.09.10.291377">10.1101/2020.09.10.2913
 <div id="ref-d363liX4">
 <p>22. <strong>Index of /admin/exe</strong> <a href="http://hgdownload.cse.ucsc.edu/admin/exe/">http://hgdownload.cse.ucsc.edu/admin/exe/</a></p>
 </div>
+<div id="ref-aLw6PKkV">
+<p>23. <strong>The ENCODE Blacklist: Identification of Problematic Regions of the Genome</strong> <br />
+Haley M. Amemiya, Anshul Kundaje, Alan P. Boyle<br />
+<em>Scientific Reports</em> (2019-06-27) <a href="https://www.nature.com/articles/s41598-019-45839-z">https://www.nature.com/articles/s41598-019-45839-z</a> <br />
+DOI: <a href="https://doi.org/10.1038/s41598-019-45839-z">10.1038/s41598-019-45839-z</a></p>
+</div>
 <div id="ref-v55wxvUz">
-<p>23. <strong>seq2science</strong> <br />
+<p>24. <strong>seq2science</strong> <br />
 Maarten Van Der Sande, Siebren Frölich, Jos Smits, Simon Van Heeringen<br />
-<em>Zenodo</em> (2020-11-05) <a href="https://doi.org/ghktg7">https://doi.org/ghktg7</a> <br />
+<em>Zenodo</em> (2020-11-26) <a href="https://doi.org/ghktg7">https://doi.org/ghktg7</a> <br />
 DOI: <a href="https://doi.org/10.5281/zenodo.3921913">10.5281/zenodo.3921913</a></p>
 </div>
+<div id="ref-6DjakjNS">
+<p>25. <strong>The FAIR Guiding Principles for scientific data management and stewardship</strong> <br />
+Mark D. Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan-Willem Boiten, Luiz Bonino da Silva Santos, Philip E. Bourne, … Barend Mons<br />
+<em>Scientific Data</em> (2016-03-15) <a href="https://doi.org/bdd4">https://doi.org/bdd4</a> <br />
+DOI: <a href="https://doi.org/10.1038/sdata.2016.18">10.1038/sdata.2016.18</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26978244">26978244</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175">PMC4792175</a></p>
+</div>
 <div id="ref-YuJbg3zO">
-<p>24. <strong>Open collaborative writing with Manubot</strong> <br />
+<p>26. <strong>Open collaborative writing with Manubot</strong> <br />
 Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat S. Malladi, Casey S. Greene, Anthony Gitter<br />
 <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <br />
 DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></p>
