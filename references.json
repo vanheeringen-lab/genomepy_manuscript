@@ -1,241 +1,43 @@
 [
   {
     "type": "article-journal",
-    "id": "6DjakjNS",
+    "id": "6pvE6gty",
     "author": [
       {
-        "family": "Wilkinson",
-        "given": "Mark D."
+        "family": "Morgulis",
+        "given": "Aleksandr"
       },
       {
-        "family": "Dumontier",
-        "given": "Michel"
+        "family": "Gertz",
+        "given": "E. Michael"
       },
       {
-        "family": "Aalbersberg",
-        "given": "IJsbrand Jan"
+        "family": "Schäffer",
+        "given": "Alejandro A."
       },
       {
-        "family": "Appleton",
-        "given": "Gabrielle"
-      },
-      {
-        "family": "Axton",
-        "given": "Myles"
-      },
-      {
-        "family": "Baak",
-        "given": "Arie"
-      },
-      {
-        "family": "Blomberg",
-        "given": "Niklas"
-      },
-      {
-        "family": "Boiten",
-        "given": "Jan-Willem"
-      },
-      {
-        "family": "da Silva Santos",
-        "given": "Luiz Bonino"
-      },
-      {
-        "family": "Bourne",
-        "given": "Philip E."
-      },
-      {
-        "family": "Bouwman",
-        "given": "Jildau"
-      },
-      {
-        "family": "Brookes",
-        "given": "Anthony J."
-      },
-      {
-        "family": "Clark",
-        "given": "Tim"
-      },
-      {
-        "family": "Crosas",
-        "given": "Mercè"
-      },
-      {
-        "family": "Dillo",
-        "given": "Ingrid"
-      },
-      {
-        "family": "Dumon",
-        "given": "Olivier"
-      },
-      {
-        "family": "Edmunds",
-        "given": "Scott"
-      },
-      {
-        "family": "Evelo",
-        "given": "Chris T."
-      },
-      {
-        "family": "Finkers",
-        "given": "Richard"
-      },
-      {
-        "family": "Gonzalez-Beltran",
-        "given": "Alejandra"
-      },
-      {
-        "family": "Gray",
-        "given": "Alasdair J.G."
-      },
-      {
-        "family": "Groth",
-        "given": "Paul"
-      },
-      {
-        "family": "Goble",
-        "given": "Carole"
-      },
-      {
-        "family": "Grethe",
-        "given": "Jeffrey S."
-      },
-      {
-        "family": "Heringa",
-        "given": "Jaap"
-      },
-      {
-        "family": "’t Hoen",
-        "given": "Peter A.C"
-      },
-      {
-        "family": "Hooft",
-        "given": "Rob"
-      },
-      {
-        "family": "Kuhn",
-        "given": "Tobias"
-      },
-      {
-        "family": "Kok",
-        "given": "Ruben"
-      },
-      {
-        "family": "Kok",
-        "given": "Joost"
-      },
-      {
-        "family": "Lusher",
-        "given": "Scott J."
-      },
-      {
-        "family": "Martone",
-        "given": "Maryann E."
-      },
-      {
-        "family": "Mons",
-        "given": "Albert"
-      },
-      {
-        "family": "Packer",
-        "given": "Abel L."
-      },
-      {
-        "family": "Persson",
-        "given": "Bengt"
-      },
-      {
-        "family": "Rocca-Serra",
-        "given": "Philippe"
-      },
-      {
-        "family": "Roos",
-        "given": "Marco"
-      },
-      {
-        "family": "van Schaik",
-        "given": "Rene"
-      },
-      {
-        "family": "Sansone",
-        "given": "Susanna-Assunta"
-      },
-      {
-        "family": "Schultes",
-        "given": "Erik"
-      },
-      {
-        "family": "Sengstag",
-        "given": "Thierry"
-      },
-      {
-        "family": "Slater",
-        "given": "Ted"
-      },
-      {
-        "family": "Strawn",
-        "given": "George"
-      },
-      {
-        "family": "Swertz",
-        "given": "Morris A."
-      },
-      {
-        "family": "Thompson",
-        "given": "Mark"
-      },
-      {
-        "family": "van der Lei",
-        "given": "Johan"
-      },
-      {
-        "family": "van Mulligen",
-        "given": "Erik"
-      },
-      {
-        "family": "Velterop",
-        "given": "Jan"
-      },
-      {
-        "family": "Waagmeester",
-        "given": "Andra"
-      },
-      {
-        "family": "Wittenburg",
-        "given": "Peter"
-      },
-      {
-        "family": "Wolstencroft",
-        "given": "Katherine"
-      },
-      {
-        "family": "Zhao",
-        "given": "Jun"
-      },
-      {
-        "family": "Mons",
-        "given": "Barend"
+        "family": "Agarwala",
+        "given": "Richa"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          2016,
-          3,
-          15
+          2006,
+          6
         ]
       ]
     },
-    "container-title": "Scientific Data",
-    "DOI": "10.1038/sdata.2016.18",
-    "volume": "3",
-    "issue": "1",
-    "page": "160018",
-    "publisher": "Springer Science and Business Media LLC",
-    "title": "The FAIR Guiding Principles for scientific data management and stewardship",
-    "URL": "https://doi.org/bdd4",
-    "PMCID": "PMC4792175",
-    "PMID": "26978244",
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.1038/sdata.2016.18"
+    "container-title": "Journal of Computational Biology",
+    "DOI": "10.1089/cmb.2006.13.1028",
+    "volume": "13",
+    "issue": "5",
+    "page": "1028-1040",
+    "publisher": "Mary Ann Liebert Inc",
+    "title": "A Fast and Symmetric DUST Implementation to Mask Low-Complexity DNA Sequences",
+    "URL": "https://doi.org/fqs85g",
+    "PMID": "16796549",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.1089/cmb.2006.13.1028"
   },
   {
     "type": "article-journal",
@@ -454,6 +256,14 @@
         "given": "Jos"
       },
       {
+        "family": "Schäfers",
+        "given": "Tilman"
+      },
+      {
+        "family": "Snabel",
+        "given": "Rebecca"
+      },
+      {
         "family": "Heeringen",
         "given": "Simon Van"
       }
@@ -461,18 +271,18 @@
     "issued": {
       "date-parts": [
         [
-          2020,
-          11,
-          26
+          2021,
+          3,
+          3
         ]
       ]
     },
-    "abstract": "Automated preprocessing of Next-Generation Sequencing data, including full (sc)ATAC-seq, ChIP-seq, and RNA-seq workflows. Added a check to see if the downloaded fastq from ENA is not empty. Related to a recent internal error (guess) at the side of ENA sending empty fastq files a custom message when a rule fails, that redirect to docs Changed sample layout lookup is split up in 100's, to avoid a jsondecodeerror which results from very long lists of samples the multiqc samples &amp; config tables are generated in a script with its own environment to make base env smaller keep_mates for macs2 turned into a script with ts own environment ot make the base env smaller seq2science cache now respects the xdg cache moved genome downloading rules into scripts instead of run directives, should result in user-friendlier errors Fixed make a trackhub index when the gene_name is not present in gtf file make a trackhub index when the gene_name is not present in gene all entries update Salmon &amp; salmon rules",
+    "abstract": "Automated preprocessing of Next-Generation Sequencing data, including full (sc)ATAC-seq, ChIP-seq, and RNA-seq workflows. Version 0.5.0 brings many quality of life improvements, such as seq2science automatically inferring what needs to be re-run when changing the samples.tsv and/or the config.yaml, differential peak analysis for chip/atac workflows and tab-completion! To (hopefully) clear things up we changed the way technical and biological replicates are called, now technical and biological replicate, before technical replicate and condition. It is important to note that the RNA-seq workflow DOES NOT remove duplicate reads anymore as a <em>default</em>, and that the sc/bulk ATAC-seq workflows now filters reads on the nucleosome-free region as a <em>default</em>. Changed Keep all duplicate reads in RNA-seq by default Slimmed down the config printed at the start of a run Changed some rules into localrules when executed on a cluster moved onehot peaks to counts_dir DESeq2 contrasts now accept any column names groups still cannot contain underscores no longer accepts one group name more examples added to the docs! Added dupRadar module to analyse read duplication types in RNA-seq Differential peak analysis for ATAC- and ChIP-seq! Options to filter bams by minimum and maximum insert sizes (added to config of bulk/sc atac) Support experiment ids for EBI ENA and DDBJ for downloading public samples More robust expression handling for BUS format detection from kb-python arguments Short-hand BUS syntax for indrop v1/v2 Seq2science now supports tab-completion Seq2science now outputs a logfile in the directory it is run Fixed renamed more old \"replicate\" variables to the new \"technical_replicate\" minor logging tweak Chipseeker now works without defining descriptive name column fix bug in resources parsing of profiles small bug when naming a column condition in non peak-calling workflows",
     "DOI": "10.5281/zenodo.3921913",
     "publisher": "Zenodo",
     "title": "seq2science",
     "URL": "https://doi.org/ghktg7",
-    "version": "v0.3.2",
+    "version": "v0.5.0",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.5281/zenodo.3921913"
   },
   {
@@ -480,9 +290,9 @@
     "accessed": {
       "date-parts": [
         [
-          2020,
-          11,
-          27
+          2021,
+          3,
+          11
         ]
       ]
     },
@@ -546,9 +356,9 @@
     "accessed": {
       "date-parts": [
         [
-          2020,
-          11,
-          27
+          2021,
+          3,
+          11
         ]
       ]
     },
@@ -654,13 +464,29 @@
     "accessed": {
       "date-parts": [
         [
-          "2020",
-          11,
-          27
+          "2021",
+          3,
+          11
         ]
       ]
     },
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: url:http://hgdownload.cse.ucsc.edu/admin/exe"
+  },
+  {
+    "id": "xUNuCj44",
+    "type": "webpage",
+    "title": "RepeatMasker Home Page",
+    "URL": "http://repeatmasker.org/",
+    "accessed": {
+      "date-parts": [
+        [
+          "2021",
+          3,
+          11
+        ]
+      ]
+    },
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: url:http://repeatmasker.org"
   },
   {
     "id": "lNdYtfQT",
@@ -697,9 +523,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2020",
-          11,
-          27
+          "2021",
+          3,
+          11
         ]
       ]
     },
@@ -745,9 +571,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2020",
-          11,
-          27
+          "2021",
+          3,
+          11
         ]
       ]
     },
@@ -794,9 +620,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2020",
-          11,
-          27
+          "2021",
+          3,
+          11
         ]
       ]
     },
@@ -804,15 +630,45 @@
   },
   {
     "id": "dezX2UZP",
-    "type": "webpage",
-    "title": "Validate User",
-    "URL": "https://academic.oup.com/crawlprevention/governor?content=%2fbioinformatics%2farticle-lookup%2fdoi%2f10.1093%2fbioinformatics%2fbti310",
+    "type": "article-journal",
+    "title": "GMAP: a genomic mapping and alignment program for mRNA and EST sequences",
+    "container-title": "Bioinformatics",
+    "page": "1859-1875",
+    "volume": "21",
+    "issue": "9",
+    "source": "academic.oup.com",
+    "abstract": "Abstract. Motivation: We introduce gmap, a standalone program for mapping and aligning cDNA sequences to a genome. The program maps and aligns a single sequence",
+    "URL": "https://academic.oup.com/bioinformatics/article/21/9/1859/409207",
+    "DOI": "10.1093/bioinformatics/bti310",
+    "ISSN": "1367-4803",
+    "shortTitle": "GMAP",
+    "journalAbbreviation": "Bioinformatics",
+    "language": "en",
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Thomas D."
+      },
+      {
+        "family": "Watanabe",
+        "given": "Colin K."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2005",
+          5,
+          1
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
-          "2020",
-          11,
-          27
+          "2021",
+          3,
+          11
         ]
       ]
     },
@@ -820,15 +676,44 @@
   },
   {
     "id": "7iUMQeVP",
-    "type": "webpage",
-    "title": "Validate User",
-    "URL": "https://academic.oup.com/crawlprevention/governor?content=%2fbioinformatics%2farticle-lookup%2fdoi%2f10.1093%2fbioinformatics%2fbtp324",
+    "type": "article-journal",
+    "title": "Fast and accurate short read alignment with Burrows–Wheeler transform",
+    "container-title": "Bioinformatics",
+    "page": "1754-1760",
+    "volume": "25",
+    "issue": "14",
+    "source": "academic.oup.com",
+    "abstract": "Abstract. Motivation: The enormous amount of short reads generated by the new DNA sequencing technologies call for the development of fast and accurate read ali",
+    "URL": "https://academic.oup.com/bioinformatics/article/25/14/1754/225615",
+    "DOI": "10.1093/bioinformatics/btp324",
+    "ISSN": "1367-4803",
+    "journalAbbreviation": "Bioinformatics",
+    "language": "en",
+    "author": [
+      {
+        "family": "Li",
+        "given": "Heng"
+      },
+      {
+        "family": "Durbin",
+        "given": "Richard"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2009",
+          7,
+          15
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
-          "2020",
-          11,
-          27
+          "2021",
+          3,
+          11
         ]
       ]
     },
@@ -836,15 +721,73 @@
   },
   {
     "id": "3ljODRID",
-    "type": "webpage",
-    "title": "Validate User",
-    "URL": "https://academic.oup.com/crawlprevention/governor?content=%2fbioinformatics%2farticle-lookup%2fdoi%2f10.1093%2fbioinformatics%2fbts635",
+    "type": "article-journal",
+    "title": "STAR: ultrafast universal RNA-seq aligner",
+    "container-title": "Bioinformatics",
+    "page": "15-21",
+    "volume": "29",
+    "issue": "1",
+    "source": "academic.oup.com",
+    "abstract": "Abstract. Motivation: Accurate alignment of high-throughput RNA-seq data is a challenging and yet unsolved problem because of the non-contiguous transcript stru",
+    "URL": "https://academic.oup.com/bioinformatics/article/29/1/15/272537",
+    "DOI": "10.1093/bioinformatics/bts635",
+    "ISSN": "1367-4803",
+    "shortTitle": "STAR",
+    "journalAbbreviation": "Bioinformatics",
+    "language": "en",
+    "author": [
+      {
+        "family": "Dobin",
+        "given": "Alexander"
+      },
+      {
+        "family": "Davis",
+        "given": "Carrie A."
+      },
+      {
+        "family": "Schlesinger",
+        "given": "Felix"
+      },
+      {
+        "family": "Drenkow",
+        "given": "Jorg"
+      },
+      {
+        "family": "Zaleski",
+        "given": "Chris"
+      },
+      {
+        "family": "Jha",
+        "given": "Sonali"
+      },
+      {
+        "family": "Batut",
+        "given": "Philippe"
+      },
+      {
+        "family": "Chaisson",
+        "given": "Mark"
+      },
+      {
+        "family": "Gingeras",
+        "given": "Thomas R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2013",
+          1,
+          1
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
-          "2020",
-          11,
-          27
+          "2021",
+          3,
+          11
         ]
       ]
     },
@@ -852,15 +795,41 @@
   },
   {
     "id": "qRe2jTUu",
-    "type": "webpage",
-    "title": "Validate User",
-    "URL": "https://academic.oup.com/crawlprevention/governor?content=%2fbioinformatics%2farticle%2f34%2f18%2f3094%2f4994778",
+    "type": "article-journal",
+    "title": "Minimap2: pairwise alignment for nucleotide sequences",
+    "container-title": "Bioinformatics",
+    "page": "3094-3100",
+    "volume": "34",
+    "issue": "18",
+    "source": "academic.oup.com",
+    "abstract": "AbstractMotivation. Recent advances in sequencing technologies promise ultra-long reads of ∼100 kb in average, full-length mRNA or cDNA reads in high throughput",
+    "URL": "https://academic.oup.com/bioinformatics/article/34/18/3094/4994778",
+    "DOI": "10.1093/bioinformatics/bty191",
+    "ISSN": "1367-4803",
+    "shortTitle": "Minimap2",
+    "journalAbbreviation": "Bioinformatics",
+    "language": "en",
+    "author": [
+      {
+        "family": "Li",
+        "given": "Heng"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          9,
+          15
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
-          "2020",
-          11,
-          27
+          "2021",
+          3,
+          11
         ]
       ]
     },
@@ -868,15 +837,55 @@
   },
   {
     "id": "gR8WRn61",
-    "type": "webpage",
-    "title": "Validate User",
-    "URL": "https://academic.oup.com/crawlprevention/governor?content=%2fgigascience%2farticle%2fdoi%2f10.1093%2fgigascience%2fgiz149%2f5717403",
-    "accessed": {
+    "type": "article-journal",
+    "title": "Refgenie: a reference genome resource manager",
+    "container-title": "GigaScience",
+    "volume": "9",
+    "issue": "2",
+    "source": "academic.oup.com",
+    "abstract": "AbstractBackground. Reference genome assemblies are essential for high-throughput sequencing analysis projects. Typically, genome assemblies are stored on disk",
+    "URL": "https://academic.oup.com/gigascience/article/9/2/giz149/5717403",
+    "DOI": "10.1093/gigascience/giz149",
+    "shortTitle": "Refgenie",
+    "journalAbbreviation": "Gigascience",
+    "language": "en",
+    "author": [
+      {
+        "family": "Stolarczyk",
+        "given": "Michał"
+      },
+      {
+        "family": "Reuter",
+        "given": "Vincent P."
+      },
+      {
+        "family": "Smith",
+        "given": "Jason P."
+      },
+      {
+        "family": "Magee",
+        "given": "Neal E."
+      },
+      {
+        "family": "Sheffield",
+        "given": "Nathan C."
+      }
+    ],
+    "issued": {
       "date-parts": [
         [
           "2020",
-          11,
-          27
+          2,
+          1
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2021",
+          3,
+          11
         ]
       ]
     },
@@ -884,15 +893,226 @@
   },
   {
     "id": "194UqbUxS",
-    "type": "webpage",
-    "title": "Validate User",
-    "URL": "https://academic.oup.com/crawlprevention/governor?content=%2fnar%2farticle%2f47%2fD1%2fD759%2f5144957",
+    "type": "article-journal",
+    "title": "FlyBase 2.0: the next generation",
+    "container-title": "Nucleic Acids Research",
+    "page": "D759-D765",
+    "volume": "47",
+    "issue": "D1",
+    "source": "academic.oup.com",
+    "abstract": "Abstract. FlyBase (flybase.org) is a knowledge base that supports the community of researchers that use the fruit fly, Drosophila melanogaster, as a model organ",
+    "URL": "https://academic.oup.com/nar/article/47/D1/D759/5144957",
+    "DOI": "10.1093/nar/gky1003",
+    "ISSN": "0305-1048",
+    "shortTitle": "FlyBase 2.0",
+    "journalAbbreviation": "Nucleic Acids Res",
+    "language": "en",
+    "author": [
+      {
+        "family": "Thurmond",
+        "given": "Jim"
+      },
+      {
+        "family": "Goodman",
+        "given": "Joshua L."
+      },
+      {
+        "family": "Strelets",
+        "given": "Victor B."
+      },
+      {
+        "family": "Attrill",
+        "given": "Helen"
+      },
+      {
+        "family": "Gramates",
+        "given": "L. Sian"
+      },
+      {
+        "family": "Marygold",
+        "given": "Steven J."
+      },
+      {
+        "family": "Matthews",
+        "given": "Beverley B."
+      },
+      {
+        "family": "Millburn",
+        "given": "Gillian"
+      },
+      {
+        "family": "Antonazzo",
+        "given": "Giulia"
+      },
+      {
+        "family": "Trovisco",
+        "given": "Vitor"
+      },
+      {
+        "family": "Kaufman",
+        "given": "Thomas C."
+      },
+      {
+        "family": "Calvi",
+        "given": "Brian R."
+      },
+      {
+        "family": "Consortium",
+        "given": "the FlyBase"
+      },
+      {
+        "family": "Perrimon",
+        "given": "Norbert"
+      },
+      {
+        "family": "Gelbart",
+        "given": "Susan Russo"
+      },
+      {
+        "family": "Agapite",
+        "given": "Julie"
+      },
+      {
+        "family": "Broll",
+        "given": "Kris"
+      },
+      {
+        "family": "Crosby",
+        "given": "Lynn"
+      },
+      {
+        "family": "Santos",
+        "given": "Gilberto",
+        "dropping-particle": "dos"
+      },
+      {
+        "family": "Emmert",
+        "given": "David"
+      },
+      {
+        "family": "Gramates",
+        "given": "L. Sian"
+      },
+      {
+        "family": "Falls",
+        "given": "Kathleen"
+      },
+      {
+        "family": "Jenkins",
+        "given": "Victoria"
+      },
+      {
+        "family": "Matthews",
+        "given": "Beverley"
+      },
+      {
+        "family": "Sutherland",
+        "given": "Carol"
+      },
+      {
+        "family": "Tabone",
+        "given": "Christopher"
+      },
+      {
+        "family": "Zhou",
+        "given": "Pinglei"
+      },
+      {
+        "family": "Zytkovicz",
+        "given": "Mark"
+      },
+      {
+        "family": "Brown",
+        "given": "Nick"
+      },
+      {
+        "family": "Antonazzo",
+        "given": "Giulia"
+      },
+      {
+        "family": "Attrill",
+        "given": "Helen"
+      },
+      {
+        "family": "Garapati",
+        "given": "Phani"
+      },
+      {
+        "family": "Holmes",
+        "given": "Alex"
+      },
+      {
+        "family": "Larkin",
+        "given": "Aoife"
+      },
+      {
+        "family": "Marygold",
+        "given": "Steven"
+      },
+      {
+        "family": "Millburn",
+        "given": "Gillian"
+      },
+      {
+        "family": "Pilgrim",
+        "given": "Clare"
+      },
+      {
+        "family": "Trovisco",
+        "given": "Vitor"
+      },
+      {
+        "family": "Urbano",
+        "given": "Pepe"
+      },
+      {
+        "family": "Kaufman",
+        "given": "Thomas"
+      },
+      {
+        "family": "Calvi",
+        "given": "Brian"
+      },
+      {
+        "family": "Czoch",
+        "given": "Bryon"
+      },
+      {
+        "family": "Goodman",
+        "given": "Josh"
+      },
+      {
+        "family": "Strelets",
+        "given": "Victor"
+      },
+      {
+        "family": "Thurmond",
+        "given": "Jim"
+      },
+      {
+        "family": "Cripps",
+        "given": "Richard"
+      },
+      {
+        "family": "Baker",
+        "given": "Phillip"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          1,
+          8
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
-          "2020",
-          11,
-          27
+          "2021",
+          3,
+          11
         ]
       ]
     },
@@ -900,15 +1120,149 @@
   },
   {
     "id": "6H38vVFQ",
-    "type": "webpage",
-    "title": "Validate User",
-    "URL": "https://academic.oup.com/crawlprevention/governor?content=%2fnar%2fadvance-article%2fdoi%2f10.1093%2fnar%2fgkz920%2f5603222",
-    "accessed": {
+    "type": "article-journal",
+    "title": "WormBase: a modern Model Organism Information Resource",
+    "container-title": "Nucleic Acids Research",
+    "page": "D762-D767",
+    "volume": "48",
+    "issue": "D1",
+    "source": "academic.oup.com",
+    "abstract": "Abstract. WormBase (https://wormbase.org/) is a mature Model Organism Information Resource supporting researchers using the nematode Caenorhabditis elegans as a",
+    "URL": "https://academic.oup.com/nar/article/48/D1/D762/5603222",
+    "DOI": "10.1093/nar/gkz920",
+    "ISSN": "0305-1048",
+    "shortTitle": "WormBase",
+    "journalAbbreviation": "Nucleic Acids Res",
+    "language": "en",
+    "author": [
+      {
+        "family": "Harris",
+        "given": "Todd W."
+      },
+      {
+        "family": "Arnaboldi",
+        "given": "Valerio"
+      },
+      {
+        "family": "Cain",
+        "given": "Scott"
+      },
+      {
+        "family": "Chan",
+        "given": "Juancarlos"
+      },
+      {
+        "family": "Chen",
+        "given": "Wen J."
+      },
+      {
+        "family": "Cho",
+        "given": "Jaehyoung"
+      },
+      {
+        "family": "Davis",
+        "given": "Paul"
+      },
+      {
+        "family": "Gao",
+        "given": "Sibyl"
+      },
+      {
+        "family": "Grove",
+        "given": "Christian A."
+      },
+      {
+        "family": "Kishore",
+        "given": "Ranjana"
+      },
+      {
+        "family": "Lee",
+        "given": "Raymond Y. N."
+      },
+      {
+        "family": "Muller",
+        "given": "Hans-Michael"
+      },
+      {
+        "family": "Nakamura",
+        "given": "Cecilia"
+      },
+      {
+        "family": "Nuin",
+        "given": "Paulo"
+      },
+      {
+        "family": "Paulini",
+        "given": "Michael"
+      },
+      {
+        "family": "Raciti",
+        "given": "Daniela"
+      },
+      {
+        "family": "Rodgers",
+        "given": "Faye H."
+      },
+      {
+        "family": "Russell",
+        "given": "Matthew"
+      },
+      {
+        "family": "Schindelman",
+        "given": "Gary"
+      },
+      {
+        "family": "Auken",
+        "given": "Kimberly V."
+      },
+      {
+        "family": "Wang",
+        "given": "Qinghua"
+      },
+      {
+        "family": "Williams",
+        "given": "Gary"
+      },
+      {
+        "family": "Wright",
+        "given": "Adam J."
+      },
+      {
+        "family": "Yook",
+        "given": "Karen"
+      },
+      {
+        "family": "Howe",
+        "given": "Kevin L."
+      },
+      {
+        "family": "Schedl",
+        "given": "Tim"
+      },
+      {
+        "family": "Stein",
+        "given": "Lincoln"
+      },
+      {
+        "family": "Sternberg",
+        "given": "Paul W."
+      }
+    ],
+    "issued": {
       "date-parts": [
         [
           "2020",
-          11,
-          27
+          1,
+          8
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2021",
+          3,
+          11
         ]
       ]
     },
@@ -916,15 +1270,340 @@
   },
   {
     "id": "d4pyOy1j",
-    "type": "webpage",
-    "title": "Validate User",
-    "URL": "https://academic.oup.com/crawlprevention/governor?content=%2fnar%2fadvance-article%2fdoi%2f10.1093%2fnar%2fgkz966%2f5613682",
-    "accessed": {
+    "type": "article-journal",
+    "title": "Ensembl 2020",
+    "container-title": "Nucleic Acids Research",
+    "page": "D682-D688",
+    "volume": "48",
+    "issue": "D1",
+    "source": "academic.oup.com",
+    "abstract": "Abstract. The Ensembl (https://www.ensembl.org) is a system for generating and distributing genome annotation such as genes, variation, regulation and comparati",
+    "URL": "https://academic.oup.com/nar/article/48/D1/D682/5613682",
+    "DOI": "10.1093/nar/gkz966",
+    "ISSN": "0305-1048",
+    "journalAbbreviation": "Nucleic Acids Res",
+    "language": "en",
+    "author": [
+      {
+        "family": "Yates",
+        "given": "Andrew D."
+      },
+      {
+        "family": "Achuthan",
+        "given": "Premanand"
+      },
+      {
+        "family": "Akanni",
+        "given": "Wasiu"
+      },
+      {
+        "family": "Allen",
+        "given": "James"
+      },
+      {
+        "family": "Allen",
+        "given": "Jamie"
+      },
+      {
+        "family": "Alvarez-Jarreta",
+        "given": "Jorge"
+      },
+      {
+        "family": "Amode",
+        "given": "M. Ridwan"
+      },
+      {
+        "family": "Armean",
+        "given": "Irina M."
+      },
+      {
+        "family": "Azov",
+        "given": "Andrey G."
+      },
+      {
+        "family": "Bennett",
+        "given": "Ruth"
+      },
+      {
+        "family": "Bhai",
+        "given": "Jyothish"
+      },
+      {
+        "family": "Billis",
+        "given": "Konstantinos"
+      },
+      {
+        "family": "Boddu",
+        "given": "Sanjay"
+      },
+      {
+        "family": "Marugán",
+        "given": "José Carlos"
+      },
+      {
+        "family": "Cummins",
+        "given": "Carla"
+      },
+      {
+        "family": "Davidson",
+        "given": "Claire"
+      },
+      {
+        "family": "Dodiya",
+        "given": "Kamalkumar"
+      },
+      {
+        "family": "Fatima",
+        "given": "Reham"
+      },
+      {
+        "family": "Gall",
+        "given": "Astrid"
+      },
+      {
+        "family": "Giron",
+        "given": "Carlos Garcia"
+      },
+      {
+        "family": "Gil",
+        "given": "Laurent"
+      },
+      {
+        "family": "Grego",
+        "given": "Tiago"
+      },
+      {
+        "family": "Haggerty",
+        "given": "Leanne"
+      },
+      {
+        "family": "Haskell",
+        "given": "Erin"
+      },
+      {
+        "family": "Hourlier",
+        "given": "Thibaut"
+      },
+      {
+        "family": "Izuogu",
+        "given": "Osagie G."
+      },
+      {
+        "family": "Janacek",
+        "given": "Sophie H."
+      },
+      {
+        "family": "Juettemann",
+        "given": "Thomas"
+      },
+      {
+        "family": "Kay",
+        "given": "Mike"
+      },
+      {
+        "family": "Lavidas",
+        "given": "Ilias"
+      },
+      {
+        "family": "Le",
+        "given": "Tuan"
+      },
+      {
+        "family": "Lemos",
+        "given": "Diana"
+      },
+      {
+        "family": "Martinez",
+        "given": "Jose Gonzalez"
+      },
+      {
+        "family": "Maurel",
+        "given": "Thomas"
+      },
+      {
+        "family": "McDowall",
+        "given": "Mark"
+      },
+      {
+        "family": "McMahon",
+        "given": "Aoife"
+      },
+      {
+        "family": "Mohanan",
+        "given": "Shamika"
+      },
+      {
+        "family": "Moore",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Nuhn",
+        "given": "Michael"
+      },
+      {
+        "family": "Oheh",
+        "given": "Denye N."
+      },
+      {
+        "family": "Parker",
+        "given": "Anne"
+      },
+      {
+        "family": "Parton",
+        "given": "Andrew"
+      },
+      {
+        "family": "Patricio",
+        "given": "Mateus"
+      },
+      {
+        "family": "Sakthivel",
+        "given": "Manoj Pandian"
+      },
+      {
+        "family": "Abdul Salam",
+        "given": "Ahamed Imran"
+      },
+      {
+        "family": "Schmitt",
+        "given": "Bianca M."
+      },
+      {
+        "family": "Schuilenburg",
+        "given": "Helen"
+      },
+      {
+        "family": "Sheppard",
+        "given": "Dan"
+      },
+      {
+        "family": "Sycheva",
+        "given": "Mira"
+      },
+      {
+        "family": "Szuba",
+        "given": "Marek"
+      },
+      {
+        "family": "Taylor",
+        "given": "Kieron"
+      },
+      {
+        "family": "Thormann",
+        "given": "Anja"
+      },
+      {
+        "family": "Threadgold",
+        "given": "Glen"
+      },
+      {
+        "family": "Vullo",
+        "given": "Alessandro"
+      },
+      {
+        "family": "Walts",
+        "given": "Brandon"
+      },
+      {
+        "family": "Winterbottom",
+        "given": "Andrea"
+      },
+      {
+        "family": "Zadissa",
+        "given": "Amonida"
+      },
+      {
+        "family": "Chakiachvili",
+        "given": "Marc"
+      },
+      {
+        "family": "Flint",
+        "given": "Bethany"
+      },
+      {
+        "family": "Frankish",
+        "given": "Adam"
+      },
+      {
+        "family": "Hunt",
+        "given": "Sarah E."
+      },
+      {
+        "family": "IIsley",
+        "given": "Garth"
+      },
+      {
+        "family": "Kostadima",
+        "given": "Myrto"
+      },
+      {
+        "family": "Langridge",
+        "given": "Nick"
+      },
+      {
+        "family": "Loveland",
+        "given": "Jane E."
+      },
+      {
+        "family": "Martin",
+        "given": "Fergal J."
+      },
+      {
+        "family": "Morales",
+        "given": "Joannella"
+      },
+      {
+        "family": "Mudge",
+        "given": "Jonathan M."
+      },
+      {
+        "family": "Muffato",
+        "given": "Matthieu"
+      },
+      {
+        "family": "Perry",
+        "given": "Emily"
+      },
+      {
+        "family": "Ruffier",
+        "given": "Magali"
+      },
+      {
+        "family": "Trevanion",
+        "given": "Stephen J."
+      },
+      {
+        "family": "Cunningham",
+        "given": "Fiona"
+      },
+      {
+        "family": "Howe",
+        "given": "Kevin L."
+      },
+      {
+        "family": "Zerbino",
+        "given": "Daniel R."
+      },
+      {
+        "family": "Flicek",
+        "given": "Paul"
+      }
+    ],
+    "issued": {
       "date-parts": [
         [
           "2020",
-          11,
-          27
+          1,
+          8
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2021",
+          3,
+          11
         ]
       ]
     },
@@ -980,9 +1659,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2020",
-          11,
-          27
+          "2021",
+          3,
+          11
         ]
       ]
     },
@@ -1024,9 +1703,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2020",
-          11,
-          27
+          "2021",
+          3,
+          11
         ]
       ]
     },
@@ -1073,19 +1752,12 @@
     "accessed": {
       "date-parts": [
         [
-          "2020",
-          11,
-          27
+          "2021",
+          3,
+          11
         ]
       ]
     }
-  },
-  {
-    "URL": "https://ensembl.org/info/about/release_cycle.html",
-    "title": "Release Cycle",
-    "type": "webpage",
-    "id": "bk8Xu1vr",
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: url:https://ensembl.org/info/about/release_cycle.html"
   },
   {
     "id": "Tz7ID5CR",
@@ -1105,18 +1777,18 @@
     "issued": {
       "date-parts": [
         [
-          "2020",
-          11,
-          25
+          "2021",
+          3,
+          5
         ]
       ]
     },
     "accessed": {
       "date-parts": [
         [
-          "2020",
-          11,
-          27
+          "2021",
+          3,
+          11
         ]
       ]
     }
@@ -1138,13 +1810,29 @@
     "accessed": {
       "date-parts": [
         [
-          "2020",
-          11,
-          27
+          "2021",
+          3,
+          11
         ]
       ]
     },
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: url:https://pypi.org/project/ucsc-genomes-downloader"
+  },
+  {
+    "id": "E3eBIvX0",
+    "type": "webpage",
+    "title": "GENOMEPY — Snakemake Wrappers tags/0.72.0 documentation",
+    "URL": "https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/genomepy.html",
+    "accessed": {
+      "date-parts": [
+        [
+          "2021",
+          3,
+          11
+        ]
+      ]
+    },
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: url:https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/genomepy.html"
   },
   {
     "id": "irBY7Pe6",
@@ -1155,9 +1843,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2020",
-          11,
-          27
+          "2021",
+          3,
+          11
         ]
       ]
     },
