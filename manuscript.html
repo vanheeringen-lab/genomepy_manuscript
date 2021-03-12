@@ -7,7 +7,7 @@
   <meta name="author" content="Siebren Frolich" />
   <meta name="author" content="Maarten van der Sande" />
   <meta name="author" content="Simon van Heeringen" />
-  <meta name="dcterms.date" content="2021-03-11" />
+  <meta name="dcterms.date" content="2021-03-12" />
   <meta name="keywords" content="bioinformatics, reproducible-research, genomics, tools" />
   <title>Jumpstart your genomics pipelines with genomepy</title>
   <style>
@@ -30,8 +30,8 @@
   <meta name="citation_title" content="Jumpstart your genomics pipelines with genomepy" />
   <meta property="og:title" content="Jumpstart your genomics pipelines with genomepy" />
   <meta property="twitter:title" content="Jumpstart your genomics pipelines with genomepy" />
-  <meta name="dc.date" content="2021-03-11" />
-  <meta name="citation_publication_date" content="2021-03-11" />
+  <meta name="dc.date" content="2021-03-12" />
+  <meta name="citation_publication_date" content="2021-03-12" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,13 +55,13 @@
   <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
   <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/63dc5577106442f499ade02b91e1990b9c21c57e/" />
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/63dc5577106442f499ade02b91e1990b9c21c57e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/63dc5577106442f499ade02b91e1990b9c21c57e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/0587cec0d9bd3dad0a58a6f4f8824113a3357b05/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/0587cec0d9bd3dad0a58a6f4f8824113a3357b05/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/0587cec0d9bd3dad0a58a6f4f8824113a3357b05/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/63dc5577106442f499ade02b91e1990b9c21c57e/content/images/thumbnail-505x640.png" />
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/63dc5577106442f499ade02b91e1990b9c21c57e/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/0587cec0d9bd3dad0a58a6f4f8824113a3357b05/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/0587cec0d9bd3dad0a58a6f4f8824113a3357b05/content/images/thumbnail-505x640.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -73,10 +73,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/63dc5577106442f499ade02b91e1990b9c21c57e/">permalink</a>)
+(<a href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/0587cec0d9bd3dad0a58a6f4f8824113a3357b05/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/vanheeringen-lab/genomepy_manuscript/tree/63dc5577106442f499ade02b91e1990b9c21c57e">vanheeringen-lab/genomepy_manuscript@63dc557</a>
-on March 11, 2021.
+from <a href="https://github.com/vanheeringen-lab/genomepy_manuscript/tree/0587cec0d9bd3dad0a58a6f4f8824113a3357b05">vanheeringen-lab/genomepy_manuscript@0587cec</a>
+on March 12, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -235,7 +235,7 @@ Both interfaces are develop for incorporated in workflows to automate the downlo
 <!-- Which of these features is used is automatic logged for reproducibility. -->
 <!-- Because of the multiple interfaces, genomepy can be used in workflows to automate these steps. -->
 <!--  -->
-<!-- ![Overview of a sequence alignment workflow reviewing the steps automatable by genomepy](images/workflow_w_genomepy.png){#fig:workflow_w_genomepy height="500px" width="500"px} -->
+<!-- ![Overview of a sequence alignment workflow reviewing the steps automatable by genomepy](images/workflow_w_genomepy.png){#fig:workflow_w_genomepy height="500px" width="500"px}  -->
 <h2 id="related-work">Related Work</h2>
 <p>Ensembl, UCSC and NCBI all support downloading from their individual databases via accessible FTP archives, web portals, and REST APIs.
 To access these databases programmatically, there exists several external tools, such as the ncbi-genome-download tool <span class="citation" data-cites="Tz7ID5CR"><a href="#ref-Tz7ID5CR" role="doc-biblioref">11</a></span> and ucsc-genomes-downloader <span class="citation" data-cites="18vgH2GMw"><a href="#ref-18vgH2GMw" role="doc-biblioref">12</a></span>.
@@ -451,10 +451,7 @@ DOI: <a href="https://doi.org/10.1093/nar/gks1193">10.1093/nar/gks1193</a> · PM
 <p>2. <strong>GENOMEPY — Snakemake Wrappers tags/0.72.0 documentation</strong> <a href="https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/genomepy.html">https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/genomepy.html</a></p>
 </div>
 <div id="ref-d4pyOy1j">
-<p>3. <strong>Ensembl 2020</strong> <br />
-Andrew D. Yates, Premanand Achuthan, Wasiu Akanni, James Allen, Jamie Allen, Jorge Alvarez-Jarreta, M. Ridwan Amode, Irina M. Armean, Andrey G. Azov, Ruth Bennett, … Paul Flicek<br />
-<em>Nucleic Acids Research</em> (2020-01-08) <a href="https://academic.oup.com/nar/article/48/D1/D682/5613682">https://academic.oup.com/nar/article/48/D1/D682/5613682</a> <br />
-DOI: <a href="https://doi.org/10.1093/nar/gkz966">10.1093/nar/gkz966</a></p>
+<p>3. <strong>Validate User</strong> <a href="https://academic.oup.com/crawlprevention/governor?content=%2fnar%2fadvance-article%2fdoi%2f10.1093%2fnar%2fgkz966%2f5613682">https://academic.oup.com/crawlprevention/governor?content=%2fnar%2fadvance-article%2fdoi%2f10.1093%2fnar%2fgkz966%2f5613682</a></p>
 </div>
 <div id="ref-QvT2C2wD">
 <p>4. <strong>The Human Genome Browser at UCSC</strong> <br />
@@ -469,16 +466,10 @@ Donna Karolchik, Angela S Hinrichs, Terrence S Furey, Krishna M Roskin, Charles 
 DOI: <a href="https://doi.org/10.1093/nar/gkh103">10.1093/nar/gkh103</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/14681465">14681465</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC308837">PMC308837</a></p>
 </div>
 <div id="ref-194UqbUxS">
-<p>6. <strong>FlyBase 2.0: the next generation</strong> <br />
-Jim Thurmond, Joshua L. Goodman, Victor B. Strelets, Helen Attrill, L. Sian Gramates, Steven J. Marygold, Beverley B. Matthews, Gillian Millburn, Giulia Antonazzo, Vitor Trovisco, … Phillip Baker<br />
-<em>Nucleic Acids Research</em> (2019-01-08) <a href="https://academic.oup.com/nar/article/47/D1/D759/5144957">https://academic.oup.com/nar/article/47/D1/D759/5144957</a> <br />
-DOI: <a href="https://doi.org/10.1093/nar/gky1003">10.1093/nar/gky1003</a></p>
+<p>6. <strong>Validate User</strong> <a href="https://academic.oup.com/crawlprevention/governor?content=%2fnar%2farticle%2f47%2fD1%2fD759%2f5144957">https://academic.oup.com/crawlprevention/governor?content=%2fnar%2farticle%2f47%2fD1%2fD759%2f5144957</a></p>
 </div>
 <div id="ref-6H38vVFQ">
-<p>7. <strong>WormBase: a modern Model Organism Information Resource</strong> <br />
-Todd W. Harris, Valerio Arnaboldi, Scott Cain, Juancarlos Chan, Wen J. Chen, Jaehyoung Cho, Paul Davis, Sibyl Gao, Christian A. Grove, Ranjana Kishore, … Paul W. Sternberg<br />
-<em>Nucleic Acids Research</em> (2020-01-08) <a href="https://academic.oup.com/nar/article/48/D1/D762/5603222">https://academic.oup.com/nar/article/48/D1/D762/5603222</a> <br />
-DOI: <a href="https://doi.org/10.1093/nar/gkz920">10.1093/nar/gkz920</a></p>
+<p>7. <strong>Validate User</strong> <a href="https://academic.oup.com/crawlprevention/governor?content=%2fnar%2fadvance-article%2fdoi%2f10.1093%2fnar%2fgkz920%2f5603222">https://academic.oup.com/crawlprevention/governor?content=%2fnar%2fadvance-article%2fdoi%2f10.1093%2fnar%2fgkz920%2f5603222</a></p>
 </div>
 <div id="ref-bSHnIRSE">
 <p>8. <strong>Xenbase: a genomic, epigenomic and transcriptomic model organism database</strong> <br />
@@ -511,10 +502,7 @@ Luca Cappelletti<br />
 <p>13. <strong>iGenomes</strong> <a href="https://support.illumina.com/sequencing/sequencing_software/igenome.html">https://support.illumina.com/sequencing/sequencing_software/igenome.html</a></p>
 </div>
 <div id="ref-gR8WRn61">
-<p>14. <strong>Refgenie: a reference genome resource manager</strong> <br />
-Michał Stolarczyk, Vincent P. Reuter, Jason P. Smith, Neal E. Magee, Nathan C. Sheffield<br />
-<em>GigaScience</em> (2020-02-01) <a href="https://academic.oup.com/gigascience/article/9/2/giz149/5717403">https://academic.oup.com/gigascience/article/9/2/giz149/5717403</a> <br />
-DOI: <a href="https://doi.org/10.1093/gigascience/giz149">10.1093/gigascience/giz149</a></p>
+<p>14. <strong>Validate User</strong> <a href="https://academic.oup.com/crawlprevention/governor?content=%2fgigascience%2farticle%2fdoi%2f10.1093%2fgigascience%2fgiz149%2f5717403">https://academic.oup.com/crawlprevention/governor?content=%2fgigascience%2farticle%2fdoi%2f10.1093%2fgigascience%2fgiz149%2f5717403</a></p>
 </div>
 <div id="ref-42DbID0w">
 <p>15. <strong>Go Get Data (GGD): simple, reproducible access to scientific data</strong> <br />
@@ -547,28 +535,16 @@ Ben Langmead, Steven L. Salzberg<br />
 DOI: <a href="https://doi.org/10.1038/nmeth.1923">10.1038/nmeth.1923</a></p>
 </div>
 <div id="ref-7iUMQeVP">
-<p>21. <strong>Fast and accurate short read alignment with Burrows–Wheeler transform</strong> <br />
-Heng Li, Richard Durbin<br />
-<em>Bioinformatics</em> (2009-07-15) <a href="https://academic.oup.com/bioinformatics/article/25/14/1754/225615">https://academic.oup.com/bioinformatics/article/25/14/1754/225615</a> <br />
-DOI: <a href="https://doi.org/10.1093/bioinformatics/btp324">10.1093/bioinformatics/btp324</a></p>
+<p>21. <strong>Validate User</strong> <a href="https://academic.oup.com/crawlprevention/governor?content=%2fbioinformatics%2farticle-lookup%2fdoi%2f10.1093%2fbioinformatics%2fbtp324">https://academic.oup.com/crawlprevention/governor?content=%2fbioinformatics%2farticle-lookup%2fdoi%2f10.1093%2fbioinformatics%2fbtp324</a></p>
 </div>
 <div id="ref-dezX2UZP">
-<p>22. <strong>GMAP: a genomic mapping and alignment program for mRNA and EST sequences</strong> <br />
-Thomas D. Wu, Colin K. Watanabe<br />
-<em>Bioinformatics</em> (2005-05-01) <a href="https://academic.oup.com/bioinformatics/article/21/9/1859/409207">https://academic.oup.com/bioinformatics/article/21/9/1859/409207</a> <br />
-DOI: <a href="https://doi.org/10.1093/bioinformatics/bti310">10.1093/bioinformatics/bti310</a></p>
+<p>22. <strong>Validate User</strong> <a href="https://academic.oup.com/crawlprevention/governor?content=%2fbioinformatics%2farticle-lookup%2fdoi%2f10.1093%2fbioinformatics%2fbti310">https://academic.oup.com/crawlprevention/governor?content=%2fbioinformatics%2farticle-lookup%2fdoi%2f10.1093%2fbioinformatics%2fbti310</a></p>
 </div>
 <div id="ref-qRe2jTUu">
-<p>23. <strong>Minimap2: pairwise alignment for nucleotide sequences</strong> <br />
-Heng Li<br />
-<em>Bioinformatics</em> (2018-09-15) <a href="https://academic.oup.com/bioinformatics/article/34/18/3094/4994778">https://academic.oup.com/bioinformatics/article/34/18/3094/4994778</a> <br />
-DOI: <a href="https://doi.org/10.1093/bioinformatics/bty191">10.1093/bioinformatics/bty191</a></p>
+<p>23. <strong>Validate User</strong> <a href="https://academic.oup.com/crawlprevention/governor?content=%2fbioinformatics%2farticle%2f34%2f18%2f3094%2f4994778">https://academic.oup.com/crawlprevention/governor?content=%2fbioinformatics%2farticle%2f34%2f18%2f3094%2f4994778</a></p>
 </div>
 <div id="ref-3ljODRID">
-<p>24. <strong>STAR: ultrafast universal RNA-seq aligner</strong> <br />
-Alexander Dobin, Carrie A. Davis, Felix Schlesinger, Jorg Drenkow, Chris Zaleski, Sonali Jha, Philippe Batut, Mark Chaisson, Thomas R. Gingeras<br />
-<em>Bioinformatics</em> (2013-01-01) <a href="https://academic.oup.com/bioinformatics/article/29/1/15/272537">https://academic.oup.com/bioinformatics/article/29/1/15/272537</a> <br />
-DOI: <a href="https://doi.org/10.1093/bioinformatics/bts635">10.1093/bioinformatics/bts635</a></p>
+<p>24. <strong>Validate User</strong> <a href="https://academic.oup.com/crawlprevention/governor?content=%2fbioinformatics%2farticle-lookup%2fdoi%2f10.1093%2fbioinformatics%2fbts635">https://academic.oup.com/crawlprevention/governor?content=%2fbioinformatics%2farticle-lookup%2fdoi%2f10.1093%2fbioinformatics%2fbts635</a></p>
 </div>
 <div id="ref-suZZ5gyw">
 <p>25. <strong>HISAT: a fast spliced aligner with low memory requirements</strong> <br />

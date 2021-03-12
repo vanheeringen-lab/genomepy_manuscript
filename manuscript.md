@@ -5,7 +5,7 @@ author-meta:
 - Simon van Heeringen
 bibliography:
 - content/manual-references.json
-date-meta: '2021-03-11'
+date-meta: '2021-03-12'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -24,9 +24,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Jumpstart your genomics pipelines with genomepy" />
 
-  <meta name="dc.date" content="2021-03-11" />
+  <meta name="dc.date" content="2021-03-12" />
 
-  <meta name="citation_publication_date" content="2021-03-11" />
+  <meta name="citation_publication_date" content="2021-03-12" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -74,19 +74,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/63dc5577106442f499ade02b91e1990b9c21c57e/" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/0587cec0d9bd3dad0a58a6f4f8824113a3357b05/" />
 
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/63dc5577106442f499ade02b91e1990b9c21c57e/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/0587cec0d9bd3dad0a58a6f4f8824113a3357b05/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/63dc5577106442f499ade02b91e1990b9c21c57e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/0587cec0d9bd3dad0a58a6f4f8824113a3357b05/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/63dc5577106442f499ade02b91e1990b9c21c57e/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/0587cec0d9bd3dad0a58a6f4f8824113a3357b05/content/images/thumbnail-505x640.png" />
 
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/63dc5577106442f499ade02b91e1990b9c21c57e/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/0587cec0d9bd3dad0a58a6f4f8824113a3357b05/content/images/thumbnail-505x640.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -115,10 +115,10 @@ title: Jumpstart your genomics pipelines with genomepy
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/63dc5577106442f499ade02b91e1990b9c21c57e/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/0587cec0d9bd3dad0a58a6f4f8824113a3357b05/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@63dc557](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/63dc5577106442f499ade02b91e1990b9c21c57e)
-on March 11, 2021.
+from [vanheeringen-lab/genomepy_manuscript@0587cec](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/0587cec0d9bd3dad0a58a6f4f8824113a3357b05)
+on March 12, 2021.
 </em></small>
 
 ## Authors
@@ -285,7 +285,7 @@ Both interfaces are develop for incorporated in workflows to automate the downlo
 <!-- Which of these features is used is automatic logged for reproducibility. -->
 <!-- Because of the multiple interfaces, genomepy can be used in workflows to automate these steps. -->
 <!--  -->
-<!-- ![Overview of a sequence alignment workflow reviewing the steps automatable by genomepy](images/workflow_w_genomepy.png){#fig:workflow_w_genomepy height="500px" width="500"px} -->
+<!-- ![Overview of a sequence alignment workflow reviewing the steps automatable by genomepy](images/workflow_w_genomepy.png){#fig:workflow_w_genomepy height="500px" width="500"px}  -->
 
 ## Related Work
 Ensembl, UCSC and NCBI all support downloading from their individual databases via accessible FTP archives, web portals, and REST APIs.
