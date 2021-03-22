@@ -62,12 +62,6 @@ manubot webpage
 # following commands.
 cd webpage
 python -m http.server
-
-bash build/build.sh
-manubot webpage
-python -m http.server --directory webpage --bind localhost
-
-
 ```
 
 Sometimes it's helpful to monitor the content directory and automatically rebuild the manuscript when a change is detected.
