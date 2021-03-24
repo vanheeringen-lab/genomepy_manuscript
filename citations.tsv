@@ -1,5 +1,7 @@
 input_id	dealiased_id	standard_id	short_id
-pmc:PMC3531084	pmc:PMC3531084	pmc:PMC3531084	dRV62tbS
+doi:10.5281/zenodo.3921913	doi:10.5281/zenodo.3921913	doi:10.5281/zenodo.3921913	v55wxvUz
+doi:10.5281/zenodo.824117	doi:10.5281/zenodo.824117	doi:10.5281/zenodo.824117	gE39UPzc
+doi:10.12688/f1000research.29032.1	doi:10.12688/f1000research.29032.1	doi:10.12688/f1000research.29032.1	fVLvtRTc
 https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/genomepy.html	https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/genomepy.html	url:https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/genomepy.html	E3eBIvX0
 https://doi.org/10.1093/nar/gkz966	https://doi.org/10.1093/nar/gkz966	url:https://doi.org/10.1093/nar/gkz966	d4pyOy1j
 doi:10.1101/gr.229102	doi:10.1101/gr.229102	doi:10.1101/gr.229102	QvT2C2wD
@@ -23,4 +25,3 @@ https://doi.org/10.1093/bioinformatics/bti310	https://doi.org/10.1093/bioinforma
 https://doi.org/10.1093/bioinformatics/bty191	https://doi.org/10.1093/bioinformatics/bty191	url:https://doi.org/10.1093/bioinformatics/bty191	qRe2jTUu
 https://doi.org/10.1093/bioinformatics/bts635	https://doi.org/10.1093/bioinformatics/bts635	url:https://doi.org/10.1093/bioinformatics/bts635	3ljODRID
 https://doi.org/10.1038/nmeth.3317	https://doi.org/10.1038/nmeth.3317	url:https://doi.org/10.1038/nmeth.3317	suZZ5gyw
-doi:10.5281/zenodo.3921913	doi:10.5281/zenodo.3921913	doi:10.5281/zenodo.3921913	v55wxvUz
