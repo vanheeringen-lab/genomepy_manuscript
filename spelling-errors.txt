@@ -1,4 +1,3 @@
-Acknowledgements
 APIs
 ATAC
 automatable
@@ -7,7 +6,6 @@ bioinformatic
 bioinformatics
 Bowtie
 BWA
-CodeCoverage
 contig
 contigs
 datasets
@@ -19,7 +17,6 @@ flybase
 Frolich
 genomepy
 genomic
-GFF
 GMAP
 GRCh
 GTF
@@ -35,10 +32,9 @@ pre
 preprocessing
 programmatically
 pyfaidx
-pytest
 Radboud
 README
-RefGenie
+refGenie
 reproducibility
 reproducibly
 Sande
@@ -48,7 +44,6 @@ siebrenf
 simonvh
 snakemake
 svheeringen
-TravisCI
-UCSC
+ucsc
 wormbase
 xenbase
