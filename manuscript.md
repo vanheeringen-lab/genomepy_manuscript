@@ -1,5 +1,5 @@
 ---
-title: Jumpstart your genomics pipelines with genomepy
+title: 'genomepy: genes and genomes made easy'
 keywords:
 - bioinformatics
 - reproducible-research
@@ -17,10 +17,10 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Jumpstart your genomics pipelines with genomepy" />
-  <meta name="citation_title" content="Jumpstart your genomics pipelines with genomepy" />
-  <meta property="og:title" content="Jumpstart your genomics pipelines with genomepy" />
-  <meta property="twitter:title" content="Jumpstart your genomics pipelines with genomepy" />
+  <meta name="dc.title" content="genomepy: genes and genomes made easy" />
+  <meta name="citation_title" content="genomepy: genes and genomes made easy" />
+  <meta property="og:title" content="genomepy: genes and genomes made easy" />
+  <meta property="twitter:title" content="genomepy: genes and genomes made easy" />
   <meta name="dc.date" content="2021-12-23" />
   <meta name="citation_publication_date" content="2021-12-23" />
   <meta name="dc.language" content="en-US" />
@@ -46,13 +46,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
   <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/9c086921ef60d28917a778fa2b28bbb9c6cf7180/" />
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/9c086921ef60d28917a778fa2b28bbb9c6cf7180/" />
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/9c086921ef60d28917a778fa2b28bbb9c6cf7180/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/b31db1c90f380e986ac4223f5cd93bf9936e0d7c/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/b31db1c90f380e986ac4223f5cd93bf9936e0d7c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/b31db1c90f380e986ac4223f5cd93bf9936e0d7c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/9c086921ef60d28917a778fa2b28bbb9c6cf7180/content/images/thumbnail-505x640.png" />
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/9c086921ef60d28917a778fa2b28bbb9c6cf7180/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/b31db1c90f380e986ac4223f5cd93bf9936e0d7c/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/b31db1c90f380e986ac4223f5cd93bf9936e0d7c/content/images/thumbnail-505x640.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -72,9 +72,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/9c086921ef60d28917a778fa2b28bbb9c6cf7180/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/b31db1c90f380e986ac4223f5cd93bf9936e0d7c/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@9c08692](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/9c086921ef60d28917a778fa2b28bbb9c6cf7180)
+from [vanheeringen-lab/genomepy_manuscript@b31db1c](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/b31db1c90f380e986ac4223f5cd93bf9936e0d7c)
 on December 23, 2021.
 </em></small>
 
@@ -132,31 +132,32 @@ Genomepy provides these functionalities and more via command line interface and 
 ![executive overview.](images/code.png){#fig:code height="350px" width="500"px}
 
 
+
+
 ## Introduction
-In order to cope with the explosive increase in Omics data, robust and scalable bioinformatics tools are required.
-Many tools have been developed to perform the functions of preprocessing @doi:10.5281/zenodo.3921913, analysis @doi:10.5281/zenodo.824117 and workflow management [@doi:10.12688/f1000research.29032.1; @https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/genomepy.html]
-However, many tools cannot obtain all input data automatically, notably the genomic data, which includes the genome assembly, gene annotation and derived files.
-These data can be obtained from a variety of different providers, including three major providers, Ensembl @https://doi.org/10.1093/nar/gkz966, UCSC @doi:10.1101/gr.229102 and NCBI @pmc:PMC308837, and many niche providers, such as flybase @https://doi.org/10.1093/nar/gky1003, wormbase @https://doi.org/10.1093/nar/gkz920 or xenbase @doi:10.1093/nar/gkx936.
-Each provider has a different method of generating genome assemblies and gene annotations, which can affect available data formats, naming schema, information density, as well as availability, accessibility and relevance.
-The differences between these data significantly impact the compatibility of the reference data with research tools @https://doi.org/10.1186/s12864-015-1308-8, other reference databases, and other research.
+Data analysis is increasingly important in biological research.
+Whether you are analysing gene expression in two samples or protein binding in genome atlases, you will need external information such as a reference genome or a gene annotation.
+For these types of data, there are three major providers: Ensembl @https://doi.org/10.1093/nar/gkz966, UCSC @https://doi.org/10.1101/gr.229102 and NCBI @pmc:PMC308837, and many model-system specific providers, including GENCODE @https://doi.org/10.1093/nar/gkaa1087, ZFIN @https://doi.org/10.1093/nar/gky1090, FlyBase @https://doi.org/10.1093/nar/gky1003, WormBase @https://doi.org/10.1093/nar/gkz920, Xenbase @https://doi.org/10.1093/nar/gkx936 and more.
+Providers have different approaches to compiling genome assemblies and gene annotations, which effect formats, format compliance, naming, data quality, available versions and release cycle.
+These differences significantly impact compatibility with research @https://doi.org/10.1186/s12864-015-1308-8, tools and (data based on) other genomic data.
 
-In order to assist in searching through genome providers for, and standardize the processing of genomic data, we developed genomepy.
-The genomepy search function returns all genomes on the three major providers containing the search term in their name, description or accession identifier, as well as genomes matching a taxonomy identifier.
-The genomepy install function retrieves a specified genome assembly and related data in a format ready for downstream use.
+You could try to find genomic data yourself, but there are many options with no clear metric for the "best".
+Ensembl, UCSC and NCBI each have FTP archives, web portals, and REST APIs to search their individual databases.
+Alternatively, there are several tools to access some of these databases programmatically, such as ncbi-genome-download @https://github.com/kblin/ncbi-genome-download and ucsc-genomes-downloader @https://pypi.org/project/ucsc-genomes-downloader.
+However, none of these can search, compare or download from all major genome providers data.
+Furthermore, downloading and processing genomic data manually can be tedious, error-prone, and poorly reproducible.
+Although the latter could be remedied by a data management tool, such as iGenomes @https://support.illumina.com/sequencing/sequencing_software/igenome.html, refGenie @https://doi.org/10.1093/gigascience/giz149 or Go Get Data @https://doi.org/10.1101/2020.09.10.291377, data managers still require the user to supply new data manually.
 
-## Related Work
-Ensembl, UCSC and NCBI all support downloading from their individual databases via accessible FTP archives, web portals, and REST APIs.
-To access these databases programmatically, there exists several external tools, such as the ncbi-genome-download tool @https://github.com/kblin/ncbi-genome-download and ucsc-genomes-downloader @https://pypi.org/project/ucsc-genomes-downloader.
-However, to our knowledge no tool exists that can consistently search or download from all three major genome providers.
+We have developed genomepy to 1) find genomic data on major providers, 2) compare gene annotations, 3) select the genomic data best suited for your analysis and 4) provide a suite of functions to peruse and manipulate the data.
+Selected data can be downloaded from anywhere, and is processed automatically.
+Sources and processing steps are documents to ensure reproducibility, and could be combined with data managers to greater effect.
+Genomic data can be loaded into genomepy, which can utilizes and extends upon packages including pyfaidx @https://doi.org/10.7287/peerj.preprints.970v1, pandas @https://doi.org/10.5281/zenodo.3509134 and MyGene.info @https://doi.org/10.1186/s13059-016-0953-9 to rapidly work with gene and genome sequences and metadata.
+Similarly, genomepy has been incorporated into other packages, such as pybedtools @https://doi.org/10.1093/bioinformatics/btr539 and CellOracle @https://doi.org/10.1101/2020.02.17.947416.
+Genomepy can be used on command line and via its fully documented Python API, for a one-time analysis or integration in pipelines and workflow managers such as Nextflow @https://doi.org/10.1038/nbt.3820, Galaxy @https://doi.org/10.1093/nar/gky379 or Snakemake @https://doi.org/10.12688/f1000research.29032.1.
 
-There are several existing tools for reproducibly sharing reference data between projects.
-Data management tools accept reference data and derived assets such as aligner indexes, and include iGenomes @https://support.illumina.com/sequencing/sequencing_software/igenome.html, refGenie @https://doi.org/10.1093/gigascience/giz149 and Go Get Data @https://doi.org/10.1101/2020.09.10.291377.
-These tools excel in their ability to reproducibly share data, a feature which is not present in genomepy, and can be used to obtain and manage previously generated data with ease.
-However, these tools require the user to supply the reference data to any new assembly, newer version, or certain assets.
 
-We conclude that there was a need for a tool that can programmatically obtain and preprocess genomic data, which is how genomepy came to be.
 
-![niche for genomepy in the bioinformatics ecosystem.](images/compare.png){#fig:compare height="500px" width="500"px}
+
 
 
 ## genomepy
