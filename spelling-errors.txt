@@ -5,7 +5,7 @@ bioinformatic
 bioinformatics
 Bowtie
 BWA
-Contig
+contig
 contigs
 der
 downloader
@@ -23,7 +23,7 @@ Kundaje
 Maarten
 MaartenvdSande
 Minimap
-NCBI
+ncbi
 Omics
 preprocess
 preprocessing
@@ -40,6 +40,6 @@ Siebren
 siebrenf
 simonvh
 svheeringen
-UCSC
+ucsc
 wormbase
 xenbase
