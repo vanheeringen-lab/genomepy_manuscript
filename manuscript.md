@@ -1,111 +1,68 @@
 ---
-author-meta:
-- Siebren Frolich
-- Maarten van der Sande
-- Simon van Heeringen
-bibliography:
-- content/manual-references.json
-date-meta: '2021-03-24'
-header-includes: '<!--
-
-  Manubot generated metadata rendered from header-includes-template.html.
-
-  Suggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html
-
-  -->
-
-  <meta name="dc.format" content="text/html" />
-
-  <meta name="dc.title" content="Jumpstart your genomics pipelines with genomepy" />
-
-  <meta name="citation_title" content="Jumpstart your genomics pipelines with genomepy" />
-
-  <meta property="og:title" content="Jumpstart your genomics pipelines with genomepy" />
-
-  <meta property="twitter:title" content="Jumpstart your genomics pipelines with genomepy" />
-
-  <meta name="dc.date" content="2021-03-24" />
-
-  <meta name="citation_publication_date" content="2021-03-24" />
-
-  <meta name="dc.language" content="en-US" />
-
-  <meta name="citation_language" content="en-US" />
-
-  <meta name="dc.relation.ispartof" content="Manubot" />
-
-  <meta name="dc.publisher" content="Manubot" />
-
-  <meta name="citation_journal_title" content="Manubot" />
-
-  <meta name="citation_technical_report_institution" content="Manubot" />
-
-  <meta name="citation_author" content="Siebren Frolich" />
-
-  <meta name="citation_author_institution" content="Department of Molecular Developmental Biology, Radboud University" />
-
-  <meta name="citation_author_orcid" content="0000-0001-6925-8446" />
-
-  <meta name="citation_author" content="Maarten van der Sande" />
-
-  <meta name="citation_author_institution" content="Department of Molecular Developmental Biology, Radboud University" />
-
-  <meta name="citation_author_orcid" content="0000-0001-7803-1526" />
-
-  <meta name="twitter:creator" content="@MaartenvdSande" />
-
-  <meta name="citation_author" content="Simon van Heeringen" />
-
-  <meta name="citation_author_institution" content="Department of Molecular Developmental Biology, Radboud University" />
-
-  <meta name="citation_author_orcid" content="0000-0002-0411-3219" />
-
-  <meta name="twitter:creator" content="@svheeringen" />
-
-  <link rel="canonical" href="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
-
-  <meta property="og:url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
-
-  <meta property="twitter:url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
-
-  <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
-
-  <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-
-  <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e0e1b232c027164d4a581ab562d693e5b83957f8/" />
-
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e0e1b232c027164d4a581ab562d693e5b83957f8/" />
-
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e0e1b232c027164d4a581ab562d693e5b83957f8/manuscript.pdf" />
-
-  <meta property="og:type" content="article" />
-
-  <meta property="twitter:card" content="summary_large_image" />
-
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/e0e1b232c027164d4a581ab562d693e5b83957f8/content/images/thumbnail-505x640.png" />
-
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/e0e1b232c027164d4a581ab562d693e5b83957f8/content/images/thumbnail-505x640.png" />
-
-  <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
-
-  <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
-
-  <meta name="theme-color" content="#ad1457" />
-
-  <!-- end Manubot generated metadata -->'
+title: Jumpstart your genomics pipelines with genomepy
 keywords:
 - bioinformatics
 - reproducible-research
 - genomics
 - tools
 lang: en-US
-manubot-clear-requests-cache: false
+date-meta: '2021-12-23'
+author-meta:
+- Siebren Frolich
+- Maarten van der Sande
+- Simon van Heeringen
+header-includes: |-
+  <!--
+  Manubot generated metadata rendered from header-includes-template.html.
+  Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
+  -->
+  <meta name="dc.format" content="text/html" />
+  <meta name="dc.title" content="Jumpstart your genomics pipelines with genomepy" />
+  <meta name="citation_title" content="Jumpstart your genomics pipelines with genomepy" />
+  <meta property="og:title" content="Jumpstart your genomics pipelines with genomepy" />
+  <meta property="twitter:title" content="Jumpstart your genomics pipelines with genomepy" />
+  <meta name="dc.date" content="2021-12-23" />
+  <meta name="citation_publication_date" content="2021-12-23" />
+  <meta name="dc.language" content="en-US" />
+  <meta name="citation_language" content="en-US" />
+  <meta name="dc.relation.ispartof" content="Manubot" />
+  <meta name="dc.publisher" content="Manubot" />
+  <meta name="citation_journal_title" content="Manubot" />
+  <meta name="citation_technical_report_institution" content="Manubot" />
+  <meta name="citation_author" content="Siebren Frolich" />
+  <meta name="citation_author_institution" content="Department of Molecular Developmental Biology, Radboud University" />
+  <meta name="citation_author_orcid" content="0000-0001-6925-8446" />
+  <meta name="citation_author" content="Maarten van der Sande" />
+  <meta name="citation_author_institution" content="Department of Molecular Developmental Biology, Radboud University" />
+  <meta name="citation_author_orcid" content="0000-0001-7803-1526" />
+  <meta name="twitter:creator" content="@MaartenvdSande" />
+  <meta name="citation_author" content="Simon van Heeringen" />
+  <meta name="citation_author_institution" content="Department of Molecular Developmental Biology, Radboud University" />
+  <meta name="citation_author_orcid" content="0000-0002-0411-3219" />
+  <meta name="twitter:creator" content="@svheeringen" />
+  <link rel="canonical" href="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
+  <meta property="og:url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
+  <meta property="twitter:url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
+  <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
+  <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/9c086921ef60d28917a778fa2b28bbb9c6cf7180/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/9c086921ef60d28917a778fa2b28bbb9c6cf7180/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/9c086921ef60d28917a778fa2b28bbb9c6cf7180/manuscript.pdf" />
+  <meta property="og:type" content="article" />
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/9c086921ef60d28917a778fa2b28bbb9c6cf7180/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/9c086921ef60d28917a778fa2b28bbb9c6cf7180/content/images/thumbnail-505x640.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
+  <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
+  <meta name="theme-color" content="#ad1457" />
+  <!-- end Manubot generated metadata -->
+bibliography:
+- content/manual-references.json
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Jumpstart your genomics pipelines with genomepy
+manubot-clear-requests-cache: false
 ...
 
 
@@ -115,10 +72,10 @@ title: Jumpstart your genomics pipelines with genomepy
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/e0e1b232c027164d4a581ab562d693e5b83957f8/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/9c086921ef60d28917a778fa2b28bbb9c6cf7180/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@e0e1b23](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/e0e1b232c027164d4a581ab562d693e5b83957f8)
-on March 24, 2021.
+from [vanheeringen-lab/genomepy_manuscript@9c08692](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/9c086921ef60d28917a778fa2b28bbb9c6cf7180)
+on December 23, 2021.
 </em></small>
 
 ## Authors
@@ -126,31 +83,31 @@ on March 24, 2021.
 
 
 + **Siebren Frolich**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-6925-8446](https://orcid.org/0000-0001-6925-8446)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [siebrenf](https://github.com/siebrenf)<br>
   <small>
      Department of Molecular Developmental Biology, Radboud University
   </small>
 
 + **Maarten van der Sande**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-7803-1526](https://orcid.org/0000-0001-7803-1526)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [Maarten-vd-Sande](https://github.com/Maarten-vd-Sande)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [MaartenvdSande](https://twitter.com/MaartenvdSande)<br>
   <small>
      Department of Molecular Developmental Biology, Radboud University
   </small>
 
 + **Simon van Heeringen**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-0411-3219](https://orcid.org/0000-0002-0411-3219)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [simonvh](https://github.com/simonvh)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [svheeringen](https://twitter.com/svheeringen)<br>
   <small>
      Department of Molecular Developmental Biology, Radboud University

@@ -12,7 +12,7 @@ downloader
 Ensembl
 flybase
 Frolich
-Genomepy
+genomepy
 genomic
 GMAP
 GTF
