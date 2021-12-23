@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-bash build/build.sh
+BUILD_PDF=false bash build/build.sh
 manubot webpage
 
 trap "cd .." INT;
 cd webpage
-python -m http.server
+python -m http.server -b 127.0.0.1
