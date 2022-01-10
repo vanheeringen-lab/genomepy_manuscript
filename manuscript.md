@@ -1,14 +1,14 @@
 ---
-title: 'genomepy: genes and genomes made easy'
+title: 'genomepy: Genes and Genomes made easy'
 keywords:
 - bioinformatics
 - reproducible-research
 - genomics
 - tools
 lang: en-US
-date-meta: '2021-12-23'
+date-meta: '2022-01-10'
 author-meta:
-- Siebren Frolich
+- Siebren Frölich
 - Maarten van der Sande
 - Simon van Heeringen
 header-includes: |-
@@ -17,19 +17,19 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="genomepy: genes and genomes made easy" />
-  <meta name="citation_title" content="genomepy: genes and genomes made easy" />
-  <meta property="og:title" content="genomepy: genes and genomes made easy" />
-  <meta property="twitter:title" content="genomepy: genes and genomes made easy" />
-  <meta name="dc.date" content="2021-12-23" />
-  <meta name="citation_publication_date" content="2021-12-23" />
+  <meta name="dc.title" content="genomepy: Genes and Genomes made easy" />
+  <meta name="citation_title" content="genomepy: Genes and Genomes made easy" />
+  <meta property="og:title" content="genomepy: Genes and Genomes made easy" />
+  <meta property="twitter:title" content="genomepy: Genes and Genomes made easy" />
+  <meta name="dc.date" content="2022-01-10" />
+  <meta name="citation_publication_date" content="2022-01-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Siebren Frolich" />
+  <meta name="citation_author" content="Siebren Frölich" />
   <meta name="citation_author_institution" content="Department of Molecular Developmental Biology, Radboud University" />
   <meta name="citation_author_orcid" content="0000-0001-6925-8446" />
   <meta name="citation_author" content="Maarten van der Sande" />
@@ -46,13 +46,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
   <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/b31db1c90f380e986ac4223f5cd93bf9936e0d7c/" />
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/b31db1c90f380e986ac4223f5cd93bf9936e0d7c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/b31db1c90f380e986ac4223f5cd93bf9936e0d7c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/787d60a0b4bbdeda622f990f14db41ded85baca6/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/787d60a0b4bbdeda622f990f14db41ded85baca6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/787d60a0b4bbdeda622f990f14db41ded85baca6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/b31db1c90f380e986ac4223f5cd93bf9936e0d7c/content/images/thumbnail-505x640.png" />
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/b31db1c90f380e986ac4223f5cd93bf9936e0d7c/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/787d60a0b4bbdeda622f990f14db41ded85baca6/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/787d60a0b4bbdeda622f990f14db41ded85baca6/content/images/thumbnail-505x640.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -72,17 +72,17 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/b31db1c90f380e986ac4223f5cd93bf9936e0d7c/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/787d60a0b4bbdeda622f990f14db41ded85baca6/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@b31db1c](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/b31db1c90f380e986ac4223f5cd93bf9936e0d7c)
-on December 23, 2021.
+from [vanheeringen-lab/genomepy_manuscript@787d60a](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/787d60a0b4bbdeda622f990f14db41ded85baca6)
+on January 10, 2022.
 </em></small>
 
 ## Authors
 
 
 
-+ **Siebren Frolich**<br>
++ **Siebren Frölich**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-6925-8446](https://orcid.org/0000-0001-6925-8446)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
@@ -115,95 +115,146 @@ on December 23, 2021.
 
 
 
+
+
 ## Abstract {.page_break_before}
-Analyzing Omics data, including ATAC, ChIP and RNA-sequencing, requires genomic data such as a genome assembly and gene annotations.
+Analyzing functional genomics data, including ATAC-, ChIP- and RNA-sequencing, requires genomic data such as a genome assembly and gene annotations.
 These resources can generally be retrieved from multiple organizations, at multiple versions, and generated with varying methods.
-Which data to use depends on the research context, data reuse and quality.
-Meanwhile, many bioinformatic workflows and pipelines require the user to supply this genomic data manually, which can be a tedious and error-prone process.
+Meanwhile, most bioinformatic workflows and pipelines require the user to supply this genomic data manually, which can be a tedious and error-prone process.
 
-Here we present genomepy, a quality-of-life enhancement tool, that can navigate the assembly databases of Ensembl, UCSC and NCBI.
-Genomepy can `search` and `install` genome assemblies and gene annotation data in a consistent, reproducible and documented manner.
-The search function retrieves genomes related to the search term, and can do so for one or all providers to allow the user to make an informed decision.
-The install function can download a specified genome and gene annotation, from any database, with sensible yet controllable defaults.
+Here we present genomepy, which can search, download, and preprocess the right genomic data for your analysis.
+Genomepy can search genomic data on GENCODE, Ensembl, UCSC and NCBI, and compare available gene annotations, to allow for an informed decision.
+The selected genome and gene annotation can be downloaded (from anywhere) and preprocessed with sensible, yet controllable, defaults.
 Additional supporting data can be automatically generated, such as aligner indexes, genome metadata and blacklists.
-
-Genomepy provides these functionalities and more via command line interface and Python application programming interface, aimed at ease of use and integration in automated pipelines.
-
-![executive overview.](images/code.png){#fig:code height="350px" width="500"px}
+These functionalities are available on command line interface, aimed at ease of use and integration in automated pipelines, 
+with extended functionality on the Python application programming interface.
 
 
 
 
 ## Introduction
 Data analysis is increasingly important in biological research.
-Whether you are analysing gene expression in two samples or protein binding in genome atlases, you will need external information such as a reference genome or a gene annotation.
-For these types of data, there are three major providers: Ensembl @https://doi.org/10.1093/nar/gkz966, UCSC @https://doi.org/10.1101/gr.229102 and NCBI @pmc:PMC308837, and many model-system specific providers, including GENCODE @https://doi.org/10.1093/nar/gkaa1087, ZFIN @https://doi.org/10.1093/nar/gky1090, FlyBase @https://doi.org/10.1093/nar/gky1003, WormBase @https://doi.org/10.1093/nar/gkz920, Xenbase @https://doi.org/10.1093/nar/gkx936 and more.
+Whether you are analyzing gene expression in two samples or protein binding motifs in genome atlases, you will need external information such as a reference genome or a gene annotation.
+For these types of data, there are three major providers: Ensembl @https://doi.org/10.1093/nar/gkz966, UCSC @https://doi.org/10.1101/gr.229102 and NCBI @pmc:PMC308837, and many model-system specific providers, such as GENCODE @https://doi.org/10.1093/nar/gkaa1087, ZFIN @https://doi.org/10.1093/nar/gky1090, FlyBase @https://doi.org/10.1093/nar/gky1003, WormBase @https://doi.org/10.1093/nar/gkz920, Xenbase @https://doi.org/10.1093/nar/gkx936 and more.
 Providers have different approaches to compiling genome assemblies and gene annotations, which effect formats, format compliance, naming, data quality, available versions and release cycle.
 These differences significantly impact compatibility with research @https://doi.org/10.1186/s12864-015-1308-8, tools and (data based on) other genomic data.
 
-You could try to find genomic data yourself, but there are many options with no clear metric for the "best".
-Ensembl, UCSC and NCBI each have FTP archives, web portals, and REST APIs to search their individual databases.
-Alternatively, there are several tools to access some of these databases programmatically, such as ncbi-genome-download @https://github.com/kblin/ncbi-genome-download and ucsc-genomes-downloader @https://pypi.org/project/ucsc-genomes-downloader.
+You could try to find genomic data yourself, but there are many options with no clear metric for the "best" one.
+Ensembl, UCSC and NCBI each have FTP archives, web portals, and REST APIs, which you can use to search their individual databases.
+Alternatively, there are several tools that can be used to access some of these databases programmatically, such as ncbi-genome-download @https://github.com/kblin/ncbi-genome-download and ucsc-genomes-downloader @https://pypi.org/project/ucsc-genomes-downloader.
 However, none of these can search, compare or download from all major genome providers data.
 Furthermore, downloading and processing genomic data manually can be tedious, error-prone, and poorly reproducible.
 Although the latter could be remedied by a data management tool, such as iGenomes @https://support.illumina.com/sequencing/sequencing_software/igenome.html, refGenie @https://doi.org/10.1093/gigascience/giz149 or Go Get Data @https://doi.org/10.1101/2020.09.10.291377, data managers still require the user to supply new data manually.
 
-We have developed genomepy to 1) find genomic data on major providers, 2) compare gene annotations, 3) select the genomic data best suited for your analysis and 4) provide a suite of functions to peruse and manipulate the data.
+We have developed genomepy to 1) find genomic data on major providers, 2) compare gene annotations, 3) select the genomic data best suited to your analysis and 4) provide a suite of functions to peruse and manipulate the data.
 Selected data can be downloaded from anywhere, and is processed automatically.
-Sources and processing steps are documents to ensure reproducibility, and could be combined with data managers to greater effect.
-Genomic data can be loaded into genomepy, which can utilizes and extends upon packages including pyfaidx @https://doi.org/10.7287/peerj.preprints.970v1, pandas @https://doi.org/10.5281/zenodo.3509134 and MyGene.info @https://doi.org/10.1186/s13059-016-0953-9 to rapidly work with gene and genome sequences and metadata.
+To ensure reproducibility, data sources and processing steps are documented, and can be enhanced further by using a data manager.
+Genomic data can be loaded into genomepy, which utilizes and extends on packages including pyfaidx @https://doi.org/10.7287/peerj.preprints.970v1, pandas @https://doi.org/10.5281/zenodo.3509134 and MyGene.info @https://doi.org/10.1186/s13059-016-0953-9 to rapidly work with gene and genome sequences and metadata.
 Similarly, genomepy has been incorporated into other packages, such as pybedtools @https://doi.org/10.1093/bioinformatics/btr539 and CellOracle @https://doi.org/10.1101/2020.02.17.947416.
-Genomepy can be used on command line and via its fully documented Python API, for a one-time analysis or integration in pipelines and workflow managers such as Nextflow @https://doi.org/10.1038/nbt.3820, Galaxy @https://doi.org/10.1093/nar/gky379 or Snakemake @https://doi.org/10.12688/f1000research.29032.1.
+Genomepy can be used on command line, and via its fully documented Python API, for a one-time analysis or integration in pipelines and workflow managers such as Nextflow @https://doi.org/10.1038/nbt.3820, Galaxy @https://doi.org/10.1093/nar/gky379 or Snakemake @https://doi.org/10.12688/f1000research.29032.1.
 
 
 
 
 
 
-## genomepy
-The core functionalities of genomepy are to search, download and prepare genomes and gene annotations.
-These functions are split over the `search` and `install` functions.
+## Features of genomepy
+The core functionalities of genomepy are to search, download and process genomes and gene annotations.
 
-Search will query the three major providers for a given search term.
-Genomepy can search for text terms in genome names or descriptions, taxonomy identifiers and accession numbers, and will automatically detect which.
-The search results are returned with available metadata for review.
+On first use, the `search` function queries the databases of GENCODE, Ensembl, UCSC and NCBI and caches the metadata on available assemblies (for up to 7 days).
+The input can be text, taxonomy identifiers or assembly accession identifiers.
+The input type is automatically recognized and used to find assemblies that 
+1) have the text in the genome names or various description fields, 
+2) (exactly) matches the taxonomy identifier or 
+3) (mostly) matches the assembly accession.
+The output of the function is a table with rows of metadata for each assembly found.
+This overview indicates whether a gene annotation can be downloaded for an assembly (or which of the four UCSC annotations) (see fig. 1a).
+The gene annotation(s) of an assembly can be inspected with the `annotation` function (fig. 1b).
 
-An assembly name from a major provider can be passed to the install function, along with the name of the provider if the data is available on multiple.
-Alternatively, if the assembly originates from another source, the url to the genome can be passed.
-Next, the genome assembly is downloaded with the desired sequence masking level [@http://repeatmasker.org; @doi:10.1089/cmb.2006.13.1028].
-By default soft masked genomes are downloaded, but unmasked or hard masked can be downloaded (or generated if required) as well.
+```bash
+$ genomepy search GRCh38
+name          provider  accession         tax_id  annotation  species                     other_info
+                                                   n r e k    <- UCSC options (see help)
+GRCh38        GENCODE   GCA_000001405.15    9606      ✓       Homo sapiens                GENCODE annotation + UCSC genome
+GRCh38.p13    Ensembl   GCA_000001405.28    9606      ✓       Homo sapiens                2014-01-Ensembl/2021-08
+hg38          UCSC      GCA_000001405.15    9606   ✓ ✓ ✗ ✓   Homo sapiens                Dec. 2013 (GRCh38/hg38)
+GRCh38        NCBI      GCF_000001405.26    9606      ✓       Homo sapiens                Genome Reference Consortium
+ ^
+ Use name for genomepy install
+```
+
+```bash
+$ genomepy annotation GRCh38.p13
+12:00:00 | INFO | Ensembl
+1       ensembl_havana  gene    1211340 1214153 .       -       .       gene_id "ENSG00000186827"; gene_version "11"; gene_name "TNFRSF4"; gene_source "ensembl_havana"; gene_biotype "protein_coding";
+12:00:00 | INFO | NCBI
+NC_000001.11    genomepy        transcript      11874   14409   .       +       .       gene_id "DDX11L1"; transcript_id "NR_046018.2";  gene_name "DDX11L1";
+```
+
+```bash
+$ genomepy install --annotation GRCh38.p13
+$ ls -1 ~/.local/share/genomes/GRCh38.p13
+GRCh38.p13.annotation.bed
+GRCh38.p13.annotation.gtf
+GRCh38.p13.fa
+GRCh38.p13.fa.fai
+GRCh38.p13.fa.sizes
+GRCh38.p13.gaps.bed
+README.txt
+assembly_report.txt
+index/
+```
+
+
+
+An assembly name can be passed to the `install` function (fig. 1c).
+The genome FASTA file is downloaded with the desired sequence masking level [@http://repeatmasker.org; @doi:10.1089/cmb.2006.13.1028] (softmasked by default).
 Reference assemblies often contain alternate sequences to reflect biological diversity.
-For the purpose of sequence alignment however, the best results are obtained if there is one reference per nucleotide.
-Therefore genomepy filters out alternative regions, unless specified otherwise.
-Additionally, regex filters may be passed to either include or exclude contigs (chromosomes, scaffolds, etc.) by name.
-Once filtering is performed, genomepy generates commonly used support files.
-The genome is indexed using pyfaidx @https://doi.org/10.7287/peerj.preprints.970v1, and contig sizes and contig gap sizes are collected in separate files.
+During sequence alignment however, similar reference sequences result in multiple alignment, leading to loss of data (as discussed in @https://doi.org/10.1186/s13059-015-0587-3). 
+Therefore, genomepy downloads the primary assembly and filters out alternative sequences by default.
+Additional regex filters may be passed to either include or exclude contigs (chromosomes, scaffolds, etc.) by name.
+Once filtering is performed, genomepy generates a genome index using pyfaidx @https://doi.org/10.7287/peerj.preprints.970v1, and contig sizes and contig gap sizes are collected in separate files.
 
-If specified and available, genomepy will download the gene annotation.
-Gene annotations are output in the commonly used GTF and BED formats.
-Contig names of the genome and gene annotation are checked for compatibility.
-Should these mismatch, genomepy will attempt to match the names in the annotations to the genome.
+Gene annotations come in a variety of recognized formats (GFF3, GTF, BED12).
+The `install` function can download the most descriptive format to output the commonly used GTF and BED12 formats.
+Contig names of the genome and gene annotation sometimes mismatch, which makes them incompatible with tools such as splice-aware aligners.
+Therefore, genomepy will attempt to match the contig names of the gene annotations to those used in the genome FASTA.
 
-![workflow for `genomepy search` and `genomepy install`.](images/flow.png){#fig:flow height="400px" width="600"px}
-
-Genomepy facilitates optional processing steps via plugins.
-These options can be inspected and toggled with the `genomepy plugin` command line function.
-The blacklist plugin downloads blacklists by the Kundaje lab @https://doi.org/10.1038/s41598-019-45839-z for the supported genomes.
+The install function can be extended with postprocessing steps via plugins.
+The options can be inspected and toggled with the `plugin` function.
+Briefly, the blacklist plugin downloads blacklists by the Kundaje lab @https://doi.org/10.1038/s41598-019-45839-z for the supported genomes.
 Other plugins support the generation of aligner indexes, including DNA aligner indexes for Bowtie2 @https://doi.org/10.1038/nmeth.1923, BWA @https://doi.org/10.1093/bioinformatics/btp324, GMAP @https://doi.org/10.1093/bioinformatics/bti310 or Minimap2 @https://doi.org/10.1093/bioinformatics/bty191, and splice-aware aligners such as STAR @https://doi.org/10.1093/bioinformatics/bts635 and HISAT2 @https://doi.org/10.1038/nmeth.3317.
 
-For data provenance and reproducibility, a README file is kept with the timestamp, URLs to the source files, the steps performed, and filtered contigs.
+Assemblies not present on the major providers can be processed similarly by supplying the URLs or file paths to the `install` function.
+For data provenance and reproducibility, a README file is generated during the installation process with time, source files, processing steps, and filtered contigs.
+
+The core features are available on both the command line interface and Python API.
+Additional features are available on the Python API, focussed around two classes.
+The `Genome` class can be used to extract exact or random sequences from the FASTA, filter the FASTA and list the contigs, contig sizes and contig gaps.
+The `Annotation` class can be used to browse and filter the BED12 or GTF files as pandas dataframes @https://doi.org/10.5281/zenodo.3509134, 
+map gene identifiers to other types using mygene.info @https://doi.org/10.1186/s13059-016-0953-9, 
+map chromosome names to naming schemes of other major providers,
+and create a dictionary of any two GTF columns or attribute fields (to easily convert gene identifiers to gene names for instance).
+
+
 
 
 ## Conclusion
 Obtaining suitable genomic data is a principal step in any genomics project.
-Here we demonstrated how to generate an overview of genomes on the three major providers, and how reproducibly download and process genomic data using genomepy.
-Genomepy provides full control via its command line and Python application programming interfaces.
-This allows genomepy to automate a step in Omics research that was previously required to be performed by hand.
+With genomepy, finding available assemblies becomes trivial.
+A genome, with the desired sequence masking, level of biological diversity, and contigs can be obtained with a single genomepy command.
+Gene annotations in GTF and BED12 format are commonly used, sometimes in combination with a genome, in analyses.
+The install command can download and prepare these annotations, and match contigs to the genome, with further options available in the Python API.
+Whatever install options you choose are logged, for reproducibly, allowing you to start your analysis with confidence.
+
+
+
+
 
 
 ## Code availability
-Genomepy can be installed using [Bioconda](https://anaconda.org/bioconda/genomepy) and [Pip](https://pypi.org/project/genomepy/).
-Code and documentation are available at [https://github.com/vanheeringen-lab/genomepy](https://github.com/vanheeringen-lab/genomepy).
+Genomepy can be installed using [Bioconda](https://anaconda.org/bioconda/genomepy), [Pip](https://pypi.org/project/genomepy/) and [Docker](https://quay.io/repository/biocontainers/genomepy).
+Code and documentation are available on [github](https://github.com/vanheeringen-lab/genomepy) and [github-pages](https://github.com/vanheeringen-lab/genomepy), respectively.
 
 
 ## References {.page_break_before}
