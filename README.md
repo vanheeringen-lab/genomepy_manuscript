@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://vanheeringen-lab.github.io/genomepy_manuscript/>.
-The permalink for this webpage version is <https://vanheeringen-lab.github.io/genomepy_manuscript/v/787d60a0b4bbdeda622f990f14db41ded85baca6/>.
+The permalink for this webpage version is <https://vanheeringen-lab.github.io/genomepy_manuscript/v/d8b0f8f9d3db3fc5166223bb0e1552a8ac1610a4/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://vanheeringen-lab.github.io/genomepy_manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`787d60a0b4bbdeda622f990f14db41ded85baca6`](https://github.com/vanheeringen-lab/genomepy_manuscript/commit/787d60a0b4bbdeda622f990f14db41ded85baca6).
+[`d8b0f8f9d3db3fc5166223bb0e1552a8ac1610a4`](https://github.com/vanheeringen-lab/genomepy_manuscript/commit/d8b0f8f9d3db3fc5166223bb0e1552a8ac1610a4).
