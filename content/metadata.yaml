@@ -1,5 +1,8 @@
 ---
-title: "genomepy: Genes and Genomes made easy"  # "genomepy: genomes and gene annotations at your fingertips"  # "genomepy: genes, genomes, got it"  # "Jumpstart your genomics pipelines with genomepy"
+title: "genomepy: Genes and Genomes at your fingertips"
+# title: "genomepy: Genes and Genomes made easy"
+# title: "genomepy: genes, genomes, got it"
+# title: "Jumpstart your genomics pipelines with genomepy"
 keywords:
   - bioinformatics
   - reproducible-research
