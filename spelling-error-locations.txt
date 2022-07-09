@@ -28,11 +28,9 @@ content/02.introduction.md:16:Ensembl
 content/02.introduction.md:16:NCBI
 content/02.introduction.md:16:UCSC
 content/02.introduction.md:17:downloader
-content/02.introduction.md:17:downloader
 content/02.introduction.md:17:ncbi
 content/02.introduction.md:17:ncbi
 content/02.introduction.md:17:programmatically
-content/02.introduction.md:17:ucsc
 content/02.introduction.md:17:ucsc
 content/02.introduction.md:19:genomic
 content/02.introduction.md:20:iGenomes
@@ -186,10 +184,7 @@ content/04.conclusions.md:19:genomic
 content/04.conclusions.md:19:reproducibly
 content/04.conclusions.md:20:Genomepy
 content/04.conclusions.md:21:genomepy
-content/05.other.md:9:bioconda
 content/05.other.md:9:Bioconda
-content/05.other.md:9:genomepy
-content/05.other.md:9:genomepy
 content/05.other.md:9:Genomepy
 content/05.other.md:10:genomepy
 content/05.other.md:10:genomepy
