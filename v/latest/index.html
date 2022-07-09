@@ -7,7 +7,7 @@
   <meta name="author" content="Siebren Frölich" />
   <meta name="author" content="Maarten van der Sande" />
   <meta name="author" content="Simon van Heeringen" />
-  <meta name="dcterms.date" content="2022-07-08" />
+  <meta name="dcterms.date" content="2022-07-09" />
   <meta name="keywords" content="bioinformatics, reproducible-research, genomics, tools" />
   <title>genomepy: Genes and Genomes at your fingertips</title>
   <style>
@@ -112,8 +112,8 @@
   <meta name="citation_title" content="genomepy: Genes and Genomes at your fingertips" />
   <meta property="og:title" content="genomepy: Genes and Genomes at your fingertips" />
   <meta property="twitter:title" content="genomepy: Genes and Genomes at your fingertips" />
-  <meta name="dc.date" content="2022-07-08" />
-  <meta name="citation_publication_date" content="2022-07-08" />
+  <meta name="dc.date" content="2022-07-09" />
+  <meta name="citation_publication_date" content="2022-07-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -137,13 +137,13 @@
   <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
   <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/d8b0f8f9d3db3fc5166223bb0e1552a8ac1610a4/" />
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/d8b0f8f9d3db3fc5166223bb0e1552a8ac1610a4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/d8b0f8f9d3db3fc5166223bb0e1552a8ac1610a4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/79acf588188a2f5e77f5503093ae1d5be9140391/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/79acf588188a2f5e77f5503093ae1d5be9140391/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/79acf588188a2f5e77f5503093ae1d5be9140391/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/d8b0f8f9d3db3fc5166223bb0e1552a8ac1610a4/content/images/thumbnail-505x640.png" />
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/d8b0f8f9d3db3fc5166223bb0e1552a8ac1610a4/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/79acf588188a2f5e77f5503093ae1d5be9140391/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/79acf588188a2f5e77f5503093ae1d5be9140391/content/images/thumbnail-505x640.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -155,10 +155,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/d8b0f8f9d3db3fc5166223bb0e1552a8ac1610a4/">permalink</a>)
+(<a href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/79acf588188a2f5e77f5503093ae1d5be9140391/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/vanheeringen-lab/genomepy_manuscript/tree/d8b0f8f9d3db3fc5166223bb0e1552a8ac1610a4">vanheeringen-lab/genomepy_manuscript@d8b0f8f</a>
-on July 8, 2022.
+from <a href="https://github.com/vanheeringen-lab/genomepy_manuscript/tree/79acf588188a2f5e77f5503093ae1d5be9140391">vanheeringen-lab/genomepy_manuscript@79acf58</a>
+on July 9, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -204,20 +204,20 @@ with extended functionality on the Python application programming interface.</p>
 <h2 id="introduction">Introduction</h2>
 <p>Data analysis is increasingly important in biological research.
 Whether you are analyzing gene expression in two samples or protein binding motifs in genomic atlases, you will need external information such as a reference genome or a gene annotation.
-For these types of data, there are three major providers: Ensembl <span class="citation" data-cites="d4pyOy1j">[<a href="#ref-d4pyOy1j" role="doc-biblioref">1</a>]</span>, UCSC <span class="citation" data-cites="qpuvolS">[<a href="#ref-qpuvolS" role="doc-biblioref">2</a>]</span> and NCBI <span class="citation" data-cites="fu2xfhYo">[<a href="#ref-fu2xfhYo" role="doc-biblioref">3</a>]</span>, and many model-system specific providers, such as GENCODE <span class="citation" data-cites="XC6KeC2T">[<a href="#ref-XC6KeC2T" role="doc-biblioref">4</a>]</span>, ZFIN <span class="citation" data-cites="VhRxQZNx">[<a href="#ref-VhRxQZNx" role="doc-biblioref">5</a>]</span>, FlyBase <span class="citation" data-cites="194UqbUxS">[<a href="#ref-194UqbUxS" role="doc-biblioref">6</a>]</span>, WormBase <span class="citation" data-cites="6H38vVFQ">[<a href="#ref-6H38vVFQ" role="doc-biblioref">7</a>]</span>, Xenbase <span class="citation" data-cites="ixJ4BHwK">[<a href="#ref-ixJ4BHwK" role="doc-biblioref">8</a>]</span> and more.
+For these types of data, there are three major providers: Ensembl <span class="citation" data-cites="oDiClyTE">[<a href="#ref-oDiClyTE" role="doc-biblioref">1</a>]</span>, UCSC <span class="citation" data-cites="QvT2C2wD">[<a href="#ref-QvT2C2wD" role="doc-biblioref">2</a>]</span> and NCBI <span class="citation" data-cites="11i4YDEok">[<a href="#ref-11i4YDEok" role="doc-biblioref">3</a>]</span>, and many model-system specific providers, such as GENCODE <span class="citation" data-cites="1HmawDzAU">[<a href="#ref-1HmawDzAU" role="doc-biblioref">4</a>]</span>, ZFIN <span class="citation" data-cites="1u459PIA">[<a href="#ref-1u459PIA" role="doc-biblioref">5</a>]</span>, FlyBase <span class="citation" data-cites="QehWMEA1">[<a href="#ref-QehWMEA1" role="doc-biblioref">6</a>]</span>, WormBase <span class="citation" data-cites="1GCZaM5As">[<a href="#ref-1GCZaM5As" role="doc-biblioref">7</a>]</span>, Xenbase <span class="citation" data-cites="QS8T1x1K">[<a href="#ref-QS8T1x1K" role="doc-biblioref">8</a>]</span> and more.
 Providers have different approaches to compiling genome assemblies and gene annotations, which effect formats, format compliance, naming, data quality, available versions and release cycle.
-These differences significantly impact compatibility with research <span class="citation" data-cites="WXvAVUqZ">[<a href="#ref-WXvAVUqZ" role="doc-biblioref">9</a>]</span>, tools and (data based on) other genomic data.</p>
+These differences significantly impact compatibility with research <span class="citation" data-cites="liZRovbx">[<a href="#ref-liZRovbx" role="doc-biblioref">9</a>]</span>, tools and (data based on) other genomic data.</p>
 <p>You could try to find genomic data yourself, but there are many options with no clear metric for the “best” one.
 Ensembl, UCSC and NCBI each have FTP archives, web portals, and REST APIs, which you can use to search their individual databases.
-Alternatively, there are several tools that can be used to access some of these databases programmatically, such as ncbi-genome-download <span class="citation" data-cites="Tz7ID5CR">[<a href="#ref-Tz7ID5CR" role="doc-biblioref">10</a>]</span> and ucsc-genomes-downloader <span class="citation" data-cites="18vgH2GMw">[<a href="#ref-18vgH2GMw" role="doc-biblioref">11</a>]</span>.
+Alternatively, there are several tools that can be used to access some of these databases programmatically, such as ncbi-genome-download <span class="citation" data-cites="Tz7ID5CR">[<a href="#ref-Tz7ID5CR" role="doc-biblioref">10</a>]</span> and ucsc-genomes-downloader <span class="citation" data-cites="KFNfYVIu">[<a href="#ref-KFNfYVIu" role="doc-biblioref">11</a>]</span>.
 However, none of these can search, compare or download from all major genome providers data.
 Furthermore, downloading and processing genomic data manually can be tedious, error-prone, and poorly reproducible.
-Although the latter could be remedied by a data management tool, such as iGenomes <span class="citation" data-cites="irBY7Pe6">[<a href="#ref-irBY7Pe6" role="doc-biblioref">12</a>]</span>, refGenie <span class="citation" data-cites="gR8WRn61">[<a href="#ref-gR8WRn61" role="doc-biblioref">13</a>]</span> or Go Get Data <span class="citation" data-cites="42DbID0w">[<a href="#ref-42DbID0w" role="doc-biblioref">14</a>]</span>, data managers still require the user to add new data manually.</p>
+Although the latter could be remedied by a data management tool, such as iGenomes <span class="citation" data-cites="irBY7Pe6">[<a href="#ref-irBY7Pe6" role="doc-biblioref">12</a>]</span>, refGenie <span class="citation" data-cites="aIpHcrh9">[<a href="#ref-aIpHcrh9" role="doc-biblioref">13</a>]</span> or Go Get Data <span class="citation" data-cites="156AVeVqH">[<a href="#ref-156AVeVqH" role="doc-biblioref">14</a>]</span>, data managers still require the user to add new data manually.</p>
 <p>We have developed genomepy to 1) find genomic data on major providers, 2) compare gene annotations, 3) select the genomic data best suited to your analysis and 4) provide a suite of functions to peruse and manipulate the data.
 Selected data can be downloaded from anywhere, and is processed automatically.
 To ensure reproducibility, data sources and processing steps are documented, and can be enhanced further by using a data manager.
-Genomic data can be loaded into genomepy, which utilizes and extends on packages including pyfaidx <span class="citation" data-cites="uwGw0Z6K">[<a href="#ref-uwGw0Z6K" role="doc-biblioref">15</a>]</span>, pandas <span class="citation" data-cites="Rsx21cOw">[<a href="#ref-Rsx21cOw" role="doc-biblioref">16</a>]</span> and MyGene.info <span class="citation" data-cites="lD1ErWGt">[<a href="#ref-lD1ErWGt" role="doc-biblioref">17</a>]</span> to rapidly work with gene and genome sequences and metadata.
-Similarly, genomepy has been incorporated into other packages, such as pybedtools <span class="citation" data-cites="1A8qgwE55">[<a href="#ref-1A8qgwE55" role="doc-biblioref">18</a>]</span> and CellOracle <span class="citation" data-cites="7A0OICjo">[<a href="#ref-7A0OICjo" role="doc-biblioref">19</a>]</span>.
+Genomic data can be loaded into genomepy, which utilizes and extends on packages including pyfaidx <span class="citation" data-cites="19vAHbQAp">[<a href="#ref-19vAHbQAp" role="doc-biblioref">15</a>]</span>, pandas <span class="citation" data-cites="2z2qDwzz">[<a href="#ref-2z2qDwzz" role="doc-biblioref">16</a>]</span> and MyGene.info <span class="citation" data-cites="YShgkTmL">[<a href="#ref-YShgkTmL" role="doc-biblioref">17</a>]</span> to rapidly work with gene and genome sequences and metadata.
+Similarly, genomepy has been incorporated into other packages, such as pybedtools <span class="citation" data-cites="sQMEzP3r">[<a href="#ref-sQMEzP3r" role="doc-biblioref">18</a>]</span> and CellOracle <span class="citation" data-cites="nRiDy8Ha">[<a href="#ref-nRiDy8Ha" role="doc-biblioref">19</a>]</span>.
 Genomepy can be used on command line and though the (fully documented) Python API, for a one-time analysis or integration in pipelines and workflow managers.</p>
 <h2 id="features-of-genomepy">Features of genomepy</h2>
 <p>The key features of genomepy are 1) providing an overview of available assemblies with the <code>search</code> function,
@@ -257,24 +257,24 @@ Snippets of available gene annotation(s) can be inspected with the <code>annotat
 <p>An assembly name can be passed to the <code>install</code> function (fig. 1c).
 The genome FASTA file is downloaded with the desired sequence masking level <span class="citation" data-cites="xUNuCj44 6pvE6gty">[<a href="#ref-xUNuCj44" role="doc-biblioref">20</a>,<a href="#ref-6pvE6gty" role="doc-biblioref">21</a>]</span> and alternate sequences (softmasked and none by default, respectively).
 Alternate sequences to reflect biological diversity and are often contained in reference assemblies.
-During sequence alignment however, similar reference sequences result in multiple alignment, leading to loss of data (as discussed in <span class="citation" data-cites="VMZGeIWy">[<a href="#ref-VMZGeIWy" role="doc-biblioref">22</a>]</span>).
+During sequence alignment however, similar reference sequences result in multiple alignment, leading to loss of data (as discussed in <span class="citation" data-cites="1DiisKv9l">[<a href="#ref-1DiisKv9l" role="doc-biblioref">22</a>]</span>).
 Additional filters may be passed to either include or exclude contigs (chromosomes, scaffolds, etc.) by name or regex pattern.
-Once processed, a genome index is generated using pyfaidx <span class="citation" data-cites="uwGw0Z6K">[<a href="#ref-uwGw0Z6K" role="doc-biblioref">15</a>]</span>, as well as contig sizes and contig gap sizes.</p>
+Once processed, a genome index is generated using pyfaidx <span class="citation" data-cites="19vAHbQAp">[<a href="#ref-19vAHbQAp" role="doc-biblioref">15</a>]</span>, as well as contig sizes and contig gap sizes.</p>
 <p>Gene annotations come in a variety of recognized formats (GFF3, GTF, BED12).
 The <code>install</code> function will download the most descriptive format available, to output the commonly used GTF and BED12 formats.
 Contig names of the genome and gene annotation sometimes mismatch, which makes them incompatible with tools such as splice-aware aligners.
 Therefore, genomepy will attempt to match the contig names of the gene annotations to those used in the genome FASTA.</p>
 <p>The <code>install</code> function can be extended with postprocessing steps via plugins.
 The options can be inspected and toggled with the <code>plugin</code> function.
-Briefly, the blacklist plugin downloads blacklists by the Kundaje lab <span class="citation" data-cites="aLw6PKkV">[<a href="#ref-aLw6PKkV" role="doc-biblioref">23</a>]</span> for the supported genomes.
-Other plugins support the generation of aligner indexes, including DNA aligner indexes for Bowtie2 <span class="citation" data-cites="lNdYtfQT">[<a href="#ref-lNdYtfQT" role="doc-biblioref">24</a>]</span>, BWA <span class="citation" data-cites="7iUMQeVP">[<a href="#ref-7iUMQeVP" role="doc-biblioref">25</a>]</span>, GMAP <span class="citation" data-cites="dezX2UZP">[<a href="#ref-dezX2UZP" role="doc-biblioref">26</a>]</span> or Minimap2 <span class="citation" data-cites="qRe2jTUu">[<a href="#ref-qRe2jTUu" role="doc-biblioref">27</a>]</span>, and splice-aware aligners such as STAR <span class="citation" data-cites="3ljODRID">[<a href="#ref-3ljODRID" role="doc-biblioref">28</a>]</span> and HISAT2 <span class="citation" data-cites="suZZ5gyw">[<a href="#ref-suZZ5gyw" role="doc-biblioref">29</a>]</span>.</p>
+Briefly, the blacklist plugin downloads blacklists by the Kundaje lab <span class="citation" data-cites="1H0zRMs87">[<a href="#ref-1H0zRMs87" role="doc-biblioref">23</a>]</span> for the supported genomes.
+Other plugins support the generation of aligner indexes, including DNA aligner indexes for Bowtie2 <span class="citation" data-cites="PiS0h6Mu">[<a href="#ref-PiS0h6Mu" role="doc-biblioref">24</a>]</span>, BWA <span class="citation" data-cites="roi5bwXL">[<a href="#ref-roi5bwXL" role="doc-biblioref">25</a>]</span>, GMAP <span class="citation" data-cites="bR0ryTWA">[<a href="#ref-bR0ryTWA" role="doc-biblioref">26</a>]</span> or Minimap2 <span class="citation" data-cites="172cJaw4Q">[<a href="#ref-172cJaw4Q" role="doc-biblioref">27</a>]</span>, and splice-aware aligners such as STAR <span class="citation" data-cites="tTu8Ds9Z">[<a href="#ref-tTu8Ds9Z" role="doc-biblioref">28</a>]</span> and HISAT2 <span class="citation" data-cites="l8nonyZM">[<a href="#ref-l8nonyZM" role="doc-biblioref">29</a>]</span>.</p>
 <p>Assemblies not present on the major providers can be processed similarly by supplying the URLs or file paths to the <code>install</code> function.
 For data provenance and reproducibility, a README file is generated during the installation process with time, source files, processing steps, and filtered contigs.</p>
 <p>These features are available on both the command line interface and Python API.
 Additional features are available on the Python API, focussed around two classes.
 The <code>Genome</code> class can be used to extract exact or random sequences from the FASTA, filter the FASTA and list the contigs, contig sizes and contig gaps.
-The <code>Annotation</code> class can be used to browse and filter the BED12 or GTF files as pandas dataframes <span class="citation" data-cites="Rsx21cOw">[<a href="#ref-Rsx21cOw" role="doc-biblioref">16</a>]</span>,
-map gene identifiers to other types using mygene.info <span class="citation" data-cites="lD1ErWGt">[<a href="#ref-lD1ErWGt" role="doc-biblioref">17</a>]</span>,
+The <code>Annotation</code> class can be used to browse and filter the BED12 or GTF files as pandas dataframes <span class="citation" data-cites="2z2qDwzz">[<a href="#ref-2z2qDwzz" role="doc-biblioref">16</a>]</span>,
+map gene identifiers to other types using mygene.info <span class="citation" data-cites="YShgkTmL">[<a href="#ref-YShgkTmL" role="doc-biblioref">17</a>]</span>,
 map chromosome names to naming schemes of other major providers,
 and create a dictionary of any two GTF columns or attribute fields (to easily convert gene identifiers to gene names for instance).</p>
 <h2 id="conclusion">Conclusion</h2>
@@ -284,98 +284,110 @@ A genome, with the desired sequence masking, level of biological diversity, and 
 Gene annotations in GTF and BED12 format, and matching the genome, can similarly be obtained, with further options available in the Python API.
 Whatever install options you choose are logged, for reproducibly, allowing you to start your analysis with confidence.</p>
 <h2 id="code-availability">Code availability</h2>
-<p>Genomepy can be installed using <a href="https://anaconda.org/bioconda/genomepy">Bioconda</a>, <a href="https://pypi.org/project/genomepy/">Pip</a>,
-or directly used in workflows with this <a href="https://quay.io/repository/biocontainers/genomepy">Docker image</a> or <a href="https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/genomepy.html">snakemake wrapper</a>.
-Code and documentation are available on <a href="https://github.com/vanheeringen-lab/genomepy">github</a> and <a href="https://github.com/vanheeringen-lab/genomepy">github-pages</a>, respectively.</p>
+<p>Genomepy can be installed using Bioconda <span class="citation" data-cites="sYguBb3Q">[<a href="#ref-sYguBb3Q" role="doc-biblioref">30</a>]</span>, Pip <span class="citation" data-cites="Mduzvxei">[<a href="#ref-Mduzvxei" role="doc-biblioref">31</a>]</span>,
+or directly used in workflows with our Docker <span class="citation" data-cites="poUinnWQ">[<a href="#ref-poUinnWQ" role="doc-biblioref">32</a>]</span> <a href="https://quay.io/repository/biocontainers/genomepy?tab=tags">image</a> or snakemake <span class="citation" data-cites="FIA5rFD1">[<a href="#ref-FIA5rFD1" role="doc-biblioref">33</a>]</span> <a href="https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/genomepy.html">wrapper</a>.
+Code and documentation are available on <a href="https://github.com/vanheeringen-lab/genomepy">github</a> and <a href="https://vanheeringen-lab.github.io/genomepy/">github-pages</a>, respectively.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
-<div id="ref-d4pyOy1j" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline"><a href="https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz966/5613682">https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz966/5613682</a></div>
+<div id="ref-oDiClyTE" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Ensembl 2020</strong> <div class="csl-block">Andrew D Yates, Premanand Achuthan, Wasiu Akanni, James Allen, Jamie Allen, Jorge Alvarez-Jarreta, MRidwan Amode, Irina M Armean, Andrey G Azov, Ruth Bennett, … Paul Flicek</div> <em>Nucleic Acids Research</em> (2019-11-06) <a href="https://doi.org/ggqp72">https://doi.org/ggqp72</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkz966">10.1093/nar/gkz966</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31691826">31691826</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145704">PMC7145704</a></div></div>
 </div>
-<div id="ref-qpuvolS" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>The Human Genome Browser at UCSC</strong> <div class="csl-block">WJames Kent, Charles W Sugnet, Terrence S Furey, Krishna M Roskin, Tom H Pringle, Alan M Zahler, and David Haussler</div> <em>Genome Research</em> (2002-06-01) <a href="https://genome.cshlp.org/content/12/6/996">https://genome.cshlp.org/content/12/6/996</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/gr.229102">10.1101/gr.229102</a></div></div>
+<div id="ref-QvT2C2wD" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>The Human Genome Browser at UCSC</strong> <div class="csl-block">WJames Kent, Charles W Sugnet, Terrence S Furey, Krishna M Roskin, Tom H Pringle, Alan M Zahler, and David Haussler</div> <em>Genome Research</em> (2002-05-16) <a href="https://doi.org/fpf5rm">https://doi.org/fpf5rm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/gr.229102">10.1101/gr.229102</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/12045153">12045153</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC186604">PMC186604</a></div></div>
 </div>
-<div id="ref-fu2xfhYo" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>The UCSC Table Browser data retrieval tool</strong> <div class="csl-block">Donna Karolchik, Angela S Hinrichs, Terrence S Furey, Krishna M Roskin, Charles W Sugnet, David Haussler, WJames Kent</div> <em>Nucleic acids research</em> (2004-01-01) <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC308837/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC308837/</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkh103">10.1093/nar/gkh103</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/14681465">14681465</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC308837">PMC308837</a></div></div>
+<div id="ref-11i4YDEok" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>The UCSC Table Browser data retrieval tool</strong> <div class="csl-block">D Karolchik</div> <em>Nucleic Acids Research</em> (2004-01-01) <a href="https://doi.org/cspcr2">https://doi.org/cspcr2</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkh103">10.1093/nar/gkh103</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/14681465">14681465</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC308837">PMC308837</a></div></div>
 </div>
-<div id="ref-XC6KeC2T" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline"><a href="https://academic.oup.com/nar/article/49/D1/D916/6018430">https://academic.oup.com/nar/article/49/D1/D916/6018430</a></div>
+<div id="ref-1HmawDzAU" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>GENCODE 2021</strong> <div class="csl-block">Adam Frankish, Mark Diekhans, Irwin Jungreis, Julien Lagarde, Jane E Loveland, Jonathan M Mudge, Cristina Sisu, James C Wright, Joel Armstrong, If Barnes, … Paul Flicek</div> <em>Nucleic Acids Research</em> (2020-12-03) <a href="https://doi.org/gp54nf">https://doi.org/gp54nf</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkaa1087">10.1093/nar/gkaa1087</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33270111">33270111</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7778937">PMC7778937</a></div></div>
 </div>
-<div id="ref-VhRxQZNx" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline"><a href="https://academic.oup.com/nar/article/47/D1/D867/5165261">https://academic.oup.com/nar/article/47/D1/D867/5165261</a></div>
+<div id="ref-1u459PIA" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>The Zebrafish Information Network: new support for non-coding genes, richer Gene Ontology annotations and the Alliance of Genome Resources</strong> <div class="csl-block">Leyla Ruzicka, Douglas G Howe, Sridhar Ramachandran, Sabrina Toro, Ceri E Van Slyke, Yvonne M Bradford, Anne Eagle, David Fashena, Ken Frazer, Patrick Kalita, … Monte Westerfield</div> <em>Nucleic Acids Research</em> (2018-11-08) <a href="https://doi.org/ghbvc6">https://doi.org/ghbvc6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gky1090">10.1093/nar/gky1090</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30407545">30407545</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323962">PMC6323962</a></div></div>
 </div>
-<div id="ref-194UqbUxS" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">6. </div><div class="csl-right-inline"><a href="https://academic.oup.com/nar/article/47/D1/D759/5144957">https://academic.oup.com/nar/article/47/D1/D759/5144957</a></div>
+<div id="ref-QehWMEA1" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>FlyBase 2.0: the next generation</strong> <div class="csl-block">Jim Thurmond, Joshua L Goodman, Victor B Strelets, Helen Attrill, LSian Gramates, Steven J Marygold, Beverley B Matthews, Gillian Millburn, Giulia Antonazzo, Vitor Trovisco, … Phillip Baker</div> <em>Nucleic Acids Research</em> (2018-10-26) <a href="https://doi.org/ggbt3f">https://doi.org/ggbt3f</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gky1003">10.1093/nar/gky1003</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30364959">30364959</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323960">PMC6323960</a></div></div>
 </div>
-<div id="ref-6H38vVFQ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline"><a href="https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz920/5603222">https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz920/5603222</a></div>
+<div id="ref-1GCZaM5As" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>WormBase: a modern Model Organism Information Resource</strong> <div class="csl-block">Todd W Harris, Valerio Arnaboldi, Scott Cain, Juancarlos Chan, Wen J Chen, Jaehyoung Cho, Paul Davis, Sibyl Gao, Christian A Grove, Ranjana Kishore, … Paul W Sternberg</div> <em>Nucleic Acids Research</em> (2019-10-23) <a href="https://doi.org/ggv5zk">https://doi.org/ggv5zk</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkz920">10.1093/nar/gkz920</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31642470">31642470</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145598">PMC7145598</a></div></div>
 </div>
-<div id="ref-ixJ4BHwK" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline"><a href="https://academic.oup.com/nar/article/46/D1/D861/4559118">https://academic.oup.com/nar/article/46/D1/D861/4559118</a></div>
+<div id="ref-QS8T1x1K" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>Xenbase: a genomic, epigenomic and transcriptomic model organism database</strong> <div class="csl-block">Kamran Karimi, Joshua D Fortriede, Vaneet S Lotay, Kevin A Burns, Dong Zhou Wang, Malcom E Fisher, Troy J Pells, Christina James-Zorn, Ying Wang, V G Ponferrada, … Peter D Vize</div> <em>Nucleic Acids Research</em> (2018-01-04) <a href="http://academic.oup.com/nar/article/46/D1/D861/4559118">http://academic.oup.com/nar/article/46/D1/D861/4559118</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkx936">10.1093/nar/gkx936</a></div></div>
 </div>
-<div id="ref-WXvAVUqZ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>A comprehensive evaluation of ensembl, RefSeq, and UCSC annotations in the context of RNA-seq read mapping and gene quantification</strong> <div class="csl-block">Shanrong Zhao, Baohong Zhang</div> <em>BMC Genomics</em> (2015-02-18) <a href="https://doi.org/10.1186/s12864-015-1308-8">https://doi.org/10.1186/s12864-015-1308-8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12864-015-1308-8">10.1186/s12864-015-1308-8</a></div></div>
+<div id="ref-liZRovbx" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>A comprehensive evaluation of ensembl, RefSeq, and UCSC annotations in the context of RNA-seq read mapping and gene quantification</strong> <div class="csl-block">Shanrong Zhao, Baohong Zhang</div> <em>BMC Genomics</em> (2015-02-18) <a href="https://doi.org/f7bjp4">https://doi.org/f7bjp4</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12864-015-1308-8">10.1186/s12864-015-1308-8</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25765860">25765860</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4339237">PMC4339237</a></div></div>
 </div>
 <div id="ref-Tz7ID5CR" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>GitHub - kblin/ncbi-genome-download: Scripts to download genomes from the NCBI FTP servers</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/kblin/ncbi-genome-download">https://github.com/kblin/ncbi-genome-download</a></div>
 </div>
-<div id="ref-18vgH2GMw" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>ucsc-genomes-downloader: Python package to quickly download genomes from the UCSC.</strong> <div class="csl-block">Luca Cappelletti</div> <a href="https://github.com/LucaCappelletti94/ucsc_genomes_downloader">https://github.com/LucaCappelletti94/ucsc_genomes_downloader</a></div>
+<div id="ref-KFNfYVIu" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>GitHub - LucaCappelletti94/ucsc_genomes_downloader: Python package to quickly download genomes from the UCSC.</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/LucaCappelletti94/ucsc_genomes_downloader">https://github.com/LucaCappelletti94/ucsc_genomes_downloader</a></div>
 </div>
 <div id="ref-irBY7Pe6" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>iGenomes</strong> <a href="https://support.illumina.com/sequencing/sequencing_software/igenome.html">https://support.illumina.com/sequencing/sequencing_software/igenome.html</a></div>
 </div>
-<div id="ref-gR8WRn61" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">13. </div><div class="csl-right-inline"><a href="https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giz149/5717403">https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giz149/5717403</a></div>
+<div id="ref-aIpHcrh9" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>Refgenie: a reference genome resource manager</strong> <div class="csl-block">Michał Stolarczyk, Vincent P Reuter, Jason P Smith, Neal E Magee, Nathan C Sheffield</div> <em>GigaScience</em> (2020-01-29) <a href="https://doi.org/gqgspw">https://doi.org/gqgspw</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/gigascience/giz149">10.1093/gigascience/giz149</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31995185">31995185</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988606">PMC6988606</a></div></div>
 </div>
-<div id="ref-42DbID0w" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>Go Get Data (GGD): simple, reproducible access to scientific data</strong> <div class="csl-block">Michael J Cormier, Jonathan R Belyeu, Brent S Pedersen, Joseph Brown, Johannes Koster, Aaron R Quinlan</div> (2020-09-11) <a href="https://www.biorxiv.org/content/10.1101/2020.09.10.291377v2">https://www.biorxiv.org/content/10.1101/2020.09.10.291377v2</a></div>
+<div id="ref-156AVeVqH" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>Go Get Data (GGD) is a framework that facilitates reproducible access to genomic data</strong> <div class="csl-block">Michael J Cormier, Jonathan R Belyeu, Brent S Pedersen, Joseph Brown, Johannes Köster, Aaron R Quinlan</div> <em>Nature Communications</em> (2021-04-12) <a href="https://doi.org/gk6ffq">https://doi.org/gk6ffq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41467-021-22381-z">10.1038/s41467-021-22381-z</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33846313">33846313</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8041854">PMC8041854</a></div></div>
 </div>
-<div id="ref-uwGw0Z6K" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>Efficient "pythonic" access to FASTA files using pyfaidx</strong> <div class="csl-block">Matthew D Shirley, Zhaorong Ma, Brent S Pedersen, Sarah J Wheelan</div> <em>PeerJ PrePrints</em> (2015-04-08) <a href="https://peerj.com/preprints/970">https://peerj.com/preprints/970</a></div>
+<div id="ref-19vAHbQAp" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>Efficient "pythonic" access to FASTA files using pyfaidx</strong> <div class="csl-block">Matthew D Shirley, Zhaorong Ma, Brent S Pedersen, Sarah J Wheelan</div> <em>PeerJ</em> (2015-04-08) <a href="https://doi.org/gfzprs">https://doi.org/gfzprs</a> <div class="csl-block">DOI: <a href="https://doi.org/10.7287/peerj.preprints.970v1">10.7287/peerj.preprints.970v1</a></div></div>
 </div>
-<div id="ref-Rsx21cOw" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>pandas-dev/pandas: Pandas 1.4.3</strong> <div class="csl-block">Jeff Reback, jbrockmendel, Wes McKinney, Joris Van den Bossche, Matthew Roeschke, Tom Augspurger, Simon Hawkins, Phillip Cloud, gfyoung, Sinhrks, … Thomas Li</div> <em>Zenodo</em> (2022-06-23) <a href="https://zenodo.org/record/6702671">https://zenodo.org/record/6702671</a></div>
+<div id="ref-2z2qDwzz" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>pandas-dev/pandas: Pandas 1.4.3</strong> <div class="csl-block">Jeff Reback, Jbrockmendel, Wes McKinney, Joris Van Den Bossche, Matthew Roeschke, Tom Augspurger, Simon Hawkins, Phillip Cloud, Gfyoung, Sinhrks, … Thomas Li</div> <em>Zenodo</em> (2022-06-23) <a href="https://doi.org/gqgspz">https://doi.org/gqgspz</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.3509134">10.5281/zenodo.3509134</a></div></div>
 </div>
-<div id="ref-lD1ErWGt" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>High-performance web services for querying gene and variant annotation</strong> <div class="csl-block">Jiwen Xin, Adam Mark, Cyrus Afrasiabi, Ginger Tsueng, Moritz Juchler, Nikhil Gopal, Gregory S Stupp, Timothy E Putman, Benjamin J Ainscough, Obi L Griffith, … Chunlei Wu</div> <em>Genome Biology</em> (2016-05-06) <a href="https://doi.org/10.1186/s13059-016-0953-9">https://doi.org/10.1186/s13059-016-0953-9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13059-016-0953-9">10.1186/s13059-016-0953-9</a></div></div>
+<div id="ref-YShgkTmL" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>High-performance web services for querying gene and variant annotation</strong> <div class="csl-block">Jiwen Xin, Adam Mark, Cyrus Afrasiabi, Ginger Tsueng, Moritz Juchler, Nikhil Gopal, Gregory S Stupp, Timothy E Putman, Benjamin J Ainscough, Obi L Griffith, … Chunlei Wu</div> <em>Genome Biology</em> (2016-05-06) <a href="https://doi.org/gqgsp3">https://doi.org/gqgsp3</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13059-016-0953-9">10.1186/s13059-016-0953-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27154141">27154141</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4858870">PMC4858870</a></div></div>
 </div>
-<div id="ref-1A8qgwE55" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">18. </div><div class="csl-right-inline"><a href="https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btr539">https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btr539</a></div>
+<div id="ref-sQMEzP3r" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>Pybedtools: a flexible Python library for manipulating genomic datasets and annotations</strong> <div class="csl-block">Ryan K Dale, Brent S Pedersen, Aaron R Quinlan</div> <em>Bioinformatics</em> (2011-09-23) <a href="https://doi.org/bps7ds">https://doi.org/bps7ds</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btr539">10.1093/bioinformatics/btr539</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21949271">21949271</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3232365">PMC3232365</a></div></div>
 </div>
-<div id="ref-7A0OICjo" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">19. </div><div class="csl-right-inline"><strong>CellOracle: Dissecting cell identity via network inference and in silico gene perturbation</strong> <div class="csl-block">Kenji Kamimoto, Christy M Hoffmann, Samantha A Morris</div> (2020-04-21) <a href="https://www.biorxiv.org/content/10.1101/2020.02.17.947416v3">https://www.biorxiv.org/content/10.1101/2020.02.17.947416v3</a></div>
+<div id="ref-nRiDy8Ha" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">19. </div><div class="csl-right-inline"><strong>CellOracle: Dissecting cell identity via network inference and in silico gene perturbation</strong> <div class="csl-block">Kenji Kamimoto, Christy M Hoffmann, Samantha A Morris</div> <em>Cold Spring Harbor Laboratory</em> (2020-02-17) <a href="https://doi.org/ggtbqc">https://doi.org/ggtbqc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2020.02.17.947416">10.1101/2020.02.17.947416</a></div></div>
 </div>
 <div id="ref-xUNuCj44" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">20. </div><div class="csl-right-inline"><strong>RepeatMasker Home Page</strong> <a href="http://repeatmasker.org/">http://repeatmasker.org/</a></div>
+<div class="csl-left-margin">20. </div><div class="csl-right-inline"><strong>RepeatMasker</strong> <a href="http://repeatmasker.org/">http://repeatmasker.org/</a></div>
 </div>
 <div id="ref-6pvE6gty" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">21. </div><div class="csl-right-inline"><strong>A Fast and Symmetric DUST Implementation to Mask Low-Complexity DNA Sequences</strong> <div class="csl-block">Aleksandr Morgulis, EMichael Gertz, Alejandro A Schäffer, Richa Agarwala</div> <em>Journal of Computational Biology</em> (2006-06) <a href="https://doi.org/fqs85g">https://doi.org/fqs85g</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1089/cmb.2006.13.1028">10.1089/cmb.2006.13.1028</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/16796549">16796549</a></div></div>
 </div>
-<div id="ref-VMZGeIWy" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">22. </div><div class="csl-right-inline"><strong>Extending reference assembly models</strong> <div class="csl-block">Deanna M Church, Valerie A Schneider, Karyn Meltz Steinberg, Michael C Schatz, Aaron R Quinlan, Chen-Shan Chin, Paul A Kitts, Bronwen Aken, Gabor T Marth, Michael M Hoffman, … Paul Flicek</div> <em>Genome Biology</em> (2015-01-24) <a href="https://doi.org/10.1186/s13059-015-0587-3">https://doi.org/10.1186/s13059-015-0587-3</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13059-015-0587-3">10.1186/s13059-015-0587-3</a></div></div>
+<div id="ref-1DiisKv9l" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">22. </div><div class="csl-right-inline"><strong>Extending reference assembly models</strong> <div class="csl-block">Deanna M Church, Valerie A Schneider, Karyn Meltz Steinberg, Michael C Schatz, Aaron R Quinlan, Chen-Shan Chin, Paul A Kitts, Bronwen Aken, Gabor T Marth, Michael M Hoffman, … Paul Flicek</div> <em>Genome Biology</em> (2015-01-24) <a href="https://doi.org/gqgsqc">https://doi.org/gqgsqc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13059-015-0587-3">10.1186/s13059-015-0587-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25651527">25651527</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4305238">PMC4305238</a></div></div>
 </div>
-<div id="ref-aLw6PKkV" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">23. </div><div class="csl-right-inline"><strong>The ENCODE Blacklist: Identification of Problematic Regions of the Genome</strong> <div class="csl-block">Haley M Amemiya, Anshul Kundaje, Alan P Boyle</div> <em>Scientific Reports</em> (2019-06-27) <a href="https://www.nature.com/articles/s41598-019-45839-z">https://www.nature.com/articles/s41598-019-45839-z</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41598-019-45839-z">10.1038/s41598-019-45839-z</a></div></div>
+<div id="ref-1H0zRMs87" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">23. </div><div class="csl-right-inline"><strong>The ENCODE Blacklist: Identification of Problematic Regions of the Genome</strong> <div class="csl-block">Haley M Amemiya, Anshul Kundaje, Alan P Boyle</div> <em>Scientific Reports</em> (2019-06-27) <a href="https://doi.org/gf4jsb">https://doi.org/gf4jsb</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41598-019-45839-z">10.1038/s41598-019-45839-z</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31249361">31249361</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6597582">PMC6597582</a></div></div>
 </div>
-<div id="ref-lNdYtfQT" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">24. </div><div class="csl-right-inline"><strong>Fast gapped-read alignment with Bowtie 2</strong> <div class="csl-block">Ben Langmead, Steven L Salzberg</div> <em>Nature Methods</em> (2012-04) <a href="https://www.nature.com/articles/nmeth.1923">https://www.nature.com/articles/nmeth.1923</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.1923">10.1038/nmeth.1923</a></div></div>
+<div id="ref-PiS0h6Mu" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">24. </div><div class="csl-right-inline"><strong>Fast gapped-read alignment with Bowtie 2</strong> <div class="csl-block">Ben Langmead, Steven L Salzberg</div> <em>Nature Methods</em> (2012-03-04) <a href="https://doi.org/gd2xzn">https://doi.org/gd2xzn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.1923">10.1038/nmeth.1923</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22388286">22388286</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3322381">PMC3322381</a></div></div>
 </div>
-<div id="ref-7iUMQeVP" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">25. </div><div class="csl-right-inline"><a href="https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btp324">https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btp324</a></div>
+<div id="ref-roi5bwXL" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">25. </div><div class="csl-right-inline"><strong>Fast and accurate short read alignment with Burrows-Wheeler transform</strong> <div class="csl-block">H Li, R Durbin</div> <em>Bioinformatics</em> (2009-05-18) <a href="https://doi.org/dqt59j">https://doi.org/dqt59j</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btp324">10.1093/bioinformatics/btp324</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19451168">19451168</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2705234">PMC2705234</a></div></div>
 </div>
-<div id="ref-dezX2UZP" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">26. </div><div class="csl-right-inline"><a href="https://academic.oup.com/HTTPHandlers/Sigma/LoginHandler.ashx?error=login_required&amp;state=8ad838c3-98fb-4d9f-ab24-fd44b62291earedirecturl%3Dhttpszazjzjacademiczwoupzwcomzjbioinformaticszjarticlezylookupzjdoizj10zw1093zjbioinformaticszjbti310">https://academic.oup.com/HTTPHandlers/Sigma/LoginHandler.ashx?error=login_required&amp;state=8ad838c3-98fb-4d9f-ab24-fd44b62291earedirecturl%3Dhttpszazjzjacademiczwoupzwcomzjbioinformaticszjarticlezylookupzjdoizj10zw1093zjbioinformaticszjbti310</a></div>
+<div id="ref-bR0ryTWA" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">26. </div><div class="csl-right-inline"><strong>GMAP: a genomic mapping and alignment program for mRNA and EST sequences</strong> <div class="csl-block">TD Wu, CK Watanabe</div> <em>Bioinformatics</em> (2005-02-22) <a href="https://doi.org/cjb8q8">https://doi.org/cjb8q8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/bti310">10.1093/bioinformatics/bti310</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15728110">15728110</a></div></div>
 </div>
-<div id="ref-qRe2jTUu" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">27. </div><div class="csl-right-inline"><a href="https://academic.oup.com/bioinformatics/article/34/18/3094/4994778">https://academic.oup.com/bioinformatics/article/34/18/3094/4994778</a></div>
+<div id="ref-172cJaw4Q" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">27. </div><div class="csl-right-inline"><strong>Minimap2: pairwise alignment for nucleotide sequences</strong> <div class="csl-block">Heng Li</div> <em>Bioinformatics</em> (2018-05-10) <a href="https://doi.org/gdhbqt">https://doi.org/gdhbqt</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/bty191">10.1093/bioinformatics/bty191</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29750242">29750242</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6137996">PMC6137996</a></div></div>
 </div>
-<div id="ref-3ljODRID" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">28. </div><div class="csl-right-inline"><a href="https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/bts635">https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/bts635</a></div>
+<div id="ref-tTu8Ds9Z" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">28. </div><div class="csl-right-inline"><strong>STAR: ultrafast universal RNA-seq aligner</strong> <div class="csl-block">Alexander Dobin, Carrie A Davis, Felix Schlesinger, Jorg Drenkow, Chris Zaleski, Sonali Jha, Philippe Batut, Mark Chaisson, Thomas R Gingeras</div> <em>Bioinformatics</em> (2012-10-25) <a href="https://doi.org/f4h523">https://doi.org/f4h523</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/bts635">10.1093/bioinformatics/bts635</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23104886">23104886</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905">PMC3530905</a></div></div>
 </div>
-<div id="ref-suZZ5gyw" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">29. </div><div class="csl-right-inline"><strong>HISAT: a fast spliced aligner with low memory requirements</strong> <div class="csl-block">Daehwan Kim, Ben Langmead, Steven L Salzberg</div> <em>Nature Methods</em> (2015-04) <a href="https://www.nature.com/articles/nmeth.3317">https://www.nature.com/articles/nmeth.3317</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.3317">10.1038/nmeth.3317</a></div></div>
+<div id="ref-l8nonyZM" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">29. </div><div class="csl-right-inline"><strong>HISAT: a fast spliced aligner with low memory requirements</strong> <div class="csl-block">Daehwan Kim, Ben Langmead, Steven L Salzberg</div> <em>Nature Methods</em> (2015-03-09) <a href="https://doi.org/f67q59">https://doi.org/f67q59</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nmeth.3317">10.1038/nmeth.3317</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25751142">25751142</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655817">PMC4655817</a></div></div>
+</div>
+<div id="ref-sYguBb3Q" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">30. </div><div class="csl-right-inline"><strong>Bioconda: sustainable and comprehensive software distribution for the life sciences</strong> <div class="csl-block">Björn Grüning, Ryan Dale, Andreas Sjödin, Brad A Chapman, Jillian Rowe, Christopher H Tomkins-Tinch, Renan Valieris, Johannes Köster</div> <em>Nature Methods</em> (2018-07) <a href="https://doi.org/gd2xzp">https://doi.org/gd2xzp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-018-0046-7">10.1038/s41592-018-0046-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29967506">29967506</a></div></div>
+</div>
+<div id="ref-Mduzvxei" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">31. </div><div class="csl-right-inline"><strong>PyPI · The Python Package Index</strong> <div class="csl-block">PyPI</div> <a href="https://pypi.org/">https://pypi.org/</a></div>
+</div>
+<div id="ref-poUinnWQ" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">32. </div><div class="csl-right-inline"><strong>Docker: Lightweight Linux Containers for Consistent Development and Deployment</strong> <div class="csl-block">Merkel Dirk</div> <em>Linux Journal</em> (2014-03-01) <a href="https://dl.acm.org/doi/10.5555/2600239.2600241">https://dl.acm.org/doi/10.5555/2600239.2600241</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5555/2600239.2600241">10.5555/2600239.2600241</a></div></div>
+</div>
+<div id="ref-FIA5rFD1" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">33. </div><div class="csl-right-inline"><strong>Snakemake—a scalable bioinformatics workflow engine</strong> <div class="csl-block">Johannes Köster, Sven Rahmann</div> <em>Bioinformatics</em> (2018-05-16) <a href="https://doi.org/gmmkfv">https://doi.org/gmmkfv</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/bty350">10.1093/bioinformatics/bty350</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29788404">29788404</a></div></div>
 </div>
 </div>
 <!-- default theme -->
