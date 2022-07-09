@@ -46,13 +46,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
   <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/79acf588188a2f5e77f5503093ae1d5be9140391/" />
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/79acf588188a2f5e77f5503093ae1d5be9140391/" />
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/79acf588188a2f5e77f5503093ae1d5be9140391/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/19b4b50e595d33e5d598f279bca4ead89ed28599/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/19b4b50e595d33e5d598f279bca4ead89ed28599/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/19b4b50e595d33e5d598f279bca4ead89ed28599/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/79acf588188a2f5e77f5503093ae1d5be9140391/content/images/thumbnail-505x640.png" />
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/79acf588188a2f5e77f5503093ae1d5be9140391/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/19b4b50e595d33e5d598f279bca4ead89ed28599/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/19b4b50e595d33e5d598f279bca4ead89ed28599/content/images/thumbnail-505x640.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -72,9 +72,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/79acf588188a2f5e77f5503093ae1d5be9140391/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/19b4b50e595d33e5d598f279bca4ead89ed28599/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@79acf58](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/79acf588188a2f5e77f5503093ae1d5be9140391)
+from [vanheeringen-lab/genomepy_manuscript@19b4b50](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/19b4b50e595d33e5d598f279bca4ead89ed28599)
 on July 9, 2022.
 </em></small>
 
