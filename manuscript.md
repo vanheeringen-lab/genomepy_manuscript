@@ -46,13 +46,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
   <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/91d09745776e5f40c8e7ab4eb3bf61319faf86fc/" />
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/91d09745776e5f40c8e7ab4eb3bf61319faf86fc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/91d09745776e5f40c8e7ab4eb3bf61319faf86fc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e0cda063c435566d47f2e9ca7eb657b8be7839bd/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e0cda063c435566d47f2e9ca7eb657b8be7839bd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e0cda063c435566d47f2e9ca7eb657b8be7839bd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/91d09745776e5f40c8e7ab4eb3bf61319faf86fc/content/images/thumbnail-505x640.png" />
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/91d09745776e5f40c8e7ab4eb3bf61319faf86fc/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/e0cda063c435566d47f2e9ca7eb657b8be7839bd/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/e0cda063c435566d47f2e9ca7eb657b8be7839bd/content/images/thumbnail-505x640.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -72,9 +72,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/91d09745776e5f40c8e7ab4eb3bf61319faf86fc/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/e0cda063c435566d47f2e9ca7eb657b8be7839bd/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@91d0974](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/91d09745776e5f40c8e7ab4eb3bf61319faf86fc)
+from [vanheeringen-lab/genomepy_manuscript@e0cda06](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/e0cda063c435566d47f2e9ca7eb657b8be7839bd)
 on July 15, 2022.
 </em></small>
 
@@ -135,9 +135,9 @@ Extended functionality is accessible using a Python application programming inte
 
 ## Introduction
 Data analysis is increasingly important in biological research.
-Whether you are analyzing gene expression in two samples or protein binding motifs in genomic atlases, you will need external information such as a reference genome or a gene annotation.
+Whether you are analyzing gene expression in two samples or transcription factor binding motifs in genomic atlases, you will need external information such as a reference genome or a gene annotation.
 For these types of data, there are three major providers: Ensembl @doi:10.1093/nar/gkz966, UCSC @doi:10.1101/gr.229102 and NCBI @doi:10.1093/nar/gkh103, and many model-system specific providers, such as GENCODE @doi:10.1093/nar/gkaa1087, ZFIN @doi:10.1093/nar/gky1090, FlyBase @doi:10.1093/nar/gky1003, WormBase @doi:10.1093/nar/gkz920, Xenbase @dpo:10.1093/nar/gkx936 and more.
-Providers have different approaches to compiling genome assemblies and gene annotations, which effect formats, format compliance, naming, data quality, available versions and release cycle.
+Providers have different approaches to compiling genome assemblies and gene annotations, which affect formats, format compliance, naming, data quality, available versions and release cycle.
 These differences significantly impact compatibility with research @doi:10.1186/s12864-015-1308-8, tools and (data based on) other genomic data.
 
 You could try to find genomic data yourself, but there are many options with no clear metric for the "best" one.
@@ -253,7 +253,7 @@ Whatever install options you choose are logged, for reproducibly, allowing you t
 
 
 ## Code availability
-Genomepy can be installed using Bioconda @doi:10.1038/s41592-018-0046-7, Pip @url:https://pypi.org, 
+Genomepy is freely available under the MIT license and can be installed using Bioconda @doi:10.1038/s41592-018-0046-7, Pip @url:https://pypi.org, 
 or directly used in workflows with our Docker @doi:10.5555/2600239.2600241 [image](https://quay.io/repository/biocontainers/genomepy?tab=tags) or snakemake @doi:10.1093/bioinformatics/bty350 [wrapper](https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/genomepy.html).
 Code and documentation are available on [github](https://github.com/vanheeringen-lab/genomepy) and [github-pages](https://vanheeringen-lab.github.io/genomepy/), respectively.
 
