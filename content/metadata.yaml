@@ -25,6 +25,12 @@ authors:
     email: m.vandersande@science.ru.nl
     affiliations:
       - Department of Molecular Developmental Biology, Radboud University
+  - github: tilschaef
+    name: Tilman Schäfers
+    initials: TS
+    email: tilman.schaefers@ru.nl
+    affiliations:
+      - Department of Molecular Developmental Biology, Radboud University
   - github: simonvh
     name: Simon van Heeringen
     initials: SJH
