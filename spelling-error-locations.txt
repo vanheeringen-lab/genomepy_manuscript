@@ -72,7 +72,6 @@ content/02.introduction.md:46:iGenomes
 content/02.introduction.md:46:refGenie
 content/02.introduction.md:46:reproducibility
 content/02.introduction.md:47:genomepy
-content/02.introduction.md:47:reproducibly
 content/02.introduction.md:48:genomepy
 content/02.introduction.md:49:genomic
 content/02.introduction.md:50:FASTA
@@ -107,11 +106,9 @@ content/02.introduction.md:68:ncbi
 content/02.introduction.md:68:programmatically
 content/02.introduction.md:68:ucsc
 content/02.introduction.md:68:ucsc
-content/02.introduction.md:71:reproducibly
 content/02.introduction.md:72:iGenomes
 content/02.introduction.md:72:refGenie
 content/02.introduction.md:73:genomepy
-content/02.introduction.md:73:reproducibly
 content/02.introduction.md:76:genomepy
 content/02.introduction.md:76:genomic
 content/02.introduction.md:76:preprocess
@@ -176,11 +173,10 @@ content/04.conclusions.md:9:genomic
 content/04.conclusions.md:10:genomepy
 content/04.conclusions.md:11:contigs
 content/04.conclusions.md:12:GTF
-content/04.conclusions.md:13:reproducibly
+content/04.conclusions.md:13:reproducibility
 content/04.conclusions.md:17:genomic
 content/04.conclusions.md:19:genomepy
 content/04.conclusions.md:19:genomic
-content/04.conclusions.md:19:reproducibly
 content/04.conclusions.md:20:Genomepy
 content/04.conclusions.md:21:genomepy
 content/05.other.md:9:Bioconda

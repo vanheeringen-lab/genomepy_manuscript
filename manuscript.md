@@ -46,13 +46,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
   <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/cc51f4296725851a9632b21414ea775a33b5f518/" />
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/cc51f4296725851a9632b21414ea775a33b5f518/" />
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/cc51f4296725851a9632b21414ea775a33b5f518/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/681c37118924d185652c2559ccf3812e1b444baa/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/681c37118924d185652c2559ccf3812e1b444baa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/681c37118924d185652c2559ccf3812e1b444baa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/cc51f4296725851a9632b21414ea775a33b5f518/content/images/thumbnail-505x640.png" />
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/cc51f4296725851a9632b21414ea775a33b5f518/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/681c37118924d185652c2559ccf3812e1b444baa/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/681c37118924d185652c2559ccf3812e1b444baa/content/images/thumbnail-505x640.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -72,9 +72,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/cc51f4296725851a9632b21414ea775a33b5f518/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/681c37118924d185652c2559ccf3812e1b444baa/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@cc51f42](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/cc51f4296725851a9632b21414ea775a33b5f518)
+from [vanheeringen-lab/genomepy_manuscript@681c371](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/681c37118924d185652c2559ccf3812e1b444baa)
 on July 15, 2022.
 </em></small>
 
@@ -245,7 +245,7 @@ Obtaining suitable genomic data is a principal step in any genomics project.
 With genomepy, finding available assemblies becomes trivial.
 A genome, with the desired sequence masking, level of biological diversity, and contigs can be obtained with a single command.
 Gene annotations in GTF and BED12 format, and matching the genome, can similarly be obtained, with further options available in the Python API.
-Whatever install options you choose are logged, for reproducibly, allowing you to start your analysis with confidence.
+Whatever install options you choose are logged, for reproducibility, allowing you to start your analysis with confidence.
 
 
 
