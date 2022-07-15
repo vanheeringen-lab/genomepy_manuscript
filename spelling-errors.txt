@@ -17,7 +17,7 @@ focussed
 Frölich
 GENCODE
 Genomepy
-genomic
+Genomic
 GFF
 GMAP
 GTF
@@ -29,7 +29,7 @@ Maarten
 MaartenvdSande
 Minimap
 mygene
-NCBI
+ncbi
 postprocessing
 preprocess
 preprocessed
@@ -48,7 +48,7 @@ simonvh
 snakemake
 softmasked
 svheeringen
-ucsc
+UCSC
 WormBase
 Xenbase
 ZFIN
