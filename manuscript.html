@@ -7,7 +7,7 @@
   <meta name="author" content="Siebren Frölich" />
   <meta name="author" content="Maarten van der Sande" />
   <meta name="author" content="Simon van Heeringen" />
-  <meta name="dcterms.date" content="2022-07-09" />
+  <meta name="dcterms.date" content="2022-07-15" />
   <meta name="keywords" content="bioinformatics, reproducible-research, genomics, tools" />
   <title>genomepy: Genes and Genomes at your fingertips</title>
   <style>
@@ -112,8 +112,8 @@
   <meta name="citation_title" content="genomepy: Genes and Genomes at your fingertips" />
   <meta property="og:title" content="genomepy: Genes and Genomes at your fingertips" />
   <meta property="twitter:title" content="genomepy: Genes and Genomes at your fingertips" />
-  <meta name="dc.date" content="2022-07-09" />
-  <meta name="citation_publication_date" content="2022-07-09" />
+  <meta name="dc.date" content="2022-07-15" />
+  <meta name="citation_publication_date" content="2022-07-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -137,13 +137,13 @@
   <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
   <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/19b4b50e595d33e5d598f279bca4ead89ed28599/" />
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/19b4b50e595d33e5d598f279bca4ead89ed28599/" />
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/19b4b50e595d33e5d598f279bca4ead89ed28599/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/a89773eed478b1fd1e7afd66a89b76969762d030/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/a89773eed478b1fd1e7afd66a89b76969762d030/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/a89773eed478b1fd1e7afd66a89b76969762d030/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/19b4b50e595d33e5d598f279bca4ead89ed28599/content/images/thumbnail-505x640.png" />
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/19b4b50e595d33e5d598f279bca4ead89ed28599/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/a89773eed478b1fd1e7afd66a89b76969762d030/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/a89773eed478b1fd1e7afd66a89b76969762d030/content/images/thumbnail-505x640.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -155,10 +155,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/19b4b50e595d33e5d598f279bca4ead89ed28599/">permalink</a>)
+(<a href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/a89773eed478b1fd1e7afd66a89b76969762d030/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/vanheeringen-lab/genomepy_manuscript/tree/19b4b50e595d33e5d598f279bca4ead89ed28599">vanheeringen-lab/genomepy_manuscript@19b4b50</a>
-on July 9, 2022.
+from <a href="https://github.com/vanheeringen-lab/genomepy_manuscript/tree/a89773eed478b1fd1e7afd66a89b76969762d030">vanheeringen-lab/genomepy_manuscript@a89773e</a>
+on July 15, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -192,15 +192,15 @@ Department of Molecular Developmental Biology, Radboud University
 </small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
-<p>Analyzing functional genomics data, including ATAC-, ChIP- and RNA-sequencing, requires genomic data such as a genome assembly and gene annotations.
-These resources can generally be retrieved from multiple organizations, at multiple versions, and multiple processing methods.
+<p>Analyzing a functional genomics experiment, such as ATAC-, ChIP- or RNA-sequencing, requires reference data including a genome assembly and gene annotation.
+These resources can generally be retrieved from different organizations and in different versions.
 Most bioinformatic workflows require the user to supply this genomic data manually, which can be a tedious and error-prone process.</p>
 <p>Here we present genomepy, which can search, download, and preprocess the right genomic data for your analysis.
-Genomepy can search genomic data on GENCODE, Ensembl, UCSC and NCBI, and compare available gene annotations, to enable an informed decision.
-The selected genome and gene annotation can be downloaded (from anywhere) and preprocessed with sensible, yet controllable, defaults.
-Additional supporting data can be automatically generated, such as aligner indexes, genome metadata and blacklists.
-These functionalities are available on command line interface, aimed at ease of use and integration in automated pipelines,
-with extended functionality on the Python application programming interface.</p>
+Genomepy can search genomic data on NCBI, Ensembl, UCSC and GENCODE, and compare available gene annotations to enable an informed decision.
+The selected genome and gene annotation can be downloaded and preprocessed with sensible, yet controllable, defaults.
+Additional supporting data can be automatically generated or downloaded, such as aligner indexes, genome metadata and blacklists.
+These functionalities are available from a command line interface, aimed at ease of use and integration in automated pipelines.
+Extended functionality is accessible using a Python application programming interface.</p>
 <h2 id="introduction">Introduction</h2>
 <p>Data analysis is increasingly important in biological research.
 Whether you are analyzing gene expression in two samples or protein binding motifs in genomic atlases, you will need external information such as a reference genome or a gene annotation.
@@ -284,7 +284,7 @@ A genome, with the desired sequence masking, level of biological diversity, and 
 Gene annotations in GTF and BED12 format, and matching the genome, can similarly be obtained, with further options available in the Python API.
 Whatever install options you choose are logged, for reproducibly, allowing you to start your analysis with confidence.</p>
 <h2 id="code-availability">Code availability</h2>
-<p>Genomepy can be installed using Bioconda<span class="citation" data-cites="sYguBb3Q"><sup><a href="#ref-sYguBb3Q" role="doc-biblioref">30</a></sup></span>, Pip<span class="citation" data-cites="Mduzvxei"><sup><a href="#ref-Mduzvxei" role="doc-biblioref">31</a></sup></span>,
+<p>Genomepy is freely available under a MIT license and can be installed using Bioconda<span class="citation" data-cites="sYguBb3Q"><sup><a href="#ref-sYguBb3Q" role="doc-biblioref">30</a></sup></span>, Pip<span class="citation" data-cites="Mduzvxei"><sup><a href="#ref-Mduzvxei" role="doc-biblioref">31</a></sup></span>,
 or directly used in workflows with our Docker<span class="citation" data-cites="poUinnWQ"><sup><a href="#ref-poUinnWQ" role="doc-biblioref">32</a></sup></span> <a href="https://quay.io/repository/biocontainers/genomepy?tab=tags">image</a> or snakemake<span class="citation" data-cites="FIA5rFD1"><sup><a href="#ref-FIA5rFD1" role="doc-biblioref">33</a></sup></span> <a href="https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/genomepy.html">wrapper</a>.
 Code and documentation are available on <a href="https://github.com/vanheeringen-lab/genomepy">github</a> and <a href="https://vanheeringen-lab.github.io/genomepy/">github-pages</a>, respectively.</p>
 <h2 class="page_break_before" id="references">References</h2>
