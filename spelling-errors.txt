@@ -5,7 +5,7 @@ bioinformatic
 Bowtie
 BWA
 CellOracle
-Contig
+contig
 contigs
 dataframes
 der
@@ -28,8 +28,8 @@ Kundaje
 Maarten
 MaartenvdSande
 Minimap
-mygene
-ncbi
+MyGene
+NCBI
 postprocessing
 preprocess
 preprocessed

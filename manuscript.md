@@ -46,13 +46,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
   <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/df0b0b940e4609f1f3b5d39e01279ea129207a60/" />
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/df0b0b940e4609f1f3b5d39e01279ea129207a60/" />
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/df0b0b940e4609f1f3b5d39e01279ea129207a60/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/cc51f4296725851a9632b21414ea775a33b5f518/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/cc51f4296725851a9632b21414ea775a33b5f518/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/cc51f4296725851a9632b21414ea775a33b5f518/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/df0b0b940e4609f1f3b5d39e01279ea129207a60/content/images/thumbnail-505x640.png" />
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/df0b0b940e4609f1f3b5d39e01279ea129207a60/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/cc51f4296725851a9632b21414ea775a33b5f518/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/cc51f4296725851a9632b21414ea775a33b5f518/content/images/thumbnail-505x640.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -72,9 +72,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/df0b0b940e4609f1f3b5d39e01279ea129207a60/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/cc51f4296725851a9632b21414ea775a33b5f518/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@df0b0b9](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/df0b0b940e4609f1f3b5d39e01279ea129207a60)
+from [vanheeringen-lab/genomepy_manuscript@cc51f42](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/cc51f4296725851a9632b21414ea775a33b5f518)
 on July 15, 2022.
 </em></small>
 
@@ -165,7 +165,7 @@ Genomepy can be used on command line and though the (fully documented) Python AP
 The key features of genomepy are 1) providing an overview of available assemblies with the `search` function, 
 2) download and processing of a selected assembly, with the `install` function and 3) using assembly data through the Python API.
 
-The `search` function queries the databases of GENCODE, Ensembl, UCSC and NCBI (caching the metadata), for text, taxonomy identifiers or assembly accession identifiers.
+The `search` function queries the databases of NCBI, Ensembl, UCSC and GENCODE (caching the metadata), for text, taxonomy identifiers or assembly accession identifiers.
 The input type is automatically recognized and used to find assemblies that have the text in the genome names or various description fields, 
 matches the taxonomy identifier or (partially) matches the assembly accession.
 The output of the `search` function is a table with rows of metadata for each assembly found.
@@ -211,7 +211,7 @@ index/
 
 An assembly name can be passed to the `install` function (fig. 1c).
 The genome FASTA file is downloaded with the desired sequence masking level [@http://repeatmasker.org; @doi:10.1089/cmb.2006.13.1028] and alternate sequences (softmasked and none by default, respectively).
-Alternate sequences to reflect biological diversity and are often contained in reference assemblies.
+Alternate sequences reflect biological diversity and are often contained in reference assemblies.
 During sequence alignment however, similar reference sequences result in multiple alignment, leading to loss of data (as discussed in @doi:10.1186/s13059-015-0587-3).
 Additional filters may be passed to either include or exclude contigs (chromosomes, scaffolds, etc.) by name or regex pattern.
 Once processed, a genome index is generated using pyfaidx @doi:10.7287/peerj.preprints.970v1, as well as contig sizes and contig gap sizes.
