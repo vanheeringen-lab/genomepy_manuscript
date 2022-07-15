@@ -46,13 +46,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
   <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e0cda063c435566d47f2e9ca7eb657b8be7839bd/" />
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e0cda063c435566d47f2e9ca7eb657b8be7839bd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/e0cda063c435566d47f2e9ca7eb657b8be7839bd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ada4e009eca470ba608da6cfc6aa00f341a7c0f8/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ada4e009eca470ba608da6cfc6aa00f341a7c0f8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/ada4e009eca470ba608da6cfc6aa00f341a7c0f8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/e0cda063c435566d47f2e9ca7eb657b8be7839bd/content/images/thumbnail-505x640.png" />
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/e0cda063c435566d47f2e9ca7eb657b8be7839bd/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/ada4e009eca470ba608da6cfc6aa00f341a7c0f8/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/ada4e009eca470ba608da6cfc6aa00f341a7c0f8/content/images/thumbnail-505x640.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -72,9 +72,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/e0cda063c435566d47f2e9ca7eb657b8be7839bd/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/ada4e009eca470ba608da6cfc6aa00f341a7c0f8/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@e0cda06](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/e0cda063c435566d47f2e9ca7eb657b8be7839bd)
+from [vanheeringen-lab/genomepy_manuscript@ada4e00](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/ada4e009eca470ba608da6cfc6aa00f341a7c0f8)
 on July 15, 2022.
 </em></small>
 
@@ -140,7 +140,7 @@ For these types of data, there are three major providers: Ensembl @doi:10.1093/n
 Providers have different approaches to compiling genome assemblies and gene annotations, which affect formats, format compliance, naming, data quality, available versions and release cycle.
 These differences significantly impact compatibility with research @doi:10.1186/s12864-015-1308-8, tools and (data based on) other genomic data.
 
-You could try to find genomic data yourself, but there are many options with no clear metric for the "best" one.
+You could try to find genomic data yourself, but there are many options.
 Ensembl, UCSC and NCBI each have FTP archives, web portals, and REST APIs, which you can use to search their individual databases.
 Alternatively, there are several tools that can be used to access some of these databases programmatically, such as ncbi-genome-download @https://github.com/kblin/ncbi-genome-download and ucsc-genomes-downloader @https://github.com/LucaCappelletti94/ucsc_genomes_downloader.
 However, none of these can search, compare or download from all major genome providers data.

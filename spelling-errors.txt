@@ -5,7 +5,7 @@ bioinformatic
 Bowtie
 BWA
 CellOracle
-contig
+Contig
 contigs
 dataframes
 der
@@ -17,7 +17,7 @@ focussed
 Frölich
 GENCODE
 Genomepy
-Genomic
+genomic
 GFF
 GMAP
 GTF
@@ -28,8 +28,8 @@ Kundaje
 Maarten
 MaartenvdSande
 Minimap
-MyGene
-ncbi
+mygene
+NCBI
 postprocessing
 preprocess
 preprocessed
