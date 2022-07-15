@@ -29,7 +29,7 @@ Maarten
 MaartenvdSande
 Minimap
 MyGene
-ncbi
+NCBI
 postprocessing
 preprocess
 preprocessed
@@ -48,7 +48,7 @@ simonvh
 snakemake
 softmasked
 svheeringen
-UCSC
+ucsc
 WormBase
 Xenbase
 ZFIN

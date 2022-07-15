@@ -46,13 +46,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
   <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/a89773eed478b1fd1e7afd66a89b76969762d030/" />
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/a89773eed478b1fd1e7afd66a89b76969762d030/" />
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/a89773eed478b1fd1e7afd66a89b76969762d030/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/9eda761e3b4342938d471fdaf494b9668d369b03/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/9eda761e3b4342938d471fdaf494b9668d369b03/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/9eda761e3b4342938d471fdaf494b9668d369b03/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/a89773eed478b1fd1e7afd66a89b76969762d030/content/images/thumbnail-505x640.png" />
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/a89773eed478b1fd1e7afd66a89b76969762d030/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/9eda761e3b4342938d471fdaf494b9668d369b03/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/9eda761e3b4342938d471fdaf494b9668d369b03/content/images/thumbnail-505x640.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -72,9 +72,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/a89773eed478b1fd1e7afd66a89b76969762d030/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/9eda761e3b4342938d471fdaf494b9668d369b03/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@a89773e](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/a89773eed478b1fd1e7afd66a89b76969762d030)
+from [vanheeringen-lab/genomepy_manuscript@9eda761](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/9eda761e3b4342938d471fdaf494b9668d369b03)
 on July 15, 2022.
 </em></small>
 
@@ -253,7 +253,7 @@ Whatever install options you choose are logged, for reproducibly, allowing you t
 
 
 ## Code availability
-Genomepy is freely available under a MIT license and can be installed using Bioconda @doi:10.1038/s41592-018-0046-7, Pip @url:https://pypi.org, 
+Genomepy is freely available under the MIT license and can be installed using Bioconda @doi:10.1038/s41592-018-0046-7, Pip @url:https://pypi.org, 
 or directly used in workflows with our Docker @doi:10.5555/2600239.2600241 [image](https://quay.io/repository/biocontainers/genomepy?tab=tags) or snakemake @doi:10.1093/bioinformatics/bty350 [wrapper](https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/genomepy.html).
 Code and documentation are available on [github](https://github.com/vanheeringen-lab/genomepy) and [github-pages](https://vanheeringen-lab.github.io/genomepy/), respectively.
 
