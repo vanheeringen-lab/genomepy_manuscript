@@ -17,7 +17,7 @@ focussed
 Frölich
 GENCODE
 genomepy
-genomic
+Genomic
 GFF
 GMAP
 GTF
@@ -28,7 +28,7 @@ Kundaje
 Maarten
 MaartenvdSande
 Minimap
-mygene
+MyGene
 NCBI
 postprocessing
 preprocess
@@ -41,13 +41,16 @@ README
 refGenie
 reproducibility
 Sande
+Schäfers
 Siebren
 siebrenf
 simonvh
 snakemake
 softmasked
 svheeringen
-UCSC
+Tilman
+tilschaef
+ucsc
 WormBase
 Xenbase
 ZFIN

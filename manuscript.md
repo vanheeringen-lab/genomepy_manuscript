@@ -10,6 +10,7 @@ date-meta: '2022-07-15'
 author-meta:
 - Siebren Frölich
 - Maarten van der Sande
+- Tilman Schäfers
 - Simon van Heeringen
 header-includes: |-
   <!--
@@ -36,6 +37,8 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Molecular Developmental Biology, Radboud University" />
   <meta name="citation_author_orcid" content="0000-0001-7803-1526" />
   <meta name="twitter:creator" content="@MaartenvdSande" />
+  <meta name="citation_author" content="Tilman Schäfers" />
+  <meta name="citation_author_institution" content="Department of Molecular Developmental Biology, Radboud University" />
   <meta name="citation_author" content="Simon van Heeringen" />
   <meta name="citation_author_institution" content="Department of Molecular Developmental Biology, Radboud University" />
   <meta name="citation_author_orcid" content="0000-0002-0411-3219" />
@@ -46,13 +49,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
   <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/681c37118924d185652c2559ccf3812e1b444baa/" />
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/681c37118924d185652c2559ccf3812e1b444baa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/681c37118924d185652c2559ccf3812e1b444baa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/f449844ef459d25a70f3be154c794ee30b6bb2c7/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/f449844ef459d25a70f3be154c794ee30b6bb2c7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/f449844ef459d25a70f3be154c794ee30b6bb2c7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/681c37118924d185652c2559ccf3812e1b444baa/content/images/thumbnail-505x640.png" />
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/681c37118924d185652c2559ccf3812e1b444baa/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/f449844ef459d25a70f3be154c794ee30b6bb2c7/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/f449844ef459d25a70f3be154c794ee30b6bb2c7/content/images/thumbnail-505x640.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -72,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/681c37118924d185652c2559ccf3812e1b444baa/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/f449844ef459d25a70f3be154c794ee30b6bb2c7/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@681c371](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/681c37118924d185652c2559ccf3812e1b444baa)
+from [vanheeringen-lab/genomepy_manuscript@f449844](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/f449844ef459d25a70f3be154c794ee30b6bb2c7)
 on July 15, 2022.
 </em></small>
 
@@ -98,6 +101,13 @@ on July 15, 2022.
     [Maarten-vd-Sande](https://github.com/Maarten-vd-Sande)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [MaartenvdSande](https://twitter.com/MaartenvdSande)<br>
+  <small>
+     Department of Molecular Developmental Biology, Radboud University
+  </small>
+
++ **Tilman Schäfers**<br>
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [tilschaef](https://github.com/tilschaef)<br>
   <small>
      Department of Molecular Developmental Biology, Radboud University
   </small>
