@@ -6,7 +6,7 @@ keywords:
 - genomics
 - tools
 lang: en-US
-date-meta: '2022-07-15'
+date-meta: '2022-07-28'
 author-meta:
 - Siebren Frölich
 - Maarten van der Sande
@@ -22,8 +22,8 @@ header-includes: |-
   <meta name="citation_title" content="genomepy: Genes and Genomes at your fingertips" />
   <meta property="og:title" content="genomepy: Genes and Genomes at your fingertips" />
   <meta property="twitter:title" content="genomepy: Genes and Genomes at your fingertips" />
-  <meta name="dc.date" content="2022-07-15" />
-  <meta name="citation_publication_date" content="2022-07-15" />
+  <meta name="dc.date" content="2022-07-28" />
+  <meta name="citation_publication_date" content="2022-07-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -49,13 +49,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/" />
   <meta name="citation_pdf_url" content="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://vanheeringen-lab.github.io/genomepy_manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/f449844ef459d25a70f3be154c794ee30b6bb2c7/" />
-  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/f449844ef459d25a70f3be154c794ee30b6bb2c7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/f449844ef459d25a70f3be154c794ee30b6bb2c7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://vanheeringen-lab.github.io/genomepy_manuscript/v/0c44a46b2556f2663e60ebe726ad29503852cace/" />
+  <meta name="manubot_html_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/0c44a46b2556f2663e60ebe726ad29503852cace/" />
+  <meta name="manubot_pdf_url_versioned" content="https://vanheeringen-lab.github.io/genomepy_manuscript/v/0c44a46b2556f2663e60ebe726ad29503852cace/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/f449844ef459d25a70f3be154c794ee30b6bb2c7/content/images/thumbnail-505x640.png" />
-  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/f449844ef459d25a70f3be154c794ee30b6bb2c7/content/images/thumbnail-505x640.png" />
+  <meta property="og:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/0c44a46b2556f2663e60ebe726ad29503852cace/content/images/thumbnail-505x640.png" />
+  <meta property="twitter:image" content="https://github.com/vanheeringen-lab/genomepy_manuscript/raw/0c44a46b2556f2663e60ebe726ad29503852cace/content/images/thumbnail-505x640.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -75,10 +75,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/f449844ef459d25a70f3be154c794ee30b6bb2c7/))
+([permalink](https://vanheeringen-lab.github.io/genomepy_manuscript/v/0c44a46b2556f2663e60ebe726ad29503852cace/))
 was automatically generated
-from [vanheeringen-lab/genomepy_manuscript@f449844](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/f449844ef459d25a70f3be154c794ee30b6bb2c7)
-on July 15, 2022.
+from [vanheeringen-lab/genomepy_manuscript@0c44a46](https://github.com/vanheeringen-lab/genomepy_manuscript/tree/0c44a46b2556f2663e60ebe726ad29503852cace)
+on July 28, 2022.
 </em></small>
 
 ## Authors
@@ -266,6 +266,11 @@ Whatever install options you choose are logged, for reproducibility, allowing yo
 Genomepy is freely available under the MIT license and can be installed using Bioconda @doi:10.1038/s41592-018-0046-7, Pip @url:https://pypi.org, 
 or directly used in workflows with our Docker @doi:10.5555/2600239.2600241 [image](https://quay.io/repository/biocontainers/genomepy?tab=tags) or snakemake @doi:10.1093/bioinformatics/bty350 [wrapper](https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/genomepy.html).
 Code and documentation are available on [github](https://github.com/vanheeringen-lab/genomepy) and [github-pages](https://vanheeringen-lab.github.io/genomepy/), respectively.
+
+## Acknowledgements
+The authors would like to thank Vicky Luna Velez for designing the genomepy logo, 
+Dohoon Lee and Jie Zhu for contributing to the genomepy code, 
+as well as the many github users who provided feedback, ideas and suggestions.
 
 
 ## References {.page_break_before}

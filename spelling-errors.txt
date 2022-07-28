@@ -9,6 +9,7 @@ Contig
 contigs
 dataframes
 der
+Dohoon
 downloader
 Ensembl
 FASTA
@@ -16,7 +17,7 @@ FlyBase
 focussed
 Frölich
 GENCODE
-genomepy
+Genomepy
 Genomic
 GFF
 GMAP
@@ -24,6 +25,7 @@ GTF
 Heeringen
 HISAT
 iGenomes
+Jie
 Kundaje
 Maarten
 MaartenvdSande
@@ -54,3 +56,4 @@ ucsc
 WormBase
 Xenbase
 ZFIN
+Zhu
